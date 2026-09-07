@@ -1,0 +1,1681 @@
+{
+  "format": "nights-watch-v0.6.0-facility-member-runtime-data",
+  "version": 1,
+  "issue": 62,
+  "mapId": "castle-main",
+  "world": {
+    "width": 2365,
+    "height": 1024,
+    "units": "source-pixels",
+    "backgroundResourceId": "terrain.main"
+  },
+  "cameras": {
+    "management": {
+      "x": 544.5556,
+      "y": 0,
+      "width": 1820.4444,
+      "height": 1024,
+      "fixed": true
+    },
+    "battlefield": {
+      "x": 0,
+      "y": 0,
+      "width": 1820.4444,
+      "height": 1024,
+      "fixed": true
+    }
+  },
+  "authorityHashes": {
+    "VERSION_0.6.0_REQUIREMENTS.md": "BF94A820242A05284EA47F205E947035A098EAA6630E983747CE34FC334B6043",
+    "GAME_DESIGN.md": "0185AB04FA9E80EDA4FA23133B1C7D5B9323C233927542332C71E2A9DE93FAF0",
+    "ART_ASSET_DESIGN.md": "C404328A80E46C184D1DE52BE7D6283E3129213C925C746F1785DA302FC422C8",
+    "FACILITY_MEMBER_VISUALS_SPEC.md": "0D1566C0A5F2D2284C118EAE9CA11DDAEB5AE397A3BC335186E82D9282503BC7",
+    "MAP_RUNTIME_INTEGRATION_SPEC.md": "171998FB417197D1B2B071772857B22FA7A16BAFE85ECD0D29893F5336AF157A",
+    "RUNTIME_MAP_DATA_SPEC.md": "C818DA2E2F72A7662C0E9DAA8B33A9CFABABB07A9C90943BBC4A0D53982ADCFD"
+  },
+  "dependencies": {
+    "issue55RuntimeDataBaseline": {
+      "path": "assets/art/facility-member-visuals/v0.4.0-data-integration/facility-member-runtime-data.json",
+      "sha256": "CC56BD431F9189AE686D02271D9EF38B8D9010AE1F87FC11F42E6964E8DA1B1D",
+      "resourceManifestPath": "assets/art/facility-member-visuals/v0.4.0-data-integration/facility-member-resource-manifest.json",
+      "resourceManifestSha256": "7E423FF08F137BA094874B0C5F7EBFBC8F8FE3CFC7BE9B9309942BF2A20D4144"
+    },
+    "issue61Manifest": {
+      "path": "assets/art/facility-member-visuals/v0.6.0/manifest.json",
+      "sha256": "2F5C44AD8F0DEFF83377837DC5849A6D028FD8EED335626F4B9671A240CB53F9",
+      "validationPath": "assets/art/facility-member-visuals/v0.6.0/validation-result.json",
+      "validationSha256": "C67C2F391F4B617DF2F59508F119C084ABD33094EE02380465A60A70F8406853",
+      "sourceValidationPassed": true,
+      "deterministicRegenerationPassed": true
+    },
+    "formalRuntimeMap": {
+      "path": "assets/art/environment/runtime-maps/castle-main/map.json",
+      "sha256": "91559E4ABF3394EBF615F35E85B7A6437B3681042F6976EE9A8033BA675DBB47",
+      "resourceManifestPath": "assets/art/environment/runtime-maps/castle-main/resource-manifest.json",
+      "resourceManifestSha256": "601F2981D320CA5B9E916CC8E3DE61172D19DDFF243D31D6A1865611245A3FC9"
+    }
+  },
+  "runtimeDependencyBoundary": {
+    "stableRepositoryPathsOnly": true,
+    "forbiddenPathSubstrings": [
+      ".codex/visualizations",
+      ".codex\\visualizations",
+      "/desktop/",
+      "\\desktop\\",
+      "/downloads/",
+      "\\downloads\\",
+      "assets/concepts/",
+      "assets\\concepts\\"
+    ],
+    "doesNotModifyCurrentContractsOrLocks": true,
+    "extendsIssue55DataIntegration": true,
+    "runtimeResourcesUseStableRepositoryPathsOnly": true
+  },
+  "resourceManifest": {
+    "path": "assets/art/facility-member-visuals/v0.6.0-data-integration/facility-member-resource-manifest.json",
+    "resourceCount": 92
+  },
+  "portraitResources": {
+    "contentByJob": {
+      "recruit": "portrait.recruit.content",
+      "ranger": "portrait.ranger.content",
+      "artisan": "portrait.artisan.content",
+      "steward": "portrait.steward.content"
+    },
+    "normalFrame": "portrait.frame.normal",
+    "selectedFrame": "portrait.frame.selected",
+    "statusIndicators": {
+      "none": null,
+      "text-zzz": {
+        "resourceId": "portrait.status.zzz",
+        "fallback": "text-zzz",
+        "layerIsIndependent": true
+      }
+    },
+    "hitArea": {
+      "width": 36,
+      "height": 36
+    }
+  },
+  "facilityVisualGroups": [
+    {
+      "facilityId": "stable",
+      "operationId": "patrol",
+      "objectId": "object-52",
+      "hideReappearAnchorId": "facility.stable.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1053.9,
+        "y": 542.2
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1053.9,
+          "y": 358.6
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 4,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 4,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "ranger",
+      "visualGroups": {
+        "kind": "persistent-root-with-permanent-foreground-child-and-working-animation",
+        "root": {
+          "resourceId": "building-stable",
+          "objectId": "object-52",
+          "alwaysVisible": true,
+          "transformSource": "formal-runtime-map-object"
+        },
+        "idleChildren": [
+          {
+            "childId": "facility.stable.idle.front-fence",
+            "resourceId": "building-stable-front-fence",
+            "sourceMapObjectId": "object-84",
+            "state": "idle",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 56,
+              "y": 158
+            },
+            "displaySize": {
+              "width": 170,
+              "height": 26
+            },
+            "compositeOffset": [
+              56,
+              158
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "sortBias": 0.002,
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "workingChildren": [
+          {
+            "childId": "facility.stable.working.child",
+            "animationId": "facility.stable.working",
+            "state": "working",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 56,
+              "y": 74
+            },
+            "canvas": {
+              "width": 170,
+              "height": 106
+            },
+            "compositeOffset": [
+              56,
+              74
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "sortBias": 0.001,
+            "ownsCollisionHotzoneOrCapacity": false
+          },
+          {
+            "childId": "facility.stable.working.front-fence",
+            "resourceId": "building-stable-front-fence",
+            "sourceMapObjectId": "object-84",
+            "state": "working",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 56,
+              "y": 158
+            },
+            "displaySize": {
+              "width": 170,
+              "height": 26
+            },
+            "compositeOffset": [
+              56,
+              158
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "sortBias": 0.002,
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "statePolicy": {
+          "rootVisibility": "always",
+          "foregroundChildVisibility": "idle-and-working",
+          "workingStartsFromFirstFrame": true,
+          "entityTransformCollisionHotzoneAndAnchorsRemainStable": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 933.9000000000001,
+        "y": 314.6,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "workshop",
+      "operationId": "craft-equipment",
+      "objectId": "object-49",
+      "hideReappearAnchorId": "facility.workshop.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1076.1,
+        "y": 838.6
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1076.1,
+          "y": 616.6
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 2,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 2,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "artisan",
+      "visualGroups": {
+        "kind": "persistent-root-with-mutually-exclusive-children",
+        "root": {
+          "resourceId": "building-blacksmith",
+          "objectId": "object-49",
+          "alwaysVisible": true,
+          "displaySize": {
+            "width": 236,
+            "height": 232
+          },
+          "transformSource": "formal-runtime-map-object"
+        },
+        "idleChildren": [
+          {
+            "childId": "facility.workshop.idle.anvil",
+            "resourceId": "building-blacksmith-anvil",
+            "state": "idle",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 31,
+              "y": 194
+            },
+            "displaySize": {
+              "width": 43,
+              "height": 30
+            },
+            "compositeOffset": [
+              61,
+              206
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "workingChildren": [
+          {
+            "childId": "facility.workshop.working.child",
+            "animationId": "facility.workshop.working",
+            "state": "working",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": -18,
+              "y": 143
+            },
+            "canvas": {
+              "width": 120,
+              "height": 89
+            },
+            "compositeOffset": [
+              12,
+              155
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "composition": {
+          "canvas": {
+            "width": 278,
+            "height": 256
+          },
+          "origin": {
+            "type": "bottom-center",
+            "x": 148,
+            "y": 244
+          },
+          "rootCompositeOffset": [
+            30,
+            12
+          ],
+          "acceptedGeometrySource": "issue54-stable-manifest"
+        },
+        "statePolicy": {
+          "rootVisibility": "always",
+          "idleAndWorkingChildren": "mutually-exclusive",
+          "workingStartsFromFirstFrame": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 956.0999999999999,
+        "y": 572.6,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "farm",
+      "operationId": "planting",
+      "objectId": "object-91",
+      "hideReappearAnchorId": "facility.farm.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1163.5,
+        "y": 228.3
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1163.5,
+          "y": 88.3
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 3,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 3,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "steward",
+      "visualGroups": {
+        "kind": "root-resource-switch-with-working-animation-and-foreground",
+        "root": {
+          "objectId": "object-91",
+          "idleResourceId": "building-farm",
+          "workingResourceId": "building-farm-working",
+          "transformSource": "formal-runtime-map-object"
+        },
+        "idleChildren": [],
+        "workingChildren": [
+          {
+            "childId": "facility.farm.working.child",
+            "animationId": "facility.farm.working",
+            "state": "working",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 232,
+              "y": 49
+            },
+            "canvas": {
+              "width": 59,
+              "height": 75
+            },
+            "compositeOffset": [
+              232,
+              49
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "sortBias": 0.001,
+            "ownsCollisionHotzoneOrCapacity": false
+          },
+          {
+            "childId": "facility.farm.working.front-row",
+            "resourceId": "building-farm-working-front-row",
+            "state": "working",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 0,
+              "y": 0
+            },
+            "displaySize": {
+              "width": 410,
+              "height": 150
+            },
+            "compositeOffset": [
+              0,
+              0
+            ],
+            "foregroundStartY": 108,
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "sortBias": 0.002,
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "statePolicy": {
+          "rootResourceSwitchDrivenByResidentMemberCount": true,
+          "workingStartsFromFirstFrame": true,
+          "entityTransformCollisionHotzoneAndAnchorsRemainStable": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 1043.5,
+        "y": 44.3,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "kitchen",
+      "operationId": "cooking",
+      "objectId": "object-55",
+      "hideReappearAnchorId": "facility.kitchen.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1299.2,
+        "y": 401
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1299.2,
+          "y": 146.2
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 2,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 2,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "steward",
+      "visualGroups": {
+        "kind": "same-resource-idle-working",
+        "root": {
+          "objectId": "object-55",
+          "idleResourceId": "building-kitchen",
+          "workingResourceId": "building-kitchen",
+          "transformSource": "formal-runtime-map-object"
+        },
+        "statePolicy": {
+          "idleAndWorkingMapToSameResource": true,
+          "entityTransformCollisionHotzoneAndAnchorsRemainStable": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 1179.2,
+        "y": 102.19999999999999,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "cloth",
+      "operationId": "make-clothing",
+      "objectId": "object-54",
+      "hideReappearAnchorId": "facility.cloth.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1797.7,
+        "y": 599.4
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1797.7,
+          "y": 425.4
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 2,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 2,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "steward",
+      "visualGroups": {
+        "kind": "same-resource-idle-working",
+        "root": {
+          "objectId": "object-54",
+          "idleResourceId": "building-cloth",
+          "workingResourceId": "building-cloth",
+          "transformSource": "formal-runtime-map-object"
+        },
+        "statePolicy": {
+          "idleAndWorkingMapToSameResource": true,
+          "entityTransformCollisionHotzoneAndAnchorsRemainStable": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 1677.7,
+        "y": 381.4,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "repair",
+      "operationId": "repair",
+      "objectId": "object-53",
+      "hideReappearAnchorId": "facility.repair.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1254.7,
+        "y": 983.9
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1254.7,
+          "y": 830.7
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 4,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 4,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "artisan",
+      "visualGroups": {
+        "kind": "persistent-root-with-mutually-exclusive-children",
+        "root": {
+          "resourceId": "building-repair",
+          "objectId": "object-53",
+          "alwaysVisible": true,
+          "displaySize": {
+            "width": 310,
+            "height": 163
+          },
+          "transformSource": "formal-runtime-map-object"
+        },
+        "idleChildren": [
+          {
+            "childId": "facility.repair.idle.table",
+            "resourceId": "building-repair-table",
+            "state": "idle",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 174,
+              "y": 108
+            },
+            "displaySize": {
+              "width": 70,
+              "height": 46
+            },
+            "compositeOffset": [
+              174,
+              108
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "workingChildren": [
+          {
+            "childId": "facility.repair.working.child",
+            "animationId": "facility.repair.working",
+            "state": "working",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 148,
+              "y": 72
+            },
+            "canvas": {
+              "width": 121,
+              "height": 91
+            },
+            "compositeOffset": [
+              148,
+              72
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "composition": {
+          "canvas": {
+            "width": 310,
+            "height": 163
+          },
+          "origin": {
+            "type": "top-left",
+            "x": 0,
+            "y": 0
+          },
+          "rootCompositeOffset": [
+            0,
+            0
+          ],
+          "acceptedGeometrySource": "issue54-stable-manifest"
+        },
+        "statePolicy": {
+          "rootVisibility": "always",
+          "idleAndWorkingChildren": "mutually-exclusive",
+          "workingStartsFromFirstFrame": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 1134.7,
+        "y": 786.7,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "lumber-grove",
+      "operationId": "lumber",
+      "objectId": "object-44",
+      "hideReappearAnchorId": "facility.lumber-grove.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1975.2,
+        "y": 375.8
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1975.2,
+          "y": 242.6
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 3,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 3,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "artisan",
+      "visualGroups": {
+        "kind": "persistent-root-with-mutually-exclusive-children",
+        "root": {
+          "resourceId": "building-lumber-root-no-stump",
+          "objectId": "object-44",
+          "alwaysVisible": true,
+          "displaySize": {
+            "width": 306,
+            "height": 139
+          },
+          "transformSource": "formal-runtime-map-object"
+        },
+        "idleChildren": [
+          {
+            "childId": "facility.lumber-grove.idle.stump",
+            "resourceId": "building-lumber-stump",
+            "state": "idle",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 127,
+              "y": 104
+            },
+            "displaySize": {
+              "width": 53,
+              "height": 36
+            },
+            "compositeOffset": [
+              127,
+              104
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "workingChildren": [
+          {
+            "childId": "facility.lumber-grove.working.child",
+            "animationId": "facility.lumber-grove.working",
+            "state": "working",
+            "localTransform": {
+              "space": "root-top-left",
+              "x": 73,
+              "y": 58
+            },
+            "canvas": {
+              "width": 116,
+              "height": 87
+            },
+            "compositeOffset": [
+              73,
+              58
+            ],
+            "sortAnchor": {
+              "type": "inherit-facility-root"
+            },
+            "ownsCollisionHotzoneOrCapacity": false
+          }
+        ],
+        "composition": {
+          "canvas": {
+            "width": 306,
+            "height": 140
+          },
+          "origin": {
+            "type": "top-left",
+            "x": 0,
+            "y": 0
+          },
+          "rootCompositeOffset": [
+            0,
+            0
+          ],
+          "acceptedGeometrySource": "issue54-stable-manifest"
+        },
+        "statePolicy": {
+          "rootVisibility": "always",
+          "idleAndWorkingChildren": "mutually-exclusive",
+          "workingStartsFromFirstFrame": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 1855.2,
+        "y": 198.6,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "mining-quarry",
+      "operationId": "mining",
+      "objectId": "object-43",
+      "hideReappearAnchorId": "facility.mining-quarry.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 2124.2,
+        "y": 191.4
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 2124.2,
+          "y": 47.4
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 3,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 3,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "artisan",
+      "visualGroups": {
+        "kind": "same-resource-idle-working",
+        "root": {
+          "objectId": "object-43",
+          "idleResourceId": "building-mine",
+          "workingResourceId": "building-mine",
+          "transformSource": "formal-runtime-map-object"
+        },
+        "statePolicy": {
+          "idleAndWorkingMapToSameResource": true,
+          "entityTransformCollisionHotzoneAndAnchorsRemainStable": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 2004.1999999999998,
+        "y": 3.3999999999999986,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "hunter-tent",
+      "operationId": "hunting",
+      "objectId": "object-45",
+      "hideReappearAnchorId": "facility.hunter-tent.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 2024.8,
+        "y": 766.7
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 2024.8000000000002,
+          "y": 656.7
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 3,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 3,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "steward",
+      "visualGroups": {
+        "kind": "same-resource-idle-working",
+        "root": {
+          "objectId": "object-45",
+          "idleResourceId": "building-hunter",
+          "workingResourceId": "building-hunter",
+          "transformSource": "formal-runtime-map-object"
+        },
+        "statePolicy": {
+          "idleAndWorkingMapToSameResource": true,
+          "entityTransformCollisionHotzoneAndAnchorsRemainStable": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 1904.8000000000002,
+        "y": 612.7,
+        "width": 240,
+        "height": 30
+      }
+    },
+    {
+      "facilityId": "archive",
+      "operationId": "research",
+      "objectId": "object-50",
+      "hideReappearAnchorId": "facility.archive.hide-reappear",
+      "hideReappearAnchor": {
+        "x": 1607.5,
+        "y": 449.2
+      },
+      "memberPortraitGroupAnchor": {
+        "coordinateSpace": "world",
+        "originType": "top-center",
+        "position": {
+          "x": 1607.5,
+          "y": 199.2
+        },
+        "source": {
+          "type": "formal-runtime-map-labelWorldRect",
+          "runtimeMapPath": "assets/art/environment/runtime-maps/castle-main/map.json",
+          "formula": "x=label.x+label.width/2;y=label.y+label.height+14"
+        }
+      },
+      "operationCapacity": 2,
+      "portraitLayout": {
+        "kind": "single-row-centered-on-anchor",
+        "sort": "member-stable-id-ascending",
+        "itemSize": {
+          "width": 36,
+          "height": 36
+        },
+        "contentSize": {
+          "width": 32,
+          "height": 32
+        },
+        "gapPx": 4,
+        "maxCapacity": 2,
+        "statusIndicatorLayer": "portrait.status.zzz",
+        "statusIndicatorDoesNotAffectHitArea": true
+      },
+      "portraitContentJobId": "steward",
+      "visualGroups": {
+        "kind": "same-resource-idle-working",
+        "root": {
+          "objectId": "object-50",
+          "idleResourceId": "building-archive",
+          "workingResourceId": "building-archive",
+          "transformSource": "formal-runtime-map-object"
+        },
+        "statePolicy": {
+          "idleAndWorkingMapToSameResource": true,
+          "entityTransformCollisionHotzoneAndAnchorsRemainStable": true
+        }
+      },
+      "labelWorldRect": {
+        "x": 1487.5,
+        "y": 155.2,
+        "width": 240,
+        "height": 30
+      }
+    }
+  ],
+  "facilityAnimations": [
+    {
+      "animationId": "facility.workshop.working",
+      "facilityId": "workshop",
+      "operationId": "craft-equipment",
+      "canvas": {
+        "width": 120,
+        "height": 89
+      },
+      "origin": {
+        "type": "top-left",
+        "x": 0,
+        "y": 0
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        60,
+        120,
+        140,
+        150,
+        90,
+        170,
+        110,
+        60
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-workshop-forging-frame-01",
+          "durationMs": 60
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-workshop-forging-frame-02",
+          "durationMs": 120
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-workshop-forging-frame-03",
+          "durationMs": 140
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-workshop-forging-frame-04",
+          "durationMs": 150
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-workshop-forging-frame-05",
+          "durationMs": 90
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-workshop-forging-frame-06",
+          "durationMs": 170
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-workshop-forging-frame-07",
+          "durationMs": 110
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-workshop-forging-frame-08",
+          "durationMs": 60
+        }
+      ],
+      "sheetResourceId": "facility.workshop.working.sheet",
+      "geometry": {
+        "source": "issue54-stable-manifest",
+        "compositeCanvas": {
+          "width": 278,
+          "height": 256
+        },
+        "compositeOrigin": {
+          "type": "bottom-center",
+          "x": 148,
+          "y": 244
+        },
+        "rootCompositeOffset": [
+          30,
+          12
+        ],
+        "idleComponentCompositeOffset": [
+          61,
+          206
+        ],
+        "workingChildCompositeOffset": [
+          12,
+          155
+        ],
+        "rootRelativeOffset": [
+          -118,
+          -232
+        ],
+        "idleComponentRelativeOffset": [
+          -86.7,
+          -38
+        ],
+        "workingChildRelativeOffset": [
+          -135.51908831908833,
+          -89.27272727272728
+        ]
+      },
+      "acceptedRecomposition": {
+        "sheetPath": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/blacksmith-forging-recomposed-building-sheet.png",
+        "sheetSha256": "C3600C3B3111666862BE6D5A3095D95478B9F354A85730690DC8E7A77CF3A86A",
+        "pixelMatchAcceptedComposite": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        }
+      }
+    },
+    {
+      "animationId": "facility.repair.working",
+      "facilityId": "repair",
+      "operationId": "repair",
+      "canvas": {
+        "width": 121,
+        "height": 91
+      },
+      "origin": {
+        "type": "top-left",
+        "x": 0,
+        "y": 0
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-repair-drawing-frame-01",
+          "durationMs": 167
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-repair-drawing-frame-02",
+          "durationMs": 167
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-repair-drawing-frame-03",
+          "durationMs": 167
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-repair-drawing-frame-04",
+          "durationMs": 167
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-repair-drawing-frame-05",
+          "durationMs": 167
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-repair-drawing-frame-06",
+          "durationMs": 167
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-repair-drawing-frame-07",
+          "durationMs": 167
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-repair-drawing-frame-08",
+          "durationMs": 167
+        }
+      ],
+      "sheetResourceId": "facility.repair.working.sheet",
+      "geometry": {
+        "source": "issue54-stable-manifest",
+        "compositeCanvas": {
+          "width": 310,
+          "height": 163
+        },
+        "compositeOrigin": {
+          "type": "top-left",
+          "x": 0,
+          "y": 0
+        },
+        "rootCompositeOffset": [
+          0,
+          0
+        ],
+        "idleComponentCompositeOffset": [
+          174,
+          108
+        ],
+        "workingChildCompositeOffset": [
+          148,
+          72
+        ],
+        "rootRelativeOffset": [
+          0,
+          0
+        ],
+        "idleComponentRelativeOffset": [
+          173.60000000000002,
+          108
+        ],
+        "workingChildRelativeOffset": [
+          148,
+          72
+        ]
+      },
+      "acceptedRecomposition": {
+        "sheetPath": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/repair-drawing-recomposed-building-sheet.png",
+        "sheetSha256": "7B74C85F66D661B431D01C50E810628526318DD616BC0F68EBD22BFD8BA30011",
+        "pixelMatchAcceptedComposite": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        }
+      }
+    },
+    {
+      "animationId": "facility.lumber-grove.working",
+      "facilityId": "lumber-grove",
+      "operationId": "lumber",
+      "canvas": {
+        "width": 116,
+        "height": 87
+      },
+      "origin": {
+        "type": "top-left",
+        "x": 0,
+        "y": 0
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        167,
+        208,
+        208,
+        208,
+        208,
+        167,
+        208,
+        208
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-lumber-chopping-frame-01",
+          "durationMs": 167
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-lumber-chopping-frame-02",
+          "durationMs": 208
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-lumber-chopping-frame-03",
+          "durationMs": 208
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-lumber-chopping-frame-04",
+          "durationMs": 208
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-lumber-chopping-frame-05",
+          "durationMs": 208
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-lumber-chopping-frame-06",
+          "durationMs": 167
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-lumber-chopping-frame-07",
+          "durationMs": 208
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-lumber-chopping-frame-08",
+          "durationMs": 208
+        }
+      ],
+      "sheetResourceId": "facility.lumber-grove.working.sheet",
+      "geometry": {
+        "source": "issue54-stable-manifest",
+        "compositeCanvas": {
+          "width": 306,
+          "height": 140
+        },
+        "compositeOrigin": {
+          "type": "top-left",
+          "x": 0,
+          "y": 0
+        },
+        "rootCompositeOffset": [
+          0,
+          0
+        ],
+        "idleComponentCompositeOffset": [
+          127,
+          104
+        ],
+        "workingChildCompositeOffset": [
+          73,
+          58
+        ],
+        "rootRelativeOffset": [
+          0,
+          0
+        ],
+        "idleComponentRelativeOffset": [
+          127.2,
+          104
+        ],
+        "workingChildRelativeOffset": [
+          73,
+          58
+        ]
+      },
+      "acceptedRecomposition": {
+        "sheetPath": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/lumber-chopping-recomposed-building-sheet.png",
+        "sheetSha256": "60ACFA5F9EC5414E5FD7005C94591DC840F0AD0DAB7EFCAF7A1B48ADB149EE94",
+        "pixelMatchAcceptedComposite": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        }
+      }
+    },
+    {
+      "animationId": "facility.stable.working",
+      "facilityId": "stable",
+      "operationId": "patrol",
+      "canvas": {
+        "width": 282,
+        "height": 190
+      },
+      "origin": {
+        "type": "bottom-center",
+        "x": 148,
+        "y": 244
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        333,
+        375,
+        333,
+        375,
+        333,
+        375,
+        333,
+        333
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-stable-working-frame-01",
+          "durationMs": 333
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-stable-working-frame-02",
+          "durationMs": 375
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-stable-working-frame-03",
+          "durationMs": 333
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-stable-working-frame-04",
+          "durationMs": 375
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-stable-working-frame-05",
+          "durationMs": 333
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-stable-working-frame-06",
+          "durationMs": 375
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-stable-working-frame-07",
+          "durationMs": 333
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-stable-working-frame-08",
+          "durationMs": 333
+        }
+      ],
+      "geometry": {
+        "source": "issue61-stable-manifest",
+        "sourceScript": "assets/art/facility-member-visuals/v0.6.0/build_v0.6.0_farm_stable_work_animations.py",
+        "mapScale": 0.8,
+        "compositeCanvas": {
+          "width": 278,
+          "height": 256
+        },
+        "compositeOrigin": {
+          "type": "bottom-center",
+          "x": 148,
+          "y": 244
+        },
+        "rootDisplaySize": {
+          "width": 236,
+          "height": 232
+        },
+        "rootCompositeOffset": [
+          30,
+          12
+        ],
+        "idleComponentDisplaySize": {
+          "width": 170,
+          "height": 26
+        },
+        "idleComponentCompositeOffset": [
+          56,
+          158
+        ],
+        "workingChildSize": {
+          "width": 170,
+          "height": 106
+        },
+        "workingChildCompositeOffset": [
+          56,
+          74
+        ],
+        "sourceCrop": [
+          42,
+          148,
+          858,
+          655
+        ],
+        "runtimeScale": 0.20857142857142857
+      }
+    },
+    {
+      "animationId": "facility.farm.working",
+      "facilityId": "farm",
+      "operationId": "planting",
+      "canvas": {
+        "width": 410,
+        "height": 150
+      },
+      "origin": {
+        "type": "top-left",
+        "x": 0,
+        "y": 0
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        750,
+        350
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-farm-working-frame-01",
+          "durationMs": 500
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-farm-working-frame-02",
+          "durationMs": 500
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-farm-working-frame-03",
+          "durationMs": 500
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-farm-working-frame-04",
+          "durationMs": 500
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-farm-working-frame-05",
+          "durationMs": 500
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-farm-working-frame-06",
+          "durationMs": 500
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-farm-working-frame-07",
+          "durationMs": 750
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-farm-working-frame-08",
+          "durationMs": 350
+        }
+      ],
+      "geometry": {
+        "source": "issue61-stable-manifest",
+        "sourceScript": "assets/art/facility-member-visuals/v0.6.0/build_v0.6.0_farm_stable_work_animations.py",
+        "mapScale": 0.16898148148148148,
+        "compositeCanvas": {
+          "width": 410,
+          "height": 150
+        },
+        "compositeOrigin": {
+          "type": "top-left",
+          "x": 0,
+          "y": 0
+        },
+        "workingBaseDisplaySize": {
+          "width": 410,
+          "height": 150
+        },
+        "animationOffset": {
+          "x": 232,
+          "y": 49
+        },
+        "animationBottom": 124,
+        "frontRowStartY": 108,
+        "workingChildSize": {
+          "width": 59,
+          "height": 75
+        },
+        "sourceCrop": [
+          178,
+          126,
+          526,
+          568
+        ],
+        "runtimeScale": 0.16898148148148148,
+        "standingReferenceFrame": "frame-06 拷贝.png",
+        "standingReferenceRoleBox": [
+          260,
+          130,
+          488,
+          562
+        ]
+      }
+    }
+  ],
+  "characterActionFallbacks": {
+    "staticFrontByJob": {
+      "recruit": "member.recruit.front-static",
+      "ranger": "member.ranger.front-static",
+      "artisan": "member.artisan.front-static",
+      "steward": "member.steward.front-static"
+    },
+    "movement": {
+      "recruit": {
+        "west": {
+          "animationId": "member.recruit.walk-west",
+          "frameResourceIds": [
+            "member.recruit.walk-west.frame-01",
+            "member.recruit.walk-west.frame-02",
+            "member.recruit.walk-west.frame-03",
+            "member.recruit.walk-west.frame-04",
+            "member.recruit.walk-west.frame-05",
+            "member.recruit.walk-west.frame-06",
+            "member.recruit.walk-west.frame-07",
+            "member.recruit.walk-west.frame-08"
+          ],
+          "durationMs": 180,
+          "preGeneratedMirror": false
+        },
+        "east": {
+          "animationId": "member.recruit.walk-east",
+          "frameResourceIds": [
+            "member.recruit.walk-east.frame-01",
+            "member.recruit.walk-east.frame-02",
+            "member.recruit.walk-east.frame-03",
+            "member.recruit.walk-east.frame-04",
+            "member.recruit.walk-east.frame-05",
+            "member.recruit.walk-east.frame-06",
+            "member.recruit.walk-east.frame-07",
+            "member.recruit.walk-east.frame-08"
+          ],
+          "durationMs": 180,
+          "preGeneratedMirror": true
+        },
+        "verticalFallbackPolicy": [
+          "last-horizontal",
+          "lookahead-horizontal",
+          "west"
+        ]
+      },
+      "formalJobWithoutWalkAnimation": {
+        "ranger": "member.ranger.front-static",
+        "artisan": "member.artisan.front-static",
+        "steward": "member.steward.front-static"
+      }
+    },
+    "missingBattleActionFallback": {
+      "recruit": "member.recruit.front-static",
+      "ranger": "member.ranger.front-static",
+      "artisan": "member.artisan.front-static",
+      "steward": "member.steward.front-static"
+    },
+    "forbiddenFallbacks": [
+      "legacy-member-model",
+      "mounted-ranger"
+    ]
+  }
+}

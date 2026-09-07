@@ -1,0 +1,3557 @@
+{
+  "format": "nights-watch-v0.4.0-facility-member-visuals",
+  "version": 1,
+  "issue": 54,
+  "authorityHashes": {
+    "VERSION_0.5.0_REQUIREMENTS.md": "8FA2AE678A5830155C535DF9060E9FEEE4B023AF4AD4278701598E2479B27FB0",
+    "GAME_DESIGN.md": "0A1D25198A831873FB703ADEFC5B9066BDD593AE6CA9C1B5B20769BC284B5A16",
+    "ART_ASSET_DESIGN.md": "388BD0AECC23905D6D92694E58576CD34C8389FB94899671C400FD482CCCD8B0",
+    "FACILITY_MEMBER_VISUALS_SPEC.md": "AA72E50446E07F7FA39BEBFF25A353BF0180D1D77A857F0AE9194A4447D7E593"
+  },
+  "runtimeDependencyBoundary": {
+    "forbiddenRuntimePathSubstrings": [
+      ".codex/visualizations",
+      ".codex\\visualizations",
+      "/desktop/",
+      "\\desktop\\",
+      "/downloads/",
+      "\\downloads\\",
+      "assets/concepts/",
+      "assets\\concepts\\"
+    ],
+    "runtimeResourcesUseStableRepositoryPathsOnly": true
+  },
+  "frontSource": {
+    "originalFileName": "角色正面2 拷贝.png",
+    "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/role-front-2-copy.png",
+    "sha256": "3432AF2F41E7EB167E29C62F95E7AF7EA74E3E82FBDB1BA087B5D0FB82E4F9F9",
+    "size": {
+      "width": 1900,
+      "height": 887
+    },
+    "jobCrops": {
+      "recruit": {
+        "sourceIndex": 1,
+        "crop": [
+          50,
+          234,
+          255,
+          623
+        ]
+      },
+      "ranger": {
+        "sourceIndex": 2,
+        "crop": [
+          343,
+          220,
+          573,
+          623
+        ]
+      },
+      "artisan": {
+        "sourceIndex": 3,
+        "crop": [
+          638,
+          220,
+          864,
+          623
+        ]
+      },
+      "steward": {
+        "sourceIndex": 4,
+        "crop": [
+          937,
+          228,
+          1130,
+          623
+        ]
+      }
+    },
+    "excludedSourceIndices": [
+      5,
+      6
+    ],
+    "rangerSourceIndex": 2,
+    "runtimeDependency": false
+  },
+  "characters": {
+    "staticFront": [
+      {
+        "jobId": "recruit",
+        "resourceId": "member.recruit.front-static",
+        "path": "assets/art/facility-member-visuals/v0.4.0/characters/static/recruit-front.png",
+        "sha256": "531CA02F3F5E493286016F8BA8EDAEB3D60EF00FFE52BE086E866E50FEA2D404",
+        "canvas": {
+          "width": 58,
+          "height": 80
+        },
+        "origin": {
+          "type": "foot-center",
+          "x": 29,
+          "y": 79
+        },
+        "visibleHeight": 72,
+        "scaleFromCleanFront": 0.18509,
+        "paste": {
+          "x": 10,
+          "y": 7
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/recruit-front-source.png",
+          "sha256": "04DD1F9FFCE368E59F8C0A2A357CC151988475F7845BB2A6CC907E128B210914",
+          "sourceIndex": 1,
+          "sourceCropInMaster": [
+            50,
+            234,
+            255,
+            623
+          ],
+          "sourceMaster": {
+            "originalFileName": "角色正面2 拷贝.png",
+            "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/role-front-2-copy.png",
+            "sha256": "3432AF2F41E7EB167E29C62F95E7AF7EA74E3E82FBDB1BA087B5D0FB82E4F9F9",
+            "size": {
+              "width": 1900,
+              "height": 887
+            }
+          },
+          "sourceSize": [
+            205,
+            389
+          ],
+          "foregroundBbox": [
+            0,
+            0,
+            205,
+            389
+          ],
+          "foregroundPixels": 55542,
+          "transparentSourceAlphaUsed": true,
+          "partialAlphaPixels": 1664,
+          "shadowPixelsRemoved": 0
+        },
+        "mode": "RGBA",
+        "width": 58,
+        "height": 80,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          10,
+          7,
+          48,
+          79
+        ],
+        "transparentPixels": 2724,
+        "partialAlphaPixels": 49,
+        "opaquePixels": 1867,
+        "edgeAlphaPixels": 0
+      },
+      {
+        "jobId": "ranger",
+        "resourceId": "member.ranger.front-static",
+        "path": "assets/art/facility-member-visuals/v0.4.0/characters/static/ranger-front.png",
+        "sha256": "3DB69D89D77A8433B6D2D6A21DDCC4BA387D18275BF763DE97655744D861F442",
+        "canvas": {
+          "width": 58,
+          "height": 83
+        },
+        "origin": {
+          "type": "foot-center",
+          "x": 29,
+          "y": 82
+        },
+        "visibleHeight": 75,
+        "scaleFromCleanFront": 0.186104,
+        "paste": {
+          "x": 8,
+          "y": 7
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/ranger-front-source.png",
+          "sha256": "E1AB8994622D20EFDEAEC6069F66AD1592503B54540F0723FDD588FE632E240B",
+          "sourceIndex": 2,
+          "sourceCropInMaster": [
+            343,
+            220,
+            573,
+            623
+          ],
+          "sourceMaster": {
+            "originalFileName": "角色正面2 拷贝.png",
+            "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/role-front-2-copy.png",
+            "sha256": "3432AF2F41E7EB167E29C62F95E7AF7EA74E3E82FBDB1BA087B5D0FB82E4F9F9",
+            "size": {
+              "width": 1900,
+              "height": 887
+            }
+          },
+          "sourceSize": [
+            230,
+            403
+          ],
+          "foregroundBbox": [
+            0,
+            0,
+            230,
+            403
+          ],
+          "foregroundPixels": 62490,
+          "transparentSourceAlphaUsed": true,
+          "partialAlphaPixels": 1607,
+          "shadowPixelsRemoved": 0
+        },
+        "mode": "RGBA",
+        "width": 58,
+        "height": 83,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          8,
+          7,
+          51,
+          82
+        ],
+        "transparentPixels": 2623,
+        "partialAlphaPixels": 55,
+        "opaquePixels": 2136,
+        "edgeAlphaPixels": 0
+      },
+      {
+        "jobId": "artisan",
+        "resourceId": "member.artisan.front-static",
+        "path": "assets/art/facility-member-visuals/v0.4.0/characters/static/artisan-front.png",
+        "sha256": "A49F3A796BEC2FF2FDECCB144E70193B5CBD2ACACDE3021F3B923F977401FD09",
+        "canvas": {
+          "width": 58,
+          "height": 83
+        },
+        "origin": {
+          "type": "foot-center",
+          "x": 29,
+          "y": 82
+        },
+        "visibleHeight": 75,
+        "scaleFromCleanFront": 0.186104,
+        "paste": {
+          "x": 8,
+          "y": 7
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/artisan-front-source.png",
+          "sha256": "ABAD1168E1E7BE1F0F537F30889C3A10332A624D682C933396FC3FCE207F1FD1",
+          "sourceIndex": 3,
+          "sourceCropInMaster": [
+            638,
+            220,
+            864,
+            623
+          ],
+          "sourceMaster": {
+            "originalFileName": "角色正面2 拷贝.png",
+            "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/role-front-2-copy.png",
+            "sha256": "3432AF2F41E7EB167E29C62F95E7AF7EA74E3E82FBDB1BA087B5D0FB82E4F9F9",
+            "size": {
+              "width": 1900,
+              "height": 887
+            }
+          },
+          "sourceSize": [
+            226,
+            403
+          ],
+          "foregroundBbox": [
+            0,
+            0,
+            226,
+            403
+          ],
+          "foregroundPixels": 61535,
+          "transparentSourceAlphaUsed": true,
+          "partialAlphaPixels": 1664,
+          "shadowPixelsRemoved": 0
+        },
+        "mode": "RGBA",
+        "width": 58,
+        "height": 83,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          8,
+          7,
+          50,
+          82
+        ],
+        "transparentPixels": 2697,
+        "partialAlphaPixels": 48,
+        "opaquePixels": 2069,
+        "edgeAlphaPixels": 0
+      },
+      {
+        "jobId": "steward",
+        "resourceId": "member.steward.front-static",
+        "path": "assets/art/facility-member-visuals/v0.4.0/characters/static/steward-front.png",
+        "sha256": "17C7DA2B214A11C69462B881A7156DECCD26BC3722CB3C16A1D3C47341BC3ACE",
+        "canvas": {
+          "width": 58,
+          "height": 81
+        },
+        "origin": {
+          "type": "foot-center",
+          "x": 29,
+          "y": 80
+        },
+        "visibleHeight": 73,
+        "scaleFromCleanFront": 0.18481,
+        "paste": {
+          "x": 11,
+          "y": 7
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/steward-front-source.png",
+          "sha256": "69B50F0282DFBFB6EDDF2B1E6F2C8E8C5EB8D33964AB811F9341778D89969E9D",
+          "sourceIndex": 4,
+          "sourceCropInMaster": [
+            937,
+            228,
+            1130,
+            623
+          ],
+          "sourceMaster": {
+            "originalFileName": "角色正面2 拷贝.png",
+            "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/role-front-2-copy.png",
+            "sha256": "3432AF2F41E7EB167E29C62F95E7AF7EA74E3E82FBDB1BA087B5D0FB82E4F9F9",
+            "size": {
+              "width": 1900,
+              "height": 887
+            }
+          },
+          "sourceSize": [
+            193,
+            395
+          ],
+          "foregroundBbox": [
+            0,
+            0,
+            193,
+            395
+          ],
+          "foregroundPixels": 51347,
+          "transparentSourceAlphaUsed": true,
+          "partialAlphaPixels": 1533,
+          "shadowPixelsRemoved": 0
+        },
+        "mode": "RGBA",
+        "width": 58,
+        "height": 81,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          11,
+          7,
+          47,
+          80
+        ],
+        "transparentPixels": 2921,
+        "partialAlphaPixels": 63,
+        "opaquePixels": 1714,
+        "edgeAlphaPixels": 0
+      }
+    ],
+    "recruitWalk": {
+      "frameCount": 8,
+      "frameDurationMs": 180,
+      "loop": true,
+      "directions": {
+        "west": [
+          {
+            "frame": 1,
+            "resourceId": "member.recruit.walk-west.frame-01",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-01.png",
+            "sha256": "689E02A9D46090EEA394494D26F97FFD510EC19E609B41EB970FFF266495BCF1",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              15,
+              6,
+              56,
+              77
+            ],
+            "transparentPixels": 2875,
+            "partialAlphaPixels": 45,
+            "opaquePixels": 1662,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 2,
+            "resourceId": "member.recruit.walk-west.frame-02",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-02.png",
+            "sha256": "9E8E53BBAF876AEFA477A964097E8DF7BE785A427855251A4C2056B262CD784C",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              18,
+              7,
+              56,
+              77
+            ],
+            "transparentPixels": 2899,
+            "partialAlphaPixels": 46,
+            "opaquePixels": 1637,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 3,
+            "resourceId": "member.recruit.walk-west.frame-03",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-03.png",
+            "sha256": "54458645F4341695C0D03CF214776755A4BFB74EEAC598B8D33F9A098F211853",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              22,
+              6,
+              55,
+              77
+            ],
+            "transparentPixels": 2929,
+            "partialAlphaPixels": 31,
+            "opaquePixels": 1622,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 4,
+            "resourceId": "member.recruit.walk-west.frame-04",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-04.png",
+            "sha256": "9D8A1E329CD1271D2F8104283262AFBE9BE4F7A00828C3EE89BEAB65F76B9986",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              18,
+              6,
+              55,
+              77
+            ],
+            "transparentPixels": 2817,
+            "partialAlphaPixels": 29,
+            "opaquePixels": 1736,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 5,
+            "resourceId": "member.recruit.walk-west.frame-05",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-05.png",
+            "sha256": "F287A046B6DBB29E934A7032EF3392454175B68A287976EB994E25B0CB0E9C07",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              16,
+              7,
+              55,
+              78
+            ],
+            "transparentPixels": 2749,
+            "partialAlphaPixels": 38,
+            "opaquePixels": 1795,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 6,
+            "resourceId": "member.recruit.walk-west.frame-06",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-06.png",
+            "sha256": "07F9BB02D9BB981F8D25A4FAE673CFE35EB2B1C0927CAA8CC4D03DCFB40F7949",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              17,
+              7,
+              55,
+              78
+            ],
+            "transparentPixels": 2781,
+            "partialAlphaPixels": 43,
+            "opaquePixels": 1758,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 7,
+            "resourceId": "member.recruit.walk-west.frame-07",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-07.png",
+            "sha256": "E8AC5370938201C3277DF716222E9378F8BA549D1DD131FC10DD517FDD8AAA05",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              20,
+              6,
+              55,
+              78
+            ],
+            "transparentPixels": 2917,
+            "partialAlphaPixels": 41,
+            "opaquePixels": 1624,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 8,
+            "resourceId": "member.recruit.walk-west.frame-08",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west/frame-08.png",
+            "sha256": "39AAEE43FE41135667145A74AF24C9554B7E5F8C8570C9678DCC8C1FB1607607",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              20,
+              6,
+              56,
+              78
+            ],
+            "transparentPixels": 2898,
+            "partialAlphaPixels": 41,
+            "opaquePixels": 1643,
+            "edgeAlphaPixels": 0
+          }
+        ],
+        "east": [
+          {
+            "frame": 1,
+            "resourceId": "member.recruit.walk-east.frame-01",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-01.png",
+            "sha256": "9B294A4D8725C2F17815F8C6749E88D61BA1F00FF4AA501DC0E3408DF4D1AA75",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              2,
+              6,
+              43,
+              77
+            ],
+            "transparentPixels": 2875,
+            "partialAlphaPixels": 45,
+            "opaquePixels": 1662,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 2,
+            "resourceId": "member.recruit.walk-east.frame-02",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-02.png",
+            "sha256": "92A8C83924A576EB769FB030E45A179A0FDC0E5C2BC482E59427FF2D84A39A68",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              2,
+              7,
+              40,
+              77
+            ],
+            "transparentPixels": 2899,
+            "partialAlphaPixels": 46,
+            "opaquePixels": 1637,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 3,
+            "resourceId": "member.recruit.walk-east.frame-03",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-03.png",
+            "sha256": "6E811DA173F31B40BAABED6B82F968D995FADCA71FF5F1BE82D9D9E4BACFE080",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              3,
+              6,
+              36,
+              77
+            ],
+            "transparentPixels": 2929,
+            "partialAlphaPixels": 31,
+            "opaquePixels": 1622,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 4,
+            "resourceId": "member.recruit.walk-east.frame-04",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-04.png",
+            "sha256": "9CE5ED3C1614ACA173D16AFB35D6D98CF09557BC4D9F51EA9F8C228F3F472285",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              3,
+              6,
+              40,
+              77
+            ],
+            "transparentPixels": 2817,
+            "partialAlphaPixels": 29,
+            "opaquePixels": 1736,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 5,
+            "resourceId": "member.recruit.walk-east.frame-05",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-05.png",
+            "sha256": "567478A2DFD76D52C772C25068151ACF6C64BFBB537099F8AABB0EB5A21797DE",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              3,
+              7,
+              42,
+              78
+            ],
+            "transparentPixels": 2749,
+            "partialAlphaPixels": 38,
+            "opaquePixels": 1795,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 6,
+            "resourceId": "member.recruit.walk-east.frame-06",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-06.png",
+            "sha256": "BD9D8B1CDB8AFAEE4857D718F38591AE0DE46617B21986C3609E3495A96D6E52",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              3,
+              7,
+              41,
+              78
+            ],
+            "transparentPixels": 2781,
+            "partialAlphaPixels": 43,
+            "opaquePixels": 1758,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 7,
+            "resourceId": "member.recruit.walk-east.frame-07",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-07.png",
+            "sha256": "BD11CE69BC924628C236E252F20142430832DB2DD75C634B2F8137B16B653F54",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              3,
+              6,
+              38,
+              78
+            ],
+            "transparentPixels": 2917,
+            "partialAlphaPixels": 41,
+            "opaquePixels": 1624,
+            "edgeAlphaPixels": 0
+          },
+          {
+            "frame": 8,
+            "resourceId": "member.recruit.walk-east.frame-08",
+            "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east/frame-08.png",
+            "sha256": "08685A4F992FA2F8533EC68B1B8BFDFB817C442D9F8B17E9CBE3EC559D7C94A8",
+            "durationMs": 180,
+            "canvas": {
+              "width": 58,
+              "height": 79
+            },
+            "origin": {
+              "type": "foot-center",
+              "x": 29,
+              "y": 78
+            },
+            "mode": "RGBA",
+            "width": 58,
+            "height": 79,
+            "alphaExtrema": [
+              0,
+              255
+            ],
+            "alphaBbox": [
+              2,
+              6,
+              38,
+              78
+            ],
+            "transparentPixels": 2898,
+            "partialAlphaPixels": 41,
+            "opaquePixels": 1643,
+            "edgeAlphaPixels": 0
+          }
+        ],
+        "westSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-west-sheet.png",
+          "sha256": "7D5821A5F14B9F1112E70A91D92C5A6F66CF3FFE4F98A4C3989E0F4D3ACB5390",
+          "width": 464,
+          "height": 79
+        },
+        "westReviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/recruit-walk-west-4x.gif",
+        "eastSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/characters/walk/recruit-east-sheet.png",
+          "sha256": "E41BED65D55352A2D31F38E3D2680EB667047F4D8071CF3456317C9A78B51A0F",
+          "width": 464,
+          "height": 79
+        },
+        "eastReviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/recruit-walk-east-4x.gif"
+      }
+    }
+  },
+  "portraits": {
+    "contentSize": {
+      "width": 32,
+      "height": 32
+    },
+    "frameSize": {
+      "width": 36,
+      "height": 36
+    },
+    "contents": [
+      {
+        "jobId": "recruit",
+        "resourceId": "portrait.recruit.content",
+        "path": "assets/art/facility-member-visuals/v0.4.0/portraits/content/recruit-portrait-32x32.png",
+        "sha256": "4537275F0E8CD9B03F78C405B85F0C3DE89BEDBB01224469D7F0FDF9D33DFF2C",
+        "contentBox": {
+          "width": 32,
+          "height": 32
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/recruit-front-source.png",
+          "sha256": "04DD1F9FFCE368E59F8C0A2A357CC151988475F7845BB2A6CC907E128B210914",
+          "sourceIndex": 1,
+          "sourceCropInMaster": [
+            50,
+            234,
+            255,
+            623
+          ],
+          "sourceCropInCleanFront": [
+            -3,
+            0,
+            208,
+            211
+          ],
+          "sourceCropIntent": "head-to-shoulder-chest",
+          "sourceGeneratedFromWorldStaticFrame": false,
+          "resultAlphaBbox": [
+            1,
+            0,
+            32,
+            32
+          ],
+          "resultOpaquePixels": 687,
+          "resultOpaqueOrPartialPixels": 687
+        },
+        "mode": "RGBA",
+        "width": 32,
+        "height": 32,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          1,
+          0,
+          32,
+          32
+        ],
+        "transparentPixels": 337,
+        "partialAlphaPixels": 0,
+        "opaquePixels": 687,
+        "edgeAlphaPixels": 37
+      },
+      {
+        "jobId": "ranger",
+        "resourceId": "portrait.ranger.content",
+        "path": "assets/art/facility-member-visuals/v0.4.0/portraits/content/ranger-portrait-32x32.png",
+        "sha256": "F3B055884F19D6F626CD10B63D2385DEFED5E607CDA80CE1517F1B30149EE87B",
+        "contentBox": {
+          "width": 32,
+          "height": 32
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/ranger-front-source.png",
+          "sha256": "E1AB8994622D20EFDEAEC6069F66AD1592503B54540F0723FDD588FE632E240B",
+          "sourceIndex": 2,
+          "sourceCropInMaster": [
+            343,
+            220,
+            573,
+            623
+          ],
+          "sourceCropInCleanFront": [
+            15,
+            0,
+            215,
+            200
+          ],
+          "sourceCropIntent": "head-to-shoulder-chest",
+          "sourceGeneratedFromWorldStaticFrame": false,
+          "resultAlphaBbox": [
+            1,
+            0,
+            31,
+            32
+          ],
+          "resultOpaquePixels": 639,
+          "resultOpaqueOrPartialPixels": 639
+        },
+        "mode": "RGBA",
+        "width": 32,
+        "height": 32,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          1,
+          0,
+          31,
+          32
+        ],
+        "transparentPixels": 385,
+        "partialAlphaPixels": 0,
+        "opaquePixels": 639,
+        "edgeAlphaPixels": 35
+      },
+      {
+        "jobId": "artisan",
+        "resourceId": "portrait.artisan.content",
+        "path": "assets/art/facility-member-visuals/v0.4.0/portraits/content/artisan-portrait-32x32.png",
+        "sha256": "627AC36D25E4703F565A573AF05D0C74D8E9034358D3E509EF59E1CA77CBFFE3",
+        "contentBox": {
+          "width": 32,
+          "height": 32
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/artisan-front-source.png",
+          "sha256": "ABAD1168E1E7BE1F0F537F30889C3A10332A624D682C933396FC3FCE207F1FD1",
+          "sourceIndex": 3,
+          "sourceCropInMaster": [
+            638,
+            220,
+            864,
+            623
+          ],
+          "sourceCropInCleanFront": [
+            -6,
+            0,
+            231,
+            237
+          ],
+          "sourceCropIntent": "head-to-shoulder-chest",
+          "sourceGeneratedFromWorldStaticFrame": false,
+          "resultAlphaBbox": [
+            1,
+            0,
+            31,
+            32
+          ],
+          "resultOpaquePixels": 647,
+          "resultOpaqueOrPartialPixels": 647
+        },
+        "mode": "RGBA",
+        "width": 32,
+        "height": 32,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          1,
+          0,
+          31,
+          32
+        ],
+        "transparentPixels": 377,
+        "partialAlphaPixels": 0,
+        "opaquePixels": 647,
+        "edgeAlphaPixels": 34
+      },
+      {
+        "jobId": "steward",
+        "resourceId": "portrait.steward.content",
+        "path": "assets/art/facility-member-visuals/v0.4.0/portraits/content/steward-portrait-32x32.png",
+        "sha256": "9313EC34B0D0BF4032490F0CC5AEBA0F1085909659970E9D6D59FF47E072CF08",
+        "contentBox": {
+          "width": 32,
+          "height": 32
+        },
+        "source": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/steward-front-source.png",
+          "sha256": "69B50F0282DFBFB6EDDF2B1E6F2C8E8C5EB8D33964AB811F9341778D89969E9D",
+          "sourceIndex": 4,
+          "sourceCropInMaster": [
+            937,
+            228,
+            1130,
+            623
+          ],
+          "sourceCropInCleanFront": [
+            -1,
+            0,
+            193,
+            194
+          ],
+          "sourceCropIntent": "head-to-shoulder-chest",
+          "sourceGeneratedFromWorldStaticFrame": false,
+          "resultAlphaBbox": [
+            2,
+            0,
+            31,
+            32
+          ],
+          "resultOpaquePixels": 612,
+          "resultOpaqueOrPartialPixels": 612
+        },
+        "mode": "RGBA",
+        "width": 32,
+        "height": 32,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          2,
+          0,
+          31,
+          32
+        ],
+        "transparentPixels": 412,
+        "partialAlphaPixels": 0,
+        "opaquePixels": 612,
+        "edgeAlphaPixels": 34
+      }
+    ],
+    "layers": [
+      {
+        "resourceId": "portrait.frame.normal",
+        "path": "assets/art/facility-member-visuals/v0.4.0/portraits/ui/portrait-frame-36x36.png",
+        "sha256": "DC52B54F66F2DE72055F352DD851CF1833342A43C3750AFF5E86869AFABB7D0C",
+        "canvas": {
+          "width": 36,
+          "height": 36
+        },
+        "mode": "RGBA",
+        "width": 36,
+        "height": 36,
+        "alphaExtrema": [
+          220,
+          255
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          36,
+          36
+        ],
+        "transparentPixels": 0,
+        "partialAlphaPixels": 900,
+        "opaquePixels": 396,
+        "edgeAlphaPixels": 140
+      },
+      {
+        "resourceId": "portrait.frame.selected",
+        "path": "assets/art/facility-member-visuals/v0.4.0/portraits/ui/portrait-selection-frame-36x36.png",
+        "sha256": "A2A93843E10BFEFEA873BE5BD767DDF61993E0D121A396CA9214E9CE437CABB2",
+        "canvas": {
+          "width": 36,
+          "height": 36
+        },
+        "mode": "RGBA",
+        "width": 36,
+        "height": 36,
+        "alphaExtrema": [
+          220,
+          255
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          36,
+          36
+        ],
+        "transparentPixels": 0,
+        "partialAlphaPixels": 900,
+        "opaquePixels": 396,
+        "edgeAlphaPixels": 140
+      },
+      {
+        "resourceId": "portrait.status.zzz",
+        "path": "assets/art/facility-member-visuals/v0.4.0/portraits/ui/portrait-status-zzz-36x36.png",
+        "sha256": "151BE7C633E120E85C45150A47CC621496BDA6AFDD6D23FC4605852D0A41E5C5",
+        "canvas": {
+          "width": 36,
+          "height": 36
+        },
+        "mode": "RGBA",
+        "width": 36,
+        "height": 36,
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          8,
+          2,
+          23,
+          9
+        ],
+        "transparentPixels": 1191,
+        "partialAlphaPixels": 0,
+        "opaquePixels": 105,
+        "edgeAlphaPixels": 0
+      }
+    ]
+  },
+  "facilityComponents": {
+    "blacksmith-forging": {
+      "root": {
+        "resourceId": "building-blacksmith",
+        "path": "assets/art/environment/runtime-maps/castle-main/resources/building-blacksmith.png",
+        "sha256": "4344C973865EE5E013CAE8926A640D1960EF4AB136B19E0B0FE7506667D3877D",
+        "bytes": 175421,
+        "width": 295,
+        "height": 290,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          295,
+          290
+        ],
+        "transparentPixels": 25574,
+        "partialAlphaPixels": 6072,
+        "opaquePixels": 53904,
+        "edgeAlphaPixels": 34,
+        "displaySize": {
+          "width": 236,
+          "height": 232
+        },
+        "compositeOffset": [
+          30,
+          12
+        ]
+      },
+      "idleComponent": {
+        "resourceId": "building-blacksmith-anvil",
+        "path": "assets/art/environment/runtime-maps/castle-main/resources/building-blacksmith-anvil.png",
+        "sha256": "62A7294C271AED768BB63713A231439C6B171B96C1ECC0C481E76676097D363F",
+        "bytes": 5725,
+        "width": 54,
+        "height": 38,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          54,
+          38
+        ],
+        "transparentPixels": 339,
+        "partialAlphaPixels": 617,
+        "opaquePixels": 1096,
+        "edgeAlphaPixels": 76,
+        "displaySize": {
+          "width": 43,
+          "height": 30
+        },
+        "compositeOffset": [
+          61,
+          206
+        ]
+      }
+    },
+    "repair-drawing": {
+      "root": {
+        "resourceId": "building-repair",
+        "path": "assets/art/environment/runtime-maps/castle-main/resources/building-repair.png",
+        "sha256": "B4B66A74CC78CDE05CAD1645D60467437D11368D7077C95B1B24CC0AFEC55EFA",
+        "bytes": 182109,
+        "width": 387,
+        "height": 204,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          1,
+          0,
+          387,
+          204
+        ],
+        "transparentPixels": 18451,
+        "partialAlphaPixels": 10018,
+        "opaquePixels": 50479,
+        "edgeAlphaPixels": 44,
+        "displaySize": {
+          "width": 310,
+          "height": 163
+        },
+        "compositeOffset": [
+          0,
+          0
+        ]
+      },
+      "idleComponent": {
+        "resourceId": "building-repair-table",
+        "path": "assets/art/environment/runtime-maps/castle-main/resources/building-repair-table.png",
+        "sha256": "36E11F35AC093FA20DD031DA01BB7D11B4C15A6B17FC1CFEFDE24167EF60F485",
+        "bytes": 12668,
+        "width": 88,
+        "height": 58,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          88,
+          58
+        ],
+        "transparentPixels": 1079,
+        "partialAlphaPixels": 1672,
+        "opaquePixels": 2353,
+        "edgeAlphaPixels": 55,
+        "displaySize": {
+          "width": 70,
+          "height": 46
+        },
+        "compositeOffset": [
+          174,
+          108
+        ]
+      }
+    },
+    "lumber-chopping": {
+      "root": {
+        "resourceId": "building-lumber-root-no-stump",
+        "path": "assets/art/facility-member-visuals/v0.4.0/facility-components/building-lumber-root-no-stump.png",
+        "sha256": "ACF8F894BB70C595098323F54859AD16A97F69C5B5AB975F4505CC4B171C0842",
+        "bytes": 114555,
+        "width": 306,
+        "height": 139,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          306,
+          139
+        ],
+        "transparentPixels": 11684,
+        "partialAlphaPixels": 2790,
+        "opaquePixels": 28060,
+        "edgeAlphaPixels": 117,
+        "displaySize": {
+          "width": 306,
+          "height": 139
+        },
+        "compositeOffset": [
+          0,
+          0
+        ],
+        "ownership": "accepted lumber body without idle stump"
+      },
+      "idleComponent": {
+        "resourceId": "building-lumber-stump",
+        "path": "assets/art/facility-member-visuals/v0.4.0/facility-components/building-lumber-stump.png",
+        "sha256": "3375DE5C8E1966C497F5E3CCDE51B94E1A98877E1416770307175C099F350AAF",
+        "bytes": 7391,
+        "width": 66,
+        "height": 45,
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "alphaBbox": [
+          0,
+          0,
+          66,
+          45
+        ],
+        "transparentPixels": 823,
+        "partialAlphaPixels": 565,
+        "opaquePixels": 1582,
+        "edgeAlphaPixels": 74,
+        "displaySize": {
+          "width": 53,
+          "height": 36
+        },
+        "compositeOffset": [
+          127,
+          104
+        ],
+        "ownership": "idle component replaced by working child during lumber animation"
+      }
+    }
+  },
+  "facilityWorkAnimations": [
+    {
+      "animationId": "facility.workshop.working",
+      "facilityId": "workshop",
+      "operationId": "craft-equipment",
+      "sourceFrameDirectory": "forging-alpha-cleanup-role-shadow-restored",
+      "canvas": {
+        "width": 120,
+        "height": 89
+      },
+      "origin": {
+        "type": "top-left",
+        "x": 0,
+        "y": 0
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        60,
+        120,
+        140,
+        150,
+        90,
+        170,
+        110,
+        60
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "rootResourceId": "building-blacksmith",
+      "idleComponentResourceId": "building-blacksmith-anvil",
+      "geometry": {
+        "sourceScript": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/build-blacksmith-forging-cleaned.py",
+        "mapScale": 0.8,
+        "compositeCanvas": {
+          "width": 278,
+          "height": 256
+        },
+        "compositeOrigin": {
+          "type": "bottom-center",
+          "x": 148,
+          "y": 244
+        },
+        "rootDisplaySize": {
+          "width": 236,
+          "height": 232
+        },
+        "rootRelativeOffset": [
+          -118.0,
+          -232
+        ],
+        "rootCompositeOffset": [
+          30,
+          12
+        ],
+        "idleComponentDisplaySize": {
+          "width": 43,
+          "height": 30
+        },
+        "idleComponentRelativeOffset": [
+          -86.7,
+          -38.0
+        ],
+        "idleComponentCompositeOffset": [
+          61,
+          206
+        ],
+        "workingChildSize": {
+          "width": 120,
+          "height": 89
+        },
+        "workingChildRelativeOffset": [
+          -135.51908831908833,
+          -89.27272727272728
+        ],
+        "workingChildCompositeOffset": [
+          12,
+          155
+        ],
+        "videoAnvilBox": [
+          390.3673,
+          414.3673,
+          734.2041,
+          656.8163
+        ],
+        "animationScale": [
+          0.1250593542260209,
+          0.12373737373737373
+        ]
+      },
+      "sourceFrames": [
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-building-shadow-restored.png",
+          "sha256": "3A6D888D1CA67E26F68723959C0BE79B487F0B8939FD08E55F2C75226BFCD4B4",
+          "bytes": 933368,
+          "width": 278,
+          "height": 256,
+          "mode": "RGBA",
+          "frameCount": 8
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-idle-runtime-composite.png",
+          "sha256": "8363F71375BEEDE696FF90BDE815C953E632F20A2BF4AFA609033EBC7B6B1AF2",
+          "bytes": 113616,
+          "width": 278,
+          "height": 256,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-loop-shadow-restored.png",
+          "sha256": "379A0C7073D6C9A1900344B9B8AE27D04C6A7552E2C8CC5E64F845739A94AD4A",
+          "bytes": 215958,
+          "width": 120,
+          "height": 89,
+          "mode": "RGBA",
+          "frameCount": 8
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-building-shadow-restored-sheet.png",
+          "sha256": "586C3A1E7FA5ECAF2F821C632CD4DB8498B31DF4BFEAD3B5442EB002B121AC74",
+          "bytes": 417177,
+          "width": 2224,
+          "height": 1024,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/build-blacksmith-forging-cleaned.py",
+          "sha256": "B6B312BC03089119620F0C7B66DD0937C86EB23E8332BF5ED2D3F27A79A5A386",
+          "bytes": 5418
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-01.png",
+          "sha256": "950D31769D48DDC3FB9FD8423D6F3B3FAFF3490E7999099CE83537E60B14EDDC",
+          "bytes": 644824,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-02.png",
+          "sha256": "FD6C8F403F128C583CFB37C524D4206000D20777A0DEB00131541FB09DDB63D9",
+          "bytes": 786583,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-03.png",
+          "sha256": "CC9C21C8BF439CB2E3D3B807D198A92716BEF772B69A1387F488359CF419F8BD",
+          "bytes": 751027,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-04.png",
+          "sha256": "E9D6DCF77A2297AE667EB35A865EFFC67EEBFCBC0427005F3490EC78860DE8E4",
+          "bytes": 838920,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-05.png",
+          "sha256": "65E3C7DF11076593F357A96422DCF8159C7891AB5F2212A423F24A0A6AB6BF93",
+          "bytes": 846623,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-06.png",
+          "sha256": "FD5192095D3BA7706E16589E7864AB099F694E884A2E6912D311C64E4B222D20",
+          "bytes": 760331,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-07.png",
+          "sha256": "E0A35D924735A5F4E1FEA90E070BA55BA83BAC3B7AE19CFC0094FEBF9DD2B7B1",
+          "bytes": 891442,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-08.png",
+          "sha256": "CCDF60E1FBC9E3A31918CAA39FC7AD74DB3447892910A31AEF336EBEE8F37601",
+          "bytes": 812954,
+          "width": 960,
+          "height": 720,
+          "mode": "RGBA"
+        }
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-workshop-forging-frame-01",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-01.png",
+          "sha256": "8192D841F62C0D9C2CA33D8AF5FD61CF2E177DADD8700E59640265C4E2D7D44E",
+          "durationMs": 60,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            15,
+            4,
+            95,
+            89
+          ],
+          "transparentPixels": 6935,
+          "partialAlphaPixels": 813,
+          "opaquePixels": 2932,
+          "edgeAlphaPixels": 4
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-workshop-forging-frame-02",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-02.png",
+          "sha256": "6F6441082638F6CAAB67B03400BE7C5E08FB4AFDCFC6D660E1E6A25E227A931A",
+          "durationMs": 120,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            15,
+            4,
+            96,
+            89
+          ],
+          "transparentPixels": 6813,
+          "partialAlphaPixels": 919,
+          "opaquePixels": 2948,
+          "edgeAlphaPixels": 2
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-workshop-forging-frame-03",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-03.png",
+          "sha256": "BCFEF91A5B0BEECEC7EED20D1527472948AEC207EAEEF215B49BD458AC6F7B6D",
+          "durationMs": 140,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            13,
+            3,
+            95,
+            89
+          ],
+          "transparentPixels": 6808,
+          "partialAlphaPixels": 931,
+          "opaquePixels": 2941,
+          "edgeAlphaPixels": 5
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-workshop-forging-frame-04",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-04.png",
+          "sha256": "52C9203126CA326D580C81C0CD78EC8427B61D6C3748176DDD461DDE7C161D2B",
+          "durationMs": 150,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            15,
+            3,
+            95,
+            89
+          ],
+          "transparentPixels": 6859,
+          "partialAlphaPixels": 980,
+          "opaquePixels": 2841,
+          "edgeAlphaPixels": 18
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-workshop-forging-frame-05",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-05.png",
+          "sha256": "7B790261E384C531294D9D22D676725262D08CE599C29B1F15C9289525E570DE",
+          "durationMs": 90,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            15,
+            4,
+            95,
+            89
+          ],
+          "transparentPixels": 7084,
+          "partialAlphaPixels": 890,
+          "opaquePixels": 2706,
+          "edgeAlphaPixels": 5
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-workshop-forging-frame-06",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-06.png",
+          "sha256": "61F348CFD902CFDD9B44588C9722636FCFDD42977E32F88BA14AA24DC64B8250",
+          "durationMs": 170,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            15,
+            3,
+            95,
+            89
+          ],
+          "transparentPixels": 6946,
+          "partialAlphaPixels": 994,
+          "opaquePixels": 2740,
+          "edgeAlphaPixels": 17
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-workshop-forging-frame-07",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-07.png",
+          "sha256": "7302E04544FC98B0C781F6A308182D8810BE7570A4271DF06600F41C00090850",
+          "durationMs": 110,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            15,
+            3,
+            95,
+            89
+          ],
+          "transparentPixels": 6716,
+          "partialAlphaPixels": 1243,
+          "opaquePixels": 2721,
+          "edgeAlphaPixels": 25
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-workshop-forging-frame-08",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/frames/frame-08.png",
+          "sha256": "61D15C4C48D46476D6A287A6CDB2AE9051FBFD936A214B7F068D42A86462775E",
+          "durationMs": 60,
+          "canvas": {
+            "width": 120,
+            "height": 89
+          },
+          "mode": "RGBA",
+          "width": 120,
+          "height": 89,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            16,
+            4,
+            96,
+            89
+          ],
+          "transparentPixels": 6921,
+          "partialAlphaPixels": 883,
+          "opaquePixels": 2876,
+          "edgeAlphaPixels": 10
+        }
+      ],
+      "sheet": {
+        "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/blacksmith-forging-sheet.png",
+        "sha256": "419A528ACA6441564BA9310A4E95FFA9C7BB9B6BEF59A0238D7DE697970EF59F",
+        "bytes": 96384,
+        "width": 960,
+        "height": 89,
+        "mode": "RGBA"
+      },
+      "reviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/blacksmith-forging-loop-4x.gif",
+      "acceptedCompositeBaseline": {
+        "idle": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-idle-runtime-composite.png",
+          "sha256": "8363F71375BEEDE696FF90BDE815C953E632F20A2BF4AFA609033EBC7B6B1AF2",
+          "bytes": 113616,
+          "width": 278,
+          "height": 256,
+          "mode": "RGBA"
+        },
+        "working": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-building-shadow-restored.png",
+          "sha256": "3A6D888D1CA67E26F68723959C0BE79B487F0B8939FD08E55F2C75226BFCD4B4",
+          "bytes": 933368,
+          "width": 278,
+          "height": 256,
+          "mode": "RGBA",
+          "frameCount": 8
+        },
+        "runtimeLoop": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-loop-shadow-restored.png",
+          "sha256": "379A0C7073D6C9A1900344B9B8AE27D04C6A7552E2C8CC5E64F845739A94AD4A",
+          "bytes": 215958,
+          "width": 120,
+          "height": 89,
+          "mode": "RGBA",
+          "frameCount": 8
+        },
+        "buildingReviewSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-building-shadow-restored-sheet.png",
+          "sha256": "586C3A1E7FA5ECAF2F821C632CD4DB8498B31DF4BFEAD3B5442EB002B121AC74",
+          "bytes": 417177,
+          "width": 2224,
+          "height": 1024,
+          "mode": "RGBA"
+        },
+        "expectedHashes": {
+          "idle": "8363F71375BEEDE696FF90BDE815C953E632F20A2BF4AFA609033EBC7B6B1AF2",
+          "working": "3A6D888D1CA67E26F68723959C0BE79B487F0B8939FD08E55F2C75226BFCD4B4",
+          "runtimeLoop": "379A0C7073D6C9A1900344B9B8AE27D04C6A7552E2C8CC5E64F845739A94AD4A",
+          "buildingReviewSheet": "586C3A1E7FA5ECAF2F821C632CD4DB8498B31DF4BFEAD3B5442EB002B121AC74"
+        }
+      },
+      "runtimeLoopPixelMatchAccepted": {
+        "passed": true,
+        "mismatchedFrames": [],
+        "maxDifferingPixels": 0
+      },
+      "idleRecomposed": {
+        "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/blacksmith-forging-recomposed-idle.png",
+        "sha256": "8363F71375BEEDE696FF90BDE815C953E632F20A2BF4AFA609033EBC7B6B1AF2",
+        "pixelMatchAcceptedComposite": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        }
+      },
+      "recomposedPreview": {
+        "sheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/blacksmith-forging-recomposed-building-sheet.png",
+          "sha256": "C3600C3B3111666862BE6D5A3095D95478B9F354A85730690DC8E7A77CF3A86A",
+          "bytes": 210618,
+          "width": 2224,
+          "height": 256,
+          "mode": "RGBA"
+        },
+        "reviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/blacksmith-forging-recomposed-building-loop-4x.gif",
+        "pixelMatchAcceptedComposite": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        },
+        "acceptedBuildingReviewSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-building-shadow-restored-sheet.png",
+          "sha256": "586C3A1E7FA5ECAF2F821C632CD4DB8498B31DF4BFEAD3B5442EB002B121AC74",
+          "bytes": 417177,
+          "width": 2224,
+          "height": 1024,
+          "mode": "RGBA"
+        },
+        "recomposedBuildingReviewSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/blacksmith-forging/blacksmith-forging-recomposed-building-shadow-restored-sheet.png",
+          "sha256": "586C3A1E7FA5ECAF2F821C632CD4DB8498B31DF4BFEAD3B5442EB002B121AC74",
+          "bytes": 417177,
+          "width": 2224,
+          "height": 1024,
+          "mode": "RGBA"
+        },
+        "pixelMatchAcceptedBuildingReviewSheet": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        }
+      }
+    },
+    {
+      "animationId": "facility.repair.working",
+      "facilityId": "repair",
+      "operationId": "repair",
+      "canvas": {
+        "width": 121,
+        "height": 91
+      },
+      "origin": {
+        "type": "top-left",
+        "x": 0,
+        "y": 0
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167,
+        167
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "rootResourceId": "building-repair",
+      "idleComponentResourceId": "building-repair-table",
+      "geometry": {
+        "sourceScript": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/build-repair-drawing-animation.py",
+        "mapScale": 0.8,
+        "compositeCanvas": {
+          "width": 310,
+          "height": 163
+        },
+        "compositeOrigin": {
+          "type": "top-left",
+          "x": 0,
+          "y": 0
+        },
+        "rootDisplaySize": {
+          "width": 310,
+          "height": 163
+        },
+        "rootRelativeOffset": [
+          0,
+          0
+        ],
+        "rootCompositeOffset": [
+          0,
+          0
+        ],
+        "idleComponentDisplaySize": {
+          "width": 70,
+          "height": 46
+        },
+        "idleComponentRelativeOffset": [
+          173.60000000000002,
+          108.0
+        ],
+        "idleComponentCompositeOffset": [
+          174,
+          108
+        ],
+        "workingChildSize": {
+          "width": 121,
+          "height": 91
+        },
+        "workingChildRelativeOffset": [
+          148,
+          72
+        ],
+        "workingChildCompositeOffset": [
+          148,
+          72
+        ],
+        "videoTableBox": [
+          200.8163,
+          288.0,
+          760.6531,
+          656.8163
+        ],
+        "targetTableSize": [
+          70.4,
+          46.4
+        ],
+        "animationScale": [
+          0.1257509477981919,
+          0.12580787959274015
+        ]
+      },
+      "sourceFrames": [
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/repair-drawing-runtime-direct-source-sheet.png",
+          "sha256": "F6D2DC22F4BE98CFDFCC977ABAB4043E972B3ADA5338D72D9FF8E66B7DFF4DC2",
+          "bytes": 201283,
+          "width": 968,
+          "height": 91,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/repair-drawing-building-direct-source-sheet.png",
+          "sha256": "7B74C85F66D661B431D01C50E810628526318DD616BC0F68EBD22BFD8BA30011",
+          "bytes": 326034,
+          "width": 2480,
+          "height": 163,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/build-repair-drawing-animation.py",
+          "sha256": "9AE61DE2A4C22E2E716CCF8B49D7B496896F47B404579D7904A836F14C59EF6D",
+          "bytes": 18034
+        }
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-repair-drawing-frame-01",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-01.png",
+          "sha256": "8F2ED37E38A79B111BE8BD66F8C91B13329678507559493881053776BA05DB0A",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            121,
+            91
+          ],
+          "transparentPixels": 523,
+          "partialAlphaPixels": 7596,
+          "opaquePixels": 2892,
+          "edgeAlphaPixels": 420
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-repair-drawing-frame-02",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-02.png",
+          "sha256": "D30170B637F5728DFC24205DA725C8607E0C9E27932A337093313D23CE7B8BAF",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            91
+          ],
+          "transparentPixels": 1032,
+          "partialAlphaPixels": 7073,
+          "opaquePixels": 2906,
+          "edgeAlphaPixels": 297
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-repair-drawing-frame-03",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-03.png",
+          "sha256": "C1D126BD6F65E3DC4A02FFAE2EFA2F00037BF285F514E33A7CB6268D524D7282",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            121,
+            91
+          ],
+          "transparentPixels": 412,
+          "partialAlphaPixels": 7691,
+          "opaquePixels": 2908,
+          "edgeAlphaPixels": 394
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-repair-drawing-frame-04",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-04.png",
+          "sha256": "0B80109907CB84E32C2F54777A34FE8F7A7D64D9BF3EDDAF8081915771B527C5",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            121,
+            91
+          ],
+          "transparentPixels": 1876,
+          "partialAlphaPixels": 6230,
+          "opaquePixels": 2905,
+          "edgeAlphaPixels": 357
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-repair-drawing-frame-05",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-05.png",
+          "sha256": "18FF8718F3A05B5DF54CCD79CDA7F22A271BB885659646C8E2071C2DF6D56630",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            121,
+            91
+          ],
+          "transparentPixels": 261,
+          "partialAlphaPixels": 7850,
+          "opaquePixels": 2900,
+          "edgeAlphaPixels": 392
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-repair-drawing-frame-06",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-06.png",
+          "sha256": "64B1566B7F047E1E76951C0715771E35B04CA6D6DD863A2B8ED8F1A553E749C2",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            121,
+            91
+          ],
+          "transparentPixels": 559,
+          "partialAlphaPixels": 7562,
+          "opaquePixels": 2890,
+          "edgeAlphaPixels": 400
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-repair-drawing-frame-07",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-07.png",
+          "sha256": "079105A8E1AC0901E51073ACB6C8E5174346EA396F9AE429B55C391C18B23325",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            121,
+            91
+          ],
+          "transparentPixels": 189,
+          "partialAlphaPixels": 7921,
+          "opaquePixels": 2901,
+          "edgeAlphaPixels": 415
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-repair-drawing-frame-08",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/frames/frame-08.png",
+          "sha256": "B8B0FEB12888B318049908BD09BBDDEFAA0C0AA7C43B237F76C550D07B1F1F65",
+          "durationMs": 167,
+          "canvas": {
+            "width": 121,
+            "height": 91
+          },
+          "mode": "RGBA",
+          "width": 121,
+          "height": 91,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            121,
+            91
+          ],
+          "transparentPixels": 1553,
+          "partialAlphaPixels": 6553,
+          "opaquePixels": 2905,
+          "edgeAlphaPixels": 345
+        }
+      ],
+      "sheet": {
+        "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/repair-drawing-sheet.png",
+        "sha256": "F6D2DC22F4BE98CFDFCC977ABAB4043E972B3ADA5338D72D9FF8E66B7DFF4DC2",
+        "bytes": 201283,
+        "width": 968,
+        "height": 91,
+        "mode": "RGBA"
+      },
+      "reviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/repair-drawing-loop-4x.gif",
+      "acceptedCompositeBaseline": {
+        "runtimeSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/repair-drawing-runtime-direct-source-sheet.png",
+          "sha256": "F6D2DC22F4BE98CFDFCC977ABAB4043E972B3ADA5338D72D9FF8E66B7DFF4DC2",
+          "bytes": 201283,
+          "width": 968,
+          "height": 91,
+          "mode": "RGBA"
+        },
+        "buildingSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/repair-drawing-building-direct-source-sheet.png",
+          "sha256": "7B74C85F66D661B431D01C50E810628526318DD616BC0F68EBD22BFD8BA30011",
+          "bytes": 326034,
+          "width": 2480,
+          "height": 163,
+          "mode": "RGBA"
+        },
+        "expectedHashes": {
+          "runtimeSheet": "F6D2DC22F4BE98CFDFCC977ABAB4043E972B3ADA5338D72D9FF8E66B7DFF4DC2",
+          "buildingSheet": "7B74C85F66D661B431D01C50E810628526318DD616BC0F68EBD22BFD8BA30011"
+        }
+      },
+      "recomposedPreview": {
+        "sheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/repair-drawing/repair-drawing-recomposed-building-sheet.png",
+          "sha256": "7B74C85F66D661B431D01C50E810628526318DD616BC0F68EBD22BFD8BA30011",
+          "bytes": 326034,
+          "width": 2480,
+          "height": 163,
+          "mode": "RGBA"
+        },
+        "reviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/repair-drawing-recomposed-building-loop-4x.gif",
+        "pixelMatchAcceptedComposite": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        }
+      }
+    },
+    {
+      "animationId": "facility.lumber-grove.working",
+      "facilityId": "lumber-grove",
+      "operationId": "lumber",
+      "canvas": {
+        "width": 116,
+        "height": 87
+      },
+      "origin": {
+        "type": "top-left",
+        "x": 0,
+        "y": 0
+      },
+      "frameCount": 8,
+      "frameDurationsMs": [
+        167,
+        208,
+        208,
+        208,
+        208,
+        167,
+        208,
+        208
+      ],
+      "loop": true,
+      "effectsBaked": true,
+      "audioResourceId": null,
+      "fallbackVisualGroup": "idle",
+      "rootResourceId": "building-lumber-root-no-stump",
+      "idleComponentResourceId": "building-lumber-stump",
+      "geometry": {
+        "sourceScript": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/build-lumber-direct-animation-preview.py",
+        "mapScale": 0.8,
+        "compositeCanvas": {
+          "width": 306,
+          "height": 140
+        },
+        "compositeOrigin": {
+          "type": "top-left",
+          "x": 0,
+          "y": 0
+        },
+        "rootDisplaySize": {
+          "width": 306,
+          "height": 139
+        },
+        "rootRelativeOffset": [
+          0,
+          0
+        ],
+        "rootCompositeOffset": [
+          0,
+          0
+        ],
+        "idleComponentDisplaySize": {
+          "width": 53,
+          "height": 36
+        },
+        "idleComponentRelativeOffset": [
+          127.2,
+          104.0
+        ],
+        "idleComponentCompositeOffset": [
+          127,
+          104
+        ],
+        "workingChildSize": {
+          "width": 116,
+          "height": 87
+        },
+        "workingChildRelativeOffset": [
+          73,
+          58
+        ],
+        "workingChildCompositeOffset": [
+          73,
+          58
+        ],
+        "videoStumpBox": [
+          452.4255,
+          382.9787,
+          890.5532,
+          681.7021
+        ],
+        "targetStumpSize": [
+          52.8,
+          36.0
+        ],
+        "animationScale": [
+          0.1205128205128205,
+          0.12051282051282053
+        ],
+        "sourceFrameIndices": [
+          34,
+          38,
+          43,
+          48,
+          53,
+          58,
+          62,
+          67
+        ]
+      },
+      "sourceFrames": [
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-runtime-direct-source-sheet.png",
+          "sha256": "B4CABBB27AE7DE93E8D879ABE7DCC04296CB32CFD0DD9334B84F744AAAA6050D",
+          "bytes": 205797,
+          "width": 928,
+          "height": 87,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-building-direct-source-sheet.png",
+          "sha256": "60ACFA5F9EC5414E5FD7005C94591DC840F0AD0DAB7EFCAF7A1B48ADB149EE94",
+          "bytes": 282757,
+          "width": 2448,
+          "height": 140,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-direct-source-manifest.json",
+          "sha256": "67CE401683511DA9151A3F71C7A92EE672A79128A913C57F36707CD6B42624A2",
+          "bytes": 1507
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/build-lumber-direct-animation-preview.py",
+          "sha256": "955E2B455A1BDBBAD915C13E156596443B2B4BF3801DD78F58AE82630F0E35AC",
+          "bytes": 7268
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-yard-body-source.png",
+          "sha256": "929D9F9D2AE18486441373567CAB22778DC3B7341D24C0FA199E24E5EF6E28B0",
+          "bytes": 326986,
+          "width": 539,
+          "height": 245,
+          "mode": "RGBA"
+        },
+        {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-stump-source.png",
+          "sha256": "3375DE5C8E1966C497F5E3CCDE51B94E1A98877E1416770307175C099F350AAF",
+          "bytes": 7391,
+          "width": 66,
+          "height": 45,
+          "mode": "RGBA"
+        }
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "resourceId": "facility-lumber-chopping-frame-01",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-01.png",
+          "sha256": "FEE8823C0DD1E308D21DC8FD9642A67B959E7DD2BE8776AAE11FC0AB2E46A3A5",
+          "durationMs": 167,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 2475,
+          "partialAlphaPixels": 4485,
+          "opaquePixels": 3132,
+          "edgeAlphaPixels": 234
+        },
+        {
+          "frame": 2,
+          "resourceId": "facility-lumber-chopping-frame-02",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-02.png",
+          "sha256": "FE06CF329FEBE42C629C684A6D2311774FEFA2ABBD915A4FC8E2D6283AADB76E",
+          "durationMs": 208,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 1634,
+          "partialAlphaPixels": 5312,
+          "opaquePixels": 3146,
+          "edgeAlphaPixels": 272
+        },
+        {
+          "frame": 3,
+          "resourceId": "facility-lumber-chopping-frame-03",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-03.png",
+          "sha256": "DDA81520A45C6EB780C2B3F072B7BE15C2B2B2BAF29D4491E2023F7336CEEB06",
+          "durationMs": 208,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 1017,
+          "partialAlphaPixels": 5937,
+          "opaquePixels": 3138,
+          "edgeAlphaPixels": 320
+        },
+        {
+          "frame": 4,
+          "resourceId": "facility-lumber-chopping-frame-04",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-04.png",
+          "sha256": "139EB9FB2A91656663DA8ED56BE35C365E9C8238BDA246EFBCFE60C39EC29BA3",
+          "durationMs": 208,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 201,
+          "partialAlphaPixels": 6784,
+          "opaquePixels": 3107,
+          "edgeAlphaPixels": 392
+        },
+        {
+          "frame": 5,
+          "resourceId": "facility-lumber-chopping-frame-05",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-05.png",
+          "sha256": "855D890C99C3D58CC1CBE16016E67B39516C7D25D3CE8296A095FBC27DA8B92E",
+          "durationMs": 208,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 391,
+          "partialAlphaPixels": 6598,
+          "opaquePixels": 3103,
+          "edgeAlphaPixels": 363
+        },
+        {
+          "frame": 6,
+          "resourceId": "facility-lumber-chopping-frame-06",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-06.png",
+          "sha256": "D94CC3256C6316ED49AC96DF6B9692742BEE1E291978248B5C23662D7C68AA20",
+          "durationMs": 167,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 353,
+          "partialAlphaPixels": 6624,
+          "opaquePixels": 3115,
+          "edgeAlphaPixels": 357
+        },
+        {
+          "frame": 7,
+          "resourceId": "facility-lumber-chopping-frame-07",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-07.png",
+          "sha256": "2B89A9C50888EC0296A81392B1AA5FC7F08375C014A5800D46F224E6BF70861E",
+          "durationMs": 208,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 108,
+          "partialAlphaPixels": 6841,
+          "opaquePixels": 3143,
+          "edgeAlphaPixels": 395
+        },
+        {
+          "frame": 8,
+          "resourceId": "facility-lumber-chopping-frame-08",
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/frames/frame-08.png",
+          "sha256": "88C7EE782992480E2543C295B18458F30A59A32E2FC34AAB08FE78A9DDB9CBFA",
+          "durationMs": 208,
+          "canvas": {
+            "width": 116,
+            "height": 87
+          },
+          "mode": "RGBA",
+          "width": 116,
+          "height": 87,
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "alphaBbox": [
+            0,
+            0,
+            116,
+            87
+          ],
+          "transparentPixels": 1170,
+          "partialAlphaPixels": 5771,
+          "opaquePixels": 3151,
+          "edgeAlphaPixels": 318
+        }
+      ],
+      "sheet": {
+        "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/lumber-chopping-sheet.png",
+        "sha256": "B4CABBB27AE7DE93E8D879ABE7DCC04296CB32CFD0DD9334B84F744AAAA6050D",
+        "bytes": 205797,
+        "width": 928,
+        "height": 87,
+        "mode": "RGBA"
+      },
+      "reviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/lumber-chopping-loop-4x.gif",
+      "acceptedCompositeBaseline": {
+        "runtimeSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-runtime-direct-source-sheet.png",
+          "sha256": "B4CABBB27AE7DE93E8D879ABE7DCC04296CB32CFD0DD9334B84F744AAAA6050D",
+          "bytes": 205797,
+          "width": 928,
+          "height": 87,
+          "mode": "RGBA"
+        },
+        "buildingSheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-building-direct-source-sheet.png",
+          "sha256": "60ACFA5F9EC5414E5FD7005C94591DC840F0AD0DAB7EFCAF7A1B48ADB149EE94",
+          "bytes": 282757,
+          "width": 2448,
+          "height": 140,
+          "mode": "RGBA"
+        },
+        "expectedHashes": {
+          "runtimeSheet": "B4CABBB27AE7DE93E8D879ABE7DCC04296CB32CFD0DD9334B84F744AAAA6050D",
+          "buildingSheet": "60ACFA5F9EC5414E5FD7005C94591DC840F0AD0DAB7EFCAF7A1B48ADB149EE94"
+        }
+      },
+      "recomposedPreview": {
+        "sheet": {
+          "path": "assets/art/facility-member-visuals/v0.4.0/facility-work-animations/lumber-chopping/lumber-chopping-recomposed-building-sheet.png",
+          "sha256": "60ACFA5F9EC5414E5FD7005C94591DC840F0AD0DAB7EFCAF7A1B48ADB149EE94",
+          "bytes": 282757,
+          "width": 2448,
+          "height": 140,
+          "mode": "RGBA"
+        },
+        "reviewLoop": "assets/art/facility-member-visuals/v0.4.0/review/lumber-chopping-recomposed-building-loop-4x.gif",
+        "pixelMatchAcceptedComposite": {
+          "passed": true,
+          "mismatchedFrames": [],
+          "maxDifferingPixels": 0
+        }
+      }
+    }
+  ],
+  "sourceRecords": [
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-building-shadow-restored-sheet.png",
+      "sha256": "586C3A1E7FA5ECAF2F821C632CD4DB8498B31DF4BFEAD3B5442EB002B121AC74",
+      "bytes": 417177,
+      "width": 2224,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        54,
+        24,
+        2200,
+        1000
+      ],
+      "transparentPixels": 1038912,
+      "partialAlphaPixels": 123412,
+      "opaquePixels": 1115052,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-building-shadow-restored.png",
+      "sha256": "3A6D888D1CA67E26F68723959C0BE79B487F0B8939FD08E55F2C75226BFCD4B4",
+      "bytes": 933368,
+      "width": 278,
+      "height": 256,
+      "mode": "RGBA",
+      "frameCount": 8
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-forging-loop-shadow-restored.png",
+      "sha256": "379A0C7073D6C9A1900344B9B8AE27D04C6A7552E2C8CC5E64F845739A94AD4A",
+      "bytes": 215958,
+      "width": 120,
+      "height": 89,
+      "mode": "RGBA",
+      "frameCount": 8
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/blacksmith-idle-runtime-composite.png",
+      "sha256": "8363F71375BEEDE696FF90BDE815C953E632F20A2BF4AFA609033EBC7B6B1AF2",
+      "bytes": 113616,
+      "width": 278,
+      "height": 256,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        30,
+        12,
+        266,
+        244
+      ],
+      "transparentPixels": 32782,
+      "partialAlphaPixels": 3853,
+      "opaquePixels": 34533,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/build-blacksmith-forging-cleaned.py",
+      "sha256": "B6B312BC03089119620F0C7B66DD0937C86EB23E8332BF5ED2D3F27A79A5A386",
+      "bytes": 5418
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-01.png",
+      "sha256": "950D31769D48DDC3FB9FD8423D6F3B3FAFF3490E7999099CE83537E60B14EDDC",
+      "bytes": 644824,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        116,
+        24,
+        766,
+        720
+      ],
+      "transparentPixels": 448563,
+      "partialAlphaPixels": 52739,
+      "opaquePixels": 189898,
+      "edgeAlphaPixels": 68
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-02.png",
+      "sha256": "FD6C8F403F128C583CFB37C524D4206000D20777A0DEB00131541FB09DDB63D9",
+      "bytes": 786583,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        120,
+        27,
+        766,
+        720
+      ],
+      "transparentPixels": 441202,
+      "partialAlphaPixels": 58329,
+      "opaquePixels": 191669,
+      "edgeAlphaPixels": 17
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-03.png",
+      "sha256": "CC9C21C8BF439CB2E3D3B807D198A92716BEF772B69A1387F488359CF419F8BD",
+      "bytes": 751027,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        106,
+        27,
+        764,
+        720
+      ],
+      "transparentPixels": 441138,
+      "partialAlphaPixels": 58638,
+      "opaquePixels": 191424,
+      "edgeAlphaPixels": 52
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-04.png",
+      "sha256": "E9D6DCF77A2297AE667EB35A865EFFC67EEBFCBC0427005F3490EC78860DE8E4",
+      "bytes": 838920,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        120,
+        24,
+        764,
+        720
+      ],
+      "transparentPixels": 443283,
+      "partialAlphaPixels": 62833,
+      "opaquePixels": 185084,
+      "edgeAlphaPixels": 152
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-05.png",
+      "sha256": "65E3C7DF11076593F357A96422DCF8159C7891AB5F2212A423F24A0A6AB6BF93",
+      "bytes": 846623,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        120,
+        32,
+        764,
+        720
+      ],
+      "transparentPixels": 459754,
+      "partialAlphaPixels": 56592,
+      "opaquePixels": 174854,
+      "edgeAlphaPixels": 45
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-06.png",
+      "sha256": "FD5192095D3BA7706E16589E7864AB099F694E884A2E6912D311C64E4B222D20",
+      "bytes": 760331,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        120,
+        26,
+        764,
+        720
+      ],
+      "transparentPixels": 447818,
+      "partialAlphaPixels": 66475,
+      "opaquePixels": 176907,
+      "edgeAlphaPixels": 120
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-07.png",
+      "sha256": "E0A35D924735A5F4E1FEA90E070BA55BA83BAC3B7AE19CFC0094FEBF9DD2B7B1",
+      "bytes": 891442,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        120,
+        24,
+        764,
+        720
+      ],
+      "transparentPixels": 436253,
+      "partialAlphaPixels": 78523,
+      "opaquePixels": 176424,
+      "edgeAlphaPixels": 139
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/blacksmith/forging-alpha-cleanup-role-shadow-restored/frame-08.png",
+      "sha256": "CCDF60E1FBC9E3A31918CAA39FC7AD74DB3447892910A31AEF336EBEE8F37601",
+      "bytes": 812954,
+      "width": 960,
+      "height": 720,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        120,
+        26,
+        765,
+        720
+      ],
+      "transparentPixels": 447702,
+      "partialAlphaPixels": 56274,
+      "opaquePixels": 187224,
+      "edgeAlphaPixels": 80
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/build-lumber-direct-animation-preview.py",
+      "sha256": "955E2B455A1BDBBAD915C13E156596443B2B4BF3801DD78F58AE82630F0E35AC",
+      "bytes": 7268
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-building-direct-source-sheet.png",
+      "sha256": "60ACFA5F9EC5414E5FD7005C94591DC840F0AD0DAB7EFCAF7A1B48ADB149EE94",
+      "bytes": 282757,
+      "width": 2448,
+      "height": 140,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        2448,
+        140
+      ],
+      "transparentPixels": 94666,
+      "partialAlphaPixels": 22072,
+      "opaquePixels": 225982,
+      "edgeAlphaPixels": 710
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-direct-source-manifest.json",
+      "sha256": "67CE401683511DA9151A3F71C7A92EE672A79128A913C57F36707CD6B42624A2",
+      "bytes": 1507
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-animation-runtime-direct-source-sheet.png",
+      "sha256": "B4CABBB27AE7DE93E8D879ABE7DCC04296CB32CFD0DD9334B84F744AAAA6050D",
+      "bytes": 205797,
+      "width": 928,
+      "height": 87,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        928,
+        87
+      ],
+      "transparentPixels": 7349,
+      "partialAlphaPixels": 48352,
+      "opaquePixels": 25035,
+      "edgeAlphaPixels": 1500
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-stump-source.png",
+      "sha256": "3375DE5C8E1966C497F5E3CCDE51B94E1A98877E1416770307175C099F350AAF",
+      "bytes": 7391,
+      "width": 66,
+      "height": 45,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        66,
+        45
+      ],
+      "transparentPixels": 823,
+      "partialAlphaPixels": 565,
+      "opaquePixels": 1582,
+      "edgeAlphaPixels": 74
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/lumber/lumber-yard-body-source.png",
+      "sha256": "929D9F9D2AE18486441373567CAB22778DC3B7341D24C0FA199E24E5EF6E28B0",
+      "bytes": 326986,
+      "width": 539,
+      "height": 245,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        539,
+        245
+      ],
+      "transparentPixels": 36181,
+      "partialAlphaPixels": 8716,
+      "opaquePixels": 87158,
+      "edgeAlphaPixels": 206
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/build-repair-drawing-animation.py",
+      "sha256": "9AE61DE2A4C22E2E716CCF8B49D7B496896F47B404579D7904A836F14C59EF6D",
+      "bytes": 18034
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/repair-drawing-building-direct-source-sheet.png",
+      "sha256": "7B74C85F66D661B431D01C50E810628526318DD616BC0F68EBD22BFD8BA30011",
+      "bytes": 326034,
+      "width": 2480,
+      "height": 163,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        1,
+        0,
+        2480,
+        163
+      ],
+      "transparentPixels": 92487,
+      "partialAlphaPixels": 53505,
+      "opaquePixels": 258248,
+      "edgeAlphaPixels": 1052
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/accepted-work-composites/repair/repair-drawing-runtime-direct-source-sheet.png",
+      "sha256": "F6D2DC22F4BE98CFDFCC977ABAB4043E972B3ADA5338D72D9FF8E66B7DFF4DC2",
+      "bytes": 201283,
+      "width": 968,
+      "height": 91,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        968,
+        91
+      ],
+      "transparentPixels": 6405,
+      "partialAlphaPixels": 58476,
+      "opaquePixels": 23207,
+      "edgeAlphaPixels": 1932
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/artisan-front-source.png",
+      "sha256": "ABAD1168E1E7BE1F0F537F30889C3A10332A624D682C933396FC3FCE207F1FD1",
+      "bytes": 123075,
+      "width": 226,
+      "height": 403,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        226,
+        403
+      ],
+      "transparentPixels": 29543,
+      "partialAlphaPixels": 1664,
+      "opaquePixels": 59871,
+      "edgeAlphaPixels": 182
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/ranger-front-source.png",
+      "sha256": "E1AB8994622D20EFDEAEC6069F66AD1592503B54540F0723FDD588FE632E240B",
+      "bytes": 119443,
+      "width": 230,
+      "height": 403,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        230,
+        403
+      ],
+      "transparentPixels": 30200,
+      "partialAlphaPixels": 1607,
+      "opaquePixels": 60883,
+      "edgeAlphaPixels": 104
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/recruit-front-source.png",
+      "sha256": "04DD1F9FFCE368E59F8C0A2A357CC151988475F7845BB2A6CC907E128B210914",
+      "bytes": 111202,
+      "width": 205,
+      "height": 389,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        205,
+        389
+      ],
+      "transparentPixels": 24203,
+      "partialAlphaPixels": 1664,
+      "opaquePixels": 53878,
+      "edgeAlphaPixels": 152
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/role-front-2-copy.png",
+      "sha256": "3432AF2F41E7EB167E29C62F95E7AF7EA74E3E82FBDB1BA087B5D0FB82E4F9F9",
+      "bytes": 781842,
+      "width": 1900,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        50,
+        177,
+        1792,
+        625
+      ],
+      "transparentPixels": 1294255,
+      "partialAlphaPixels": 9893,
+      "opaquePixels": 381152,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/front/steward-front-source.png",
+      "sha256": "69B50F0282DFBFB6EDDF2B1E6F2C8E8C5EB8D33964AB811F9341778D89969E9D",
+      "bytes": 99253,
+      "width": 193,
+      "height": 395,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        193,
+        395
+      ],
+      "transparentPixels": 24888,
+      "partialAlphaPixels": 1533,
+      "opaquePixels": 49814,
+      "edgeAlphaPixels": 151
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-01.png",
+      "sha256": "689E02A9D46090EEA394494D26F97FFD510EC19E609B41EB970FFF266495BCF1",
+      "bytes": 8068,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        15,
+        6,
+        56,
+        77
+      ],
+      "transparentPixels": 2875,
+      "partialAlphaPixels": 45,
+      "opaquePixels": 1662,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-02.png",
+      "sha256": "9E8E53BBAF876AEFA477A964097E8DF7BE785A427855251A4C2056B262CD784C",
+      "bytes": 7993,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        18,
+        7,
+        56,
+        77
+      ],
+      "transparentPixels": 2899,
+      "partialAlphaPixels": 46,
+      "opaquePixels": 1637,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-03.png",
+      "sha256": "54458645F4341695C0D03CF214776755A4BFB74EEAC598B8D33F9A098F211853",
+      "bytes": 7905,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        22,
+        6,
+        55,
+        77
+      ],
+      "transparentPixels": 2929,
+      "partialAlphaPixels": 31,
+      "opaquePixels": 1622,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-04.png",
+      "sha256": "9D8A1E329CD1271D2F8104283262AFBE9BE4F7A00828C3EE89BEAB65F76B9986",
+      "bytes": 8154,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        18,
+        6,
+        55,
+        77
+      ],
+      "transparentPixels": 2817,
+      "partialAlphaPixels": 29,
+      "opaquePixels": 1736,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-05.png",
+      "sha256": "F287A046B6DBB29E934A7032EF3392454175B68A287976EB994E25B0CB0E9C07",
+      "bytes": 8467,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        16,
+        7,
+        55,
+        78
+      ],
+      "transparentPixels": 2749,
+      "partialAlphaPixels": 38,
+      "opaquePixels": 1795,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-06.png",
+      "sha256": "07F9BB02D9BB981F8D25A4FAE673CFE35EB2B1C0927CAA8CC4D03DCFB40F7949",
+      "bytes": 8370,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        17,
+        7,
+        55,
+        78
+      ],
+      "transparentPixels": 2781,
+      "partialAlphaPixels": 43,
+      "opaquePixels": 1758,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-07.png",
+      "sha256": "E8AC5370938201C3277DF716222E9378F8BA549D1DD131FC10DD517FDD8AAA05",
+      "bytes": 7904,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        20,
+        6,
+        55,
+        78
+      ],
+      "transparentPixels": 2917,
+      "partialAlphaPixels": 41,
+      "opaquePixels": 1624,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/characters/recruit-walk-west-v0.3.1/frame-08.png",
+      "sha256": "39AAEE43FE41135667145A74AF24C9554B7E5F8C8570C9678DCC8C1FB1607607",
+      "bytes": 8016,
+      "width": 58,
+      "height": 79,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        20,
+        6,
+        56,
+        78
+      ],
+      "transparentPixels": 2898,
+      "partialAlphaPixels": 41,
+      "opaquePixels": 1643,
+      "edgeAlphaPixels": 0
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/facility-components/building-blacksmith-anvil.png",
+      "sha256": "62A7294C271AED768BB63713A231439C6B171B96C1ECC0C481E76676097D363F",
+      "bytes": 5725,
+      "width": 54,
+      "height": 38,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        54,
+        38
+      ],
+      "transparentPixels": 339,
+      "partialAlphaPixels": 617,
+      "opaquePixels": 1096,
+      "edgeAlphaPixels": 76
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/facility-components/building-blacksmith.png",
+      "sha256": "4344C973865EE5E013CAE8926A640D1960EF4AB136B19E0B0FE7506667D3877D",
+      "bytes": 175421,
+      "width": 295,
+      "height": 290,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        295,
+        290
+      ],
+      "transparentPixels": 25574,
+      "partialAlphaPixels": 6072,
+      "opaquePixels": 53904,
+      "edgeAlphaPixels": 34
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/facility-components/building-lumber.png",
+      "sha256": "12995844E32B0BE017E98AF3178C65DE5E0676DE8238DA26C9478B7E22336092",
+      "bytes": 147972,
+      "width": 382,
+      "height": 175,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        382,
+        175
+      ],
+      "transparentPixels": 18070,
+      "partialAlphaPixels": 5989,
+      "opaquePixels": 42791,
+      "edgeAlphaPixels": 79
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/facility-components/building-repair-table.png",
+      "sha256": "36E11F35AC093FA20DD031DA01BB7D11B4C15A6B17FC1CFEFDE24167EF60F485",
+      "bytes": 12668,
+      "width": 88,
+      "height": 58,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        0,
+        0,
+        88,
+        58
+      ],
+      "transparentPixels": 1079,
+      "partialAlphaPixels": 1672,
+      "opaquePixels": 2353,
+      "edgeAlphaPixels": 55
+    },
+    {
+      "path": "assets/art/facility-member-visuals/v0.4.0/source/facility-components/building-repair.png",
+      "sha256": "B4B66A74CC78CDE05CAD1645D60467437D11368D7077C95B1B24CC0AFEC55EFA",
+      "bytes": 182109,
+      "width": 387,
+      "height": 204,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBbox": [
+        1,
+        0,
+        387,
+        204
+      ],
+      "transparentPixels": 18451,
+      "partialAlphaPixels": 10018,
+      "opaquePixels": 50479,
+      "edgeAlphaPixels": 44
+    }
+  ],
+  "review": {
+    "memberStatic": "assets/art/facility-member-visuals/v0.4.0/review/member-front-static-4x-review.png",
+    "portraits": "assets/art/facility-member-visuals/v0.4.0/review/facility-portraits-8x-review.png",
+    "workAnimations": "assets/art/facility-member-visuals/v0.4.0/review/facility-work-animations-4x-review.png",
+    "index": "assets/art/facility-member-visuals/v0.4.0/index.html"
+  }
+}

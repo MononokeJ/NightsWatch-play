@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Night's Watch</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body data-resource-root="." data-resource-mode="production">
+    <main class="game-shell">
+      <section class="stage-band" aria-label="游戏画面">
+        <div class="stage-frame">
+          <header class="top-bar" aria-label="顶部资源栏">
+            <h1 class="sr-only">Night's Watch</h1>
+            <div id="resource-bar" class="resource-bar" aria-label="资源"></div>
+            <div class="controls" aria-label="控制">
+              <span id="save-label" class="save-label" aria-live="polite"></span>
+              <button type="button" id="pause-button" class="hud-icon-button" aria-label="暂停" title="暂停"></button>
+              <button type="button" id="resume-button" class="hud-icon-button resume-control" aria-label="继续" title="继续"></button>
+            </div>
+          </header>
+
+          <div id="scene-surface" class="scene-surface">
+            <canvas id="game-canvas" width="1920" height="1080"></canvas>
+            <div id="facility-entry-layer" class="facility-entry-layer" aria-label="建筑入口"></div>
+            <div id="hud-overlay" class="hud-overlay">
+              <div class="status-band" aria-label="当前状态">
+                <span id="phase-label" class="sr-only">正常经营</span>
+                <span id="castle-label" class="sr-only">城堡 100/100</span>
+                <div id="enemy-status" class="hud-status-module enemy-status-module">
+                  <button type="button" id="enemy-intel-button" class="enemy-intel-button" aria-label="查看下一波敌情" title="查看下一波敌情"></button>
+                  <div class="hud-status-copy">
+                    <span id="enemy-title" class="hud-status-title">第1波次</span>
+                    <strong id="countdown-label" class="hud-status-value">3:00</strong>
+                  </div>
+                </div>
+                <div id="recruit-status" class="hud-status-module recruit-status-module">
+                  <div class="hud-avatar-frame recruit-avatar-frame">
+                    <img id="recruit-avatar" class="hud-avatar-image" alt="">
+                  </div>
+                  <div class="hud-status-copy">
+                    <span class="hud-status-title">新兵</span>
+                    <strong id="recruit-label" class="hud-status-value">3:00</strong>
+                  </div>
+                </div>
+                <span id="population-label" class="sr-only">人口 5/12</span>
+              </div>
+
+              <div id="battle-hud" class="battle-hud" aria-label="战斗信息" hidden></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="review-layers" class="review-layers" aria-label="Runtime layer review" hidden>
+        <label>Scene
+          <select id="review-scenario">
+            <option value="management">Management</option>
+            <option value="patrol">Patrol</option>
+            <option value="prebattle">Prebattle</option>
+            <option value="outbound">Outbound</option>
+            <option value="battle">Battle</option>
+            <option value="management-full-capacity">Full Capacity</option>
+            <option value="idle-wander">Idle Wander</option>
+            <option value="battle-density">Battle Density</option>
+            <option value="report">Report</option>
+            <option value="return">Return</option>
+          </select>
+        </label>
+        <label><input type="checkbox" data-layer="terrain" checked> Terrain</label>
+        <label><input type="checkbox" data-layer="rear" checked> Rear</label>
+        <label><input type="checkbox" data-layer="scene" checked> Scene</label>
+        <label><input type="checkbox" data-layer="foreground" checked> Foreground</label>
+        <label><input type="checkbox" data-layer="effects" checked> FX</label>
+        <label><input type="checkbox" data-layer="world-ui" checked> World UI</label>
+      </section>
+
+      <section id="main-menu" class="overlay-panel" aria-label="主菜单">
+        <div class="panel-surface">
+          <h2>Night's Watch</h2>
+          <p id="menu-message" class="panel-message" aria-live="polite"></p>
+          <div class="panel-actions">
+            <button type="button" id="new-campaign-button">新战役</button>
+            <button type="button" id="continue-button">继续游戏</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="pause-panel" class="overlay-panel" aria-label="暂停" hidden>
+        <div class="panel-surface">
+          <h2>暂停</h2>
+          <div class="panel-actions">
+            <button type="button" id="resume-panel-button">继续</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="management-panel" class="dock-panel" aria-label="管理面板" hidden>
+        <div class="panel-surface management-surface">
+          <header class="management-head">
+            <h2 id="management-title">成员与工作</h2>
+            <button type="button" id="management-close-button" class="icon-button" aria-label="关闭">×</button>
+          </header>
+          <p id="management-message" class="panel-message" aria-live="polite"></p>
+          <div id="management-tabs" class="tab-row"></div>
+          <div id="management-body" class="management-body"></div>
+        </div>
+      </section>
+
+      <section id="confirm-panel" class="overlay-panel confirm-overlay" aria-label="确认" hidden>
+        <div class="panel-surface confirm-surface">
+          <h2 id="confirm-title">确认</h2>
+          <div id="confirm-body" class="confirm-body"></div>
+          <p id="confirm-warning" class="warning"></p>
+          <div class="panel-actions">
+            <button type="button" id="confirm-accept-button">确认</button>
+            <button type="button" id="confirm-cancel-button">取消</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="report-panel" class="overlay-panel" aria-label="战报" hidden>
+        <div class="panel-surface report-surface">
+          <h2 id="report-title">战报</h2>
+          <div id="report-summary" class="report-summary"></div>
+          <div class="panel-actions">
+            <button type="button" id="close-report-button">关闭战报</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="end-panel" class="overlay-panel" aria-label="战役结束" hidden>
+        <div class="panel-surface">
+          <h2 id="end-title">战役结束</h2>
+          <div id="end-summary" class="report-summary end-summary"></div>
+          <div class="panel-actions">
+            <button type="button" id="new-from-end-button">新战役</button>
+            <button type="button" id="return-main-button">返回主菜单</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

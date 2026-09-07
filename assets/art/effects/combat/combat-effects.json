@@ -1,0 +1,225 @@
+{
+    "version":  1,
+    "issue":  4,
+    "generatedAt":  "deterministic",
+    "authoritativeReferences":  {
+                                    "assets/concepts/page-layout-reference/gameplay-battle.png":  "4501CEE533B09E5AE13A3A8DDF099DEE2CCE2F821203F7246CD589776274E388",
+                                    "ART_ASSET_DESIGN.md":  "3A7B73E8071A3AE90712C3B8E757A1BFA00DF402B0F4E59F7B0BF657C5C7A488",
+                                    "GAME_DESIGN.md":  "3D57A81D8E040D384526E168CF4D6A6E480AC574D86F8D93EA29F365AE0E7834"
+                                },
+    "frameWidth":  32,
+    "frameHeight":  32,
+    "file":  "assets/art/effects/combat/combat-effects.png",
+    "effects":  {
+                    "meleeHit":  {
+                                     "fps":  12,
+                                     "layer":  "world-effect-above-units",
+                                     "row":  0,
+                                     "frames":  3,
+                                     "durationSeconds":  0.25,
+                                     "mergeRule":  "once-per-target-per-render-frame",
+                                     "anchor":  "attack-contact-point",
+                                     "playback":  "one-shot"
+                                 },
+                    "castleHit":  {
+                                      "fps":  8,
+                                      "layer":  "world-effect-above-castle",
+                                      "row":  1,
+                                      "frames":  4,
+                                      "durationSeconds":  0.5,
+                                      "anchor":  "castle-hit-anchor",
+                                      "playback":  "one-shot",
+                                      "includes":  [
+                                                       "stone-chips",
+                                                       "local-smoke"
+                                                   ]
+                                  },
+                    "defenderHealthBar":  {
+                                              "shownWhen":  [
+                                                                "battle-in-field",
+                                                                "nonbattle-injured-only"
+                                                            ],
+                                              "width":  24,
+                                              "samples":  4,
+                                              "row":  2,
+                                              "height":  3,
+                                              "removedAfterDownAnimation":  true,
+                                              "anchor":  "head-top-center-minus-2px",
+                                              "noBobbingWithIdle":  true
+                                          },
+                    "enemyHealthBar":  {
+                                           "samples":  4,
+                                           "height":  3,
+                                           "removedAfterDownAnimation":  true,
+                                           "noColorOnlyFaction":  true,
+                                           "row":  3,
+                                           "noBobbingWithIdle":  true,
+                                           "shownWhen":  [
+                                                             "battle-in-field"
+                                                         ],
+                                           "anchor":  "head-top-center-minus-2px",
+                                           "width":  24,
+                                           "enemyNotch":  "dark-red-side-notches"
+                                       },
+                    "castleDurabilityNumber":  {
+                                                   "instantStateSwitch":  true,
+                                                   "noFloatingRepair":  true,
+                                                   "spriteRow":  null,
+                                                   "anchor":  "west-gatehouse-durability-number",
+                                                   "type":  "runtime-text-anchor",
+                                                   "noBar":  true,
+                                                   "format":  "城堡 current/max"
+                                               },
+                    "downRemoval":  {
+                                        "lowSaturationHoldSeconds":  0.5,
+                                        "usesCharacterDownAnimation":  true,
+                                        "removeHealthBarAfterDown":  true,
+                                        "noPermanentDeathHint":  true,
+                                        "fps":  8,
+                                        "frames":  5
+                                    },
+                    "arrow":  {
+                                  "row":  4,
+                                  "frames":  4,
+                                  "fps":  12,
+                                  "durationSeconds":  0.33,
+                                  "playback":  "one-shot",
+                                  "anchor":  "weapon-release-anchor",
+                                  "targetAnchor":  "target-body-center",
+                                  "layer":  "world-projectile-above-units",
+                                  "artOnly":  true,
+                                  "noDamageRangeAmmoOrTargetingLogic":  true
+                              },
+                    "rangedHit":  {
+                                      "row":  5,
+                                      "frames":  4,
+                                      "fps":  12,
+                                      "durationSeconds":  0.33,
+                                      "playback":  "one-shot",
+                                      "anchor":  "target-hit-anchor",
+                                      "targetAnchor":  "target-body-center",
+                                      "layer":  "world-effect-above-units",
+                                      "includes":  [
+                                                       "arrow-stem",
+                                                       "small-dust"
+                                                   ],
+                                      "artOnly":  true,
+                                      "noDamageRangeAmmoOrTargetingLogic":  true
+                                  }
+                },
+    "anchors":  {
+                    "attackContact":  {
+                                          "defenderWest":  {
+                                                               "y":  23,
+                                                               "x":  10
+                                                           },
+                                          "enemyEast":  {
+                                                            "y":  23,
+                                                            "x":  22
+                                                        }
+                                      },
+                    "healthBar":  {
+                                      "offsetY":  -2,
+                                      "anchor":  "head-top-center",
+                                      "width":  24,
+                                      "height":  3
+                                  },
+                    "castleHit":  {
+                                      "y":  206,
+                                      "source":  "assets/concepts/page-layout-reference/gameplay-battle.png",
+                                      "x":  456
+                                  },
+                    "castleDurability":  {
+                                             "y":  130,
+                                             "source":  "west-gatehouse",
+                                             "mode":  "top-center",
+                                             "x":  456
+                                         },
+                    "unitHit":  {
+                                    "y":  20,
+                                    "x":  16
+                                },
+                    "arrow":  {
+                                  "weapon":  "enemy-archer.weaponAnchor",
+                                  "target":  "unit.targetAnchor",
+                                  "sampleWeaponPoint":  {
+                                                            "y":  19,
+                                                            "actor":  "enemy-archer-east",
+                                                            "x":  19
+                                                        },
+                                  "sampleTargetPoint":  {
+                                                            "y":  17,
+                                                            "actor":  "target-body-center",
+                                                            "x":  12
+                                                        }
+                              },
+                    "rangedHit":  {
+                                      "target":  "unit.targetAnchor",
+                                      "sampleTargetPoint":  {
+                                                                "y":  17,
+                                                                "actor":  "target-body-center",
+                                                                "x":  12
+                                                            }
+                                  }
+                },
+    "shake":  {
+                  "castleHit":  {
+                                    "maxOffsetLogicalPx":  1,
+                                    "noStacking":  true,
+                                    "cooldownSeconds":  0.3,
+                                    "durationSeconds":  0.1,
+                                    "pauseFreeze":  true,
+                                    "unitHitTriggersShake":  false
+                                }
+              },
+    "rules":  {
+                  "noHealingNumbers":  true,
+                  "noHighlight":  true,
+                  "nearestNeighborOnly":  true,
+                  "compact":  true,
+                  "noRepairPlusOne":  true,
+                  "noUnitSelect":  true,
+                  "noSelectionRing":  true,
+                  "keepsLifeBarsReadableAt12v15":  true,
+                  "noDamageNumbers":  true,
+                  "integerPixelMotion":  true,
+                  "noCastleTransitionAnimation":  true,
+                  "noPermanentDeathHint":  true,
+                  "noCastleDurabilityBar":  true,
+                  "noOutline":  true
+              },
+    "evidence":  {
+                     "validationResult":  "assets/art/effects/combat/validation-result.json",
+                     "differenceChecklist":  "assets/art/effects/combat/difference-checklist.md",
+                     "reviewImage":  "assets/art/effects/combat/combat-effects-review.png",
+                     "review":  "assets/art/effects/index.html"
+                 },
+    "issue43RangedAssets":  {
+                                "issue":  43,
+                                "productVersion":  "v0.2.0",
+                                "baselineAuthorityHashes":  {
+                                                                "GAME_DESIGN.md":  "5BEC8F07F482AC0247C08D654468E2D0BDF23D8F9F464BAB6844C73759F14F10",
+                                                                "ART_ASSET_DESIGN.md":  "86DE2534BEC8A869FC3275F8CE3E58549FF95F5006AA72DA0AEE82AD511D0BC2",
+                                                                "contracts/candidates/v0.2.0/domains/runtime-art/5.0.0.json":  "D9FE814977C60C79B7C8AC811242B36D0390EB3406B1CBEC25104CA5A7B8F41B",
+                                                                "assets/art/characters/runtime/runtime-character-index.json":  "9874B8C064F82544E3EC79C941C84D1B86C195478FEF751D29F5688884E16452",
+                                                                "assets/art/effects/combat/combat-effects.json":  "4363FEF80C215344138EA34FB72CC6BE92F343D0B69CE7C15563DC51A4903932"
+                                                            },
+                                "spriteSheet":  "assets/art/effects/combat/combat-effects.png",
+                                "addedRows":  [
+                                                  {
+                                                      "effect":  "arrow",
+                                                      "weaponAnchor":  "weapon-release-anchor",
+                                                      "frames":  4,
+                                                      "row":  4,
+                                                      "targetAnchor":  "target-body-center"
+                                                  },
+                                                  {
+                                                      "effect":  "rangedHit",
+                                                      "frames":  4,
+                                                      "row":  5,
+                                                      "targetAnchor":  "target-body-center"
+                                                  }
+                                              ],
+                                "artOnlyNoDamageRangeAmmoOrTargetingLogic":  true
+                            }
+}

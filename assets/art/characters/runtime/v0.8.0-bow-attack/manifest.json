@@ -1,0 +1,2186 @@
+{
+  "format": "nights-watch-bow-attack",
+  "version": 1,
+  "issue": 72,
+  "cycleMs": 1620,
+  "releaseMs": 890,
+  "releaseFrame": 10,
+  "characters": {
+    "recruit": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "E44185CD2D41804A1480B6C95F7DF6B98AF9A4BE0107CEC7F9C4F83AB982FB63",
+            "sourceSha256": "AE339A9FC81EC00D4FECC10F40665D8F5E5C59C991C7D78E485BBFB6A442FA09"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "15A150AA1415D5B0C2C08E3D0A06BA583112F5E94CA36873B2ADF38B7A9C0EE0",
+            "sourceSha256": "77EA7A58746CC79BE53AC882372FDF06CF6687AB5AC9205C29B529A4C42FDCDD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "8FD2E196ED58B1919583089B21D49426874AFAFC81B746FF8AE3A0E505E8D78B",
+            "sourceSha256": "E6EC1659607404C3B365848FE5C1971F93CDCC4A97BF09CFECD9A62C25459F87"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "7B3206BECB0DB238D5F544FDFD28ACE06631664C0AA314E65F14142288CD134E",
+            "sourceSha256": "BAFA091049BA083DC712ED3718EA8D9C54F51D3ABF155C77DC53966A7BFEA01D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "566013FBDB90D4FBFE02A3B19EAB97E7289F2A0314286A4E1779CCB371546253",
+            "sourceSha256": "73808570979EDAE971D47BCD346D28BD7E4326E2503F29B5DFCDBFAFC57B43DE"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "825E6A191A5798091A880989517E032C5FF57862745F29043E5BB7C9B910A34F",
+            "sourceSha256": "B3CB43E854C10C555E8CFC75D80053B09C5B709D879B20D846A19B5A5AF67D99"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "C8C001A931851BDCEFBE6D96AFFC0E7668183572FF7DD53C3149B1B354760C2E",
+            "sourceSha256": "6C936573D1C4E986BB5257850E9059C397ECD9AF08818F83BE1F19317B712923"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "437DCC499D922616D040A1D8441794FE93105645ACD5764737CB7CD8DD13BA7F",
+            "sourceSha256": "0015B0FAD15F4312D9E8E2A0375575CCDADE03712650A5391506DB151DE4571C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "55574179F516A652FBD2893813D17CA178477BC68E58F5DD5292573806A7B530",
+            "sourceSha256": "11222F121C933AB3528FCF5EDC04A0CDE92941D375D3BC3F775FD2758857B9A5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "23B83C1AB78424D300F14857380BAAD96A73E85BB03386CA6350FEF6447DC861",
+            "sourceSha256": "ADDF8D264090B931C81E3ECA0170F79273948F8C4DDE9D09B984D488DCE4C6AC"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "34261255120EF85BDB3C16BAAC19A8A4B452CBDF984464E91AB8A053ACC58100",
+            "sourceSha256": "9FE07321F7E6A98BD1A91CEC4BCE4A6C97A511265D9CEE59000550365E5CD94A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "B4120966F3BED85E4E53080471B67BC3615BA4AD101A12123328EF28F6E32944",
+            "sourceSha256": "2EF9452BFFD0951D8A77B4E4CD1CE0BB5571184A803D30F8E667CF7C8525FAF4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "84811030DA89E4BAF8788AB6B7E9D3A7147A4A42AD4A0A7A60AC92304D108EB6",
+            "sourceSha256": "35C89330D402935569FA835DAD28E6CA2FB7FD5AC3C75EAEC36AC329F50B5F68"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "06707BAE2DA4A5280C9E3F6D49C3FBC020AAB4F2A63FD5D959845B55D4BD18A6",
+            "sourceSha256": "66E663032A9D48029AE627EE38327078CF281F20B40F436A8A1B5DD3DC043F0A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1A7B0F11B36B89337115D58B33679EDF607B56FD6FD5FC24EAB67816B5637770",
+            "sourceSha256": "A918984A869FBAAC261B23A5CBAA146D23A16CA877DB828E7A436C07BAA9C311"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "70257FA72CC78D1BA147501BC72E217B240F7FFE0CA658C54390CD52D64EAB3A",
+            "sourceSha256": "22BE058CF1BC4D72BA8DB754F34D956C473F5FD9C57D3F98941B0CC4F740F854"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "3B956A3DCC21657101687FB602EA869E2BC6D022BE8D34B8764420BB863016DF",
+            "sourceSha256": "033EE1B936952050BF6531485EA7FEAAD280357639C2B766F0B28D1FE07B347D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "D4425632DE9CC0DB2E43C8EAB016077A8654657F5D9D2CE6B9DB90334BBCCD9D",
+            "sourceSha256": "3524FD1C688B8A113C179E6CB7B6A0A587480D3FBA2DB0AA400E456FE0800588"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/recruit/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "E44185CD2D41804A1480B6C95F7DF6B98AF9A4BE0107CEC7F9C4F83AB982FB63",
+            "sourceSha256": "AE339A9FC81EC00D4FECC10F40665D8F5E5C59C991C7D78E485BBFB6A442FA09"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "E792F894D182BC6E7BFD6CEA718F150D33B7421AB49BCDE215DCBFC17EE8DD3F",
+            "sourceSha256": "AE339A9FC81EC00D4FECC10F40665D8F5E5C59C991C7D78E485BBFB6A442FA09"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "7D1D94BA028ED2E0A0E8D401523587A51A92A6F11D78F84605EB24EA25AA6090",
+            "sourceSha256": "77EA7A58746CC79BE53AC882372FDF06CF6687AB5AC9205C29B529A4C42FDCDD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "1CE3FEABAA99D5E3B2BED6E5AF4CF9C37380358FFEFD8B8AEC35EED603A0E17B",
+            "sourceSha256": "E6EC1659607404C3B365848FE5C1971F93CDCC4A97BF09CFECD9A62C25459F87"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "2C676FD53533931DF50B7C4FB58298B386461648F65B8E06973A0A6E76FEA0B4",
+            "sourceSha256": "BAFA091049BA083DC712ED3718EA8D9C54F51D3ABF155C77DC53966A7BFEA01D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6A5032512764BCBFB371ADA2A7955C851024786ACA6C703A48D76286816057BC",
+            "sourceSha256": "73808570979EDAE971D47BCD346D28BD7E4326E2503F29B5DFCDBFAFC57B43DE"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "DE0477439F282ECAA03D637FAF81878A0B957CE9B51C79A6EAE4B812E8655551",
+            "sourceSha256": "B3CB43E854C10C555E8CFC75D80053B09C5B709D879B20D846A19B5A5AF67D99"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "4F485E2D374F5D2B9A8D8884CF4A3B2282E5552D79B45347DA8940C4485EF287",
+            "sourceSha256": "6C936573D1C4E986BB5257850E9059C397ECD9AF08818F83BE1F19317B712923"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "7F0D79397D0E331F3AA4211F1A1A67E1563630177B57321EA3FBAA2B975A7387",
+            "sourceSha256": "0015B0FAD15F4312D9E8E2A0375575CCDADE03712650A5391506DB151DE4571C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "91D5897ACF9805D0AC9204C78CFDFFEF4785BAE8F937FC584B1D57CB955FF613",
+            "sourceSha256": "11222F121C933AB3528FCF5EDC04A0CDE92941D375D3BC3F775FD2758857B9A5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "258CF5A98AF9974C26CBA27896AC4BEA1726E0D3B8F009999EB7B64860B3CB3F",
+            "sourceSha256": "ADDF8D264090B931C81E3ECA0170F79273948F8C4DDE9D09B984D488DCE4C6AC"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "B433BAF8FC34726B06AD68F436C2F57C950CF0F0C899D5146EB514AED76C21E6",
+            "sourceSha256": "9FE07321F7E6A98BD1A91CEC4BCE4A6C97A511265D9CEE59000550365E5CD94A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "F2419A86D86B011268B39F5249C2F2672EAB8F8FF9141D413F1B600027AAC058",
+            "sourceSha256": "2EF9452BFFD0951D8A77B4E4CD1CE0BB5571184A803D30F8E667CF7C8525FAF4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "DEFF1BB2B594F7BA46A56D2CF05C9C41E6B26523627AD249B369BC8B883FE6BE",
+            "sourceSha256": "35C89330D402935569FA835DAD28E6CA2FB7FD5AC3C75EAEC36AC329F50B5F68"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "5628042B57F62B62A50E49E81F053120D70E21BE243228B0AD2D8EB7B7FE58F9",
+            "sourceSha256": "66E663032A9D48029AE627EE38327078CF281F20B40F436A8A1B5DD3DC043F0A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "D6B4969EBEDFAA4D459C115FE9625175315C39200D44B485A91866F864A7E878",
+            "sourceSha256": "A918984A869FBAAC261B23A5CBAA146D23A16CA877DB828E7A436C07BAA9C311"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "08B7DF51687427516440305B7E617104B08BC6D2E537D56E60047E865AAF56A6",
+            "sourceSha256": "22BE058CF1BC4D72BA8DB754F34D956C473F5FD9C57D3F98941B0CC4F740F854"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "BF9C824FF38F406A6E585E2B3E090A655B3C1D865CFB86759001E6C5B35BC706",
+            "sourceSha256": "033EE1B936952050BF6531485EA7FEAAD280357639C2B766F0B28D1FE07B347D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "7D4275093ECEDC3A5580836F30A01135D51845BB9D3A65C5F9B20A6897755448",
+            "sourceSha256": "3524FD1C688B8A113C179E6CB7B6A0A587480D3FBA2DB0AA400E456FE0800588"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/recruit/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "E792F894D182BC6E7BFD6CEA718F150D33B7421AB49BCDE215DCBFC17EE8DD3F",
+            "sourceSha256": "AE339A9FC81EC00D4FECC10F40665D8F5E5C59C991C7D78E485BBFB6A442FA09"
+          }
+        ]
+      }
+    },
+    "artisan": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "D68C9CE333F70460BB73485E10B84711AEB97B08A39E2CC86355DE3E06A0DAFA",
+            "sourceSha256": "259C7C0079D98FF112B7C0445D5A8E78ECC8F2FDB30ADDDA424EFFE68EFCC842"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "C3FCAB28FD28C7FE64D69FE8907EC0B13C28EEF3D215D7D3329DB34CE751547B",
+            "sourceSha256": "AFF25029E70ABF1B595944EBFA8D29F41E6A70CA916060BFDD0C22705707E545"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1C953EC7DAB6520A1C29AA6A49ECAF3234D8A0E4AC8F8EE0243CDD16C0BF20DD",
+            "sourceSha256": "C6F1E7904945082509C22F2A5163D3A2AFF6792FF5862FB3C16501E0A44617E2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "56F9F682D84AA9434D4707E177B228B76FA83CDF6F8137E3E578C26B86DEF3AE",
+            "sourceSha256": "ECF95FF78B0543A02F03960CC528D4DA571A188F8BBFB9FC9A8D9C722A041795"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "6FA45C02F7A8B9544D7D4F057668B9B505625850B6C11EBFFF4CEA1D33F04274",
+            "sourceSha256": "C31D6FD382E3D97E5B165F3997461CA62600C3655A9E26FEEBA6D0F80C7D87F5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "F92A5A4080DF16E24BA991EE5FD1B42155DD46400FC84BF79EF74DCE03D04527",
+            "sourceSha256": "CAE48EE9D7DB6B73542638C4F94B5D0EF53E881F39A2853FFD4F662EBCAAEE80"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "287F27DC08F6C9B4A347BF567FBB93093FCB785DFEA38E098EEA6CF0729F7D70",
+            "sourceSha256": "87A384D796AE27461782C76CE9E4599E1A4ACF271F1A2B4E5B11A824C8D10CAD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "04F06D4466824A441E8081D313443858A33DF533420F79B4AAB04B4791974744",
+            "sourceSha256": "98A2F6E68ABE34B3D76B4472674A46BA952432F49849B0434E77AF5337E16371"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "3715E1C34C59D1F77608BD37C5890A5DCB5F526580D0B372EF80ED9811596251",
+            "sourceSha256": "571E2751505002A5079C230C00B0697D3D3D533CB28529084FD9ED5876C22F4D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1781EEE8D8F8A1033B674D499349454E01F70F9009CDC3B979A85F9314A2EBBA",
+            "sourceSha256": "6636E8511B68C8AD967511D91B57A968CC31804BCEC904FAEE0DA9C78801F7C2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "D15DB8A33CAA787314A29522CF0F6B135983710BF37B16504AA05F9D4EE93AC7",
+            "sourceSha256": "F5D705064516426EE59B2FDAED0161CAC864C90892BF5A07AC3C9D5CFD355F2A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "F9BC8311AA36C718CCD86CD26F0BA7E68BD64B4A5E8627E5925D733E5B02B92B",
+            "sourceSha256": "267EDA58912D58B7FE4D6F0627F3ABA8D2B4319DD85B514F875B177192AC49CE"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "E28BC61C57BD7A7B4F70B66001F6AFB1F7509589AB1F12478B35183C11D0888A",
+            "sourceSha256": "ADD5F3A3CBB80CF5554A68417330BE7126E0BCAD47ADB9740DAA9020FD647415"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "0F57394824F2AC19475D939A3467BEFFB5C66D4B8FC3F9052329FA27A917036F",
+            "sourceSha256": "F675DB7BD548D788573A346411030030C58CFE9CDECE474A3568709B9B49CEA1"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1CA0AE9FF296C6260B0AE1BCA2155C9037D49A144088BC3D90B886BDE83B4116",
+            "sourceSha256": "92097FEEC7E2686FB4EB5C170BA3DCF50B44BF1F899D03B0229F44376402677D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "884B1D8C5D297B659A4A06133A9EB6C335F0DDE00BD4E6300E6D2B446B3BDB82",
+            "sourceSha256": "15162E9DE9F6D54DA5B7281DC5632650A358A8250C78839C3750E143DB5196E5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "EF4F46A860B7A98C3AFA91525F724CFBBC9ED4919CC7943A209239CD9A568FC9",
+            "sourceSha256": "8FA1024EA33AC6FA1554F449C88313E427B1EC0EF43B041528BEEF99037228AD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "E25D85425E01A9F8FA5AE57605ABAAD2B52E07DDCF498E6AB180A780159ACB4D",
+            "sourceSha256": "4935F7384BCAE7E347164D6E61670E377A7A50B338E550DE67BE7A164E83EE92"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/artisan/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "D68C9CE333F70460BB73485E10B84711AEB97B08A39E2CC86355DE3E06A0DAFA",
+            "sourceSha256": "259C7C0079D98FF112B7C0445D5A8E78ECC8F2FDB30ADDDA424EFFE68EFCC842"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "0A2E1F8FCE5DD0B292CB9E1C743CB713506F854B7E1B638EC9F9ECA710C0DC59",
+            "sourceSha256": "259C7C0079D98FF112B7C0445D5A8E78ECC8F2FDB30ADDDA424EFFE68EFCC842"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "C9CC019E9ADE0311DF04DCB96C8BFCA494830375E3372E2CF072C6AE62D716EA",
+            "sourceSha256": "AFF25029E70ABF1B595944EBFA8D29F41E6A70CA916060BFDD0C22705707E545"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "DE283BF5C6317252A75071D9340644A57EDE26778C2D0A082AF5EF1B8A3B256B",
+            "sourceSha256": "C6F1E7904945082509C22F2A5163D3A2AFF6792FF5862FB3C16501E0A44617E2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "2DCD1263F52400D4027AE4608BBD6E7F5B0C0968D34C84E206BEB1E7A600A6E8",
+            "sourceSha256": "ECF95FF78B0543A02F03960CC528D4DA571A188F8BBFB9FC9A8D9C722A041795"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "89B7B5D679D842FE7CA929ACB273E5EA06AECE1413EB82B19AC9D72C1107F9A4",
+            "sourceSha256": "C31D6FD382E3D97E5B165F3997461CA62600C3655A9E26FEEBA6D0F80C7D87F5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "0A6F7B91EDBA7265BE2338CDB59CC176CC17D33AEC04E088C82753F607BFDC1F",
+            "sourceSha256": "CAE48EE9D7DB6B73542638C4F94B5D0EF53E881F39A2853FFD4F662EBCAAEE80"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "A34D6F1EE0B5998B39F54BDF74B72485366A5D8DF97E1EC1D89D96C9A293478B",
+            "sourceSha256": "87A384D796AE27461782C76CE9E4599E1A4ACF271F1A2B4E5B11A824C8D10CAD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "122046617EB9A3847CA9C97B3DD61E5134E7A238145C37CDBEEADA353DF38C7F",
+            "sourceSha256": "98A2F6E68ABE34B3D76B4472674A46BA952432F49849B0434E77AF5337E16371"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "2D87ACE3FAAD8C70B0755B5A3B3625A15CC7CF1CAAB4454367186AFC06B5ED29",
+            "sourceSha256": "571E2751505002A5079C230C00B0697D3D3D533CB28529084FD9ED5876C22F4D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "90F5A6F16AA3F59ACFC04030D519EA5D46358FEAA195E1BD59990B6362FB516A",
+            "sourceSha256": "6636E8511B68C8AD967511D91B57A968CC31804BCEC904FAEE0DA9C78801F7C2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "CC076367001B13ADB5DA7697D3249E5849C00295D9B9248A4F8BD4BB0F6F41A1",
+            "sourceSha256": "F5D705064516426EE59B2FDAED0161CAC864C90892BF5A07AC3C9D5CFD355F2A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6B768B7D457D73BF2D8E145CBBCB8C0D7E2D02313A376F65DADDB179A9BE2E00",
+            "sourceSha256": "267EDA58912D58B7FE4D6F0627F3ABA8D2B4319DD85B514F875B177192AC49CE"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "D36FBC53E1DDA141DA27911BC716709CD997FF9D78B7265272AD8A977FB9056C",
+            "sourceSha256": "ADD5F3A3CBB80CF5554A68417330BE7126E0BCAD47ADB9740DAA9020FD647415"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "B0D903ECD39A3EDFA5D09E6B374C4863FA6BE26EFA89F291BE15599425CFEF81",
+            "sourceSha256": "F675DB7BD548D788573A346411030030C58CFE9CDECE474A3568709B9B49CEA1"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "3AE4AC964A1976D8103D374F2F727D5C630C31E4E80EB251E8C9510F7CD4A404",
+            "sourceSha256": "92097FEEC7E2686FB4EB5C170BA3DCF50B44BF1F899D03B0229F44376402677D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6007422D4AC32C6593EA6B1D5B8EF82E1626B20AFC14A322592031C815746721",
+            "sourceSha256": "15162E9DE9F6D54DA5B7281DC5632650A358A8250C78839C3750E143DB5196E5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6453FE3451F375E6E55C026CCD77A2F2633C070D98DE239C969F265CB31C74FC",
+            "sourceSha256": "8FA1024EA33AC6FA1554F449C88313E427B1EC0EF43B041528BEEF99037228AD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "44E45946D056623AD424C1959C64742570CFED2B4B1C1E4B42AAFCDE2E6E02A6",
+            "sourceSha256": "4935F7384BCAE7E347164D6E61670E377A7A50B338E550DE67BE7A164E83EE92"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/artisan/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "0A2E1F8FCE5DD0B292CB9E1C743CB713506F854B7E1B638EC9F9ECA710C0DC59",
+            "sourceSha256": "259C7C0079D98FF112B7C0445D5A8E78ECC8F2FDB30ADDDA424EFFE68EFCC842"
+          }
+        ]
+      }
+    },
+    "ranger": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1D45B592C624D00919524D063684647DCC051A794F9AAB594F94F30264EA7300",
+            "sourceSha256": "8B6AC2D688BF5A92E63574E164DFAFE979F2CD5B0BCE6460B5205AC0FBF795F5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "484710A9CFBFD10710B021E179EF2BE0A5D0AEF9AD012B5F11703B4D27E0B631",
+            "sourceSha256": "D4285A115078631EBD1568104F4C43BF8E99A1883019599D8C297F2B3119A8A0"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "277417E1E0976C1E0A4CD9E306323BD4E7AE52810938AD45AC408A1DA6F00442",
+            "sourceSha256": "C25FB7EF3E994E3F11FB6EE579BB3D5E6157C34F24A5B5BC756DEE6AC63B5476"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "B8472A25EAFA837981D72402BF8679C188E870623364E8BE812F5BC57A40623E",
+            "sourceSha256": "D83EFC829AC98E644912CD40AC0EC75A9F5B36AFE2CF50579F7F39843AF7BC43"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "5E7AA090892BA3A2048D761723AFED292F7447704B1E3B62CEDAB42AB507CFDC",
+            "sourceSha256": "D0DCF88C240C6B35EFBDA5C142F3F3D347D74B34FABCEA67BAC083B7DC2094D1"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "F9862CBC2E4F05934F87846471B34382BD199CCF60584C43CFC5C2E16BAAFD4E",
+            "sourceSha256": "D64B7B6096EF9CA080503471B340372B79D29C9A28B71C9CEC7A8AB1C752EC8B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "C66396E4CCADE2BDE8F12347A19D8218DCF012C5CAD9BB0249AFB1433F37240E",
+            "sourceSha256": "46D8E96C1B717E84E8EE3A93100FD2556700A569DFA4652FA101FC4CDCE071E5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "B18DAFED94293C3ECD3EBE03C01D82E22E6BA3BE72FB2DA62400F23684A243CF",
+            "sourceSha256": "F15ED52E70ADDE269727D03035C32CC216A0730F51FB235B71BB69AE48EEE3AF"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "A6E0D71F5DB8AAD1AD9B293E7A7CFE18A5BBC0FC724C95B508A181725559F39C",
+            "sourceSha256": "6609301C08C70A57E58ABA836A241BB2B847B7F8532C47B60763525E91F9BBD8"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "421266CF56FE76387ABC3EF43B5AEB25EDAAD8F47902839636038494426555DD",
+            "sourceSha256": "B39F45983E24C5FA6F075FD9F0D6A8486212AAE4F26E74B134BD4AED2E893FDD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "302CC8EB637122881E1DF82FF4590C51DC36D78FA3325B9D786D9F8FEC1448FE",
+            "sourceSha256": "13496B0BD4758D22CE3DD8EC6758B113E970D4EFA437B0E104E1D944AD960F36"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "055448E16AC75F331D56A4328103B7E71B00A71DB82F459A2575FD5B837C62A0",
+            "sourceSha256": "FE4C3EDE77457F1D1F9E0C7ED9C93A4C76D3991187F716A70D03AF715D9BD2AB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "9C1DB4A501BFC83F348CD5D6986E6D7D89EBF9E137F326C13B03FAB1F9A47FF2",
+            "sourceSha256": "74BD60DDE2C79A3CD8AF0AC0E1232FA0F641136067ED20DB8D0B24CBE92F4F3D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "4266D67590AF21D5906EEE7B0FC5B397FA35F6AB156AB7B6034AC29BF7A3ECD5",
+            "sourceSha256": "6B2615A1E403BE0232CF26639BEB51086A65920DFB3C1F84BFEF4033AC65D5C4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "340CD77AB159364476F38CBBA7854D5FE579EDF4393071F2C5FB161613B2548C",
+            "sourceSha256": "6AFCA25CE645590D68C901B735EB0EAFD7CC6761A80C7D144D7C80D205A79DCC"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1AA96E621D685708991DD1BDDB9437E738BDE2C3A84BB883A2E5000507969F21",
+            "sourceSha256": "23E4A426BF0E612A2E597E8377307A1B038D9CD522CE952DD89CEB5C46DEE42E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "27D220DFB36C15564DCAEE789C09160D5EFD6C9D4386C04BD0B79A644C65FEB7",
+            "sourceSha256": "1112375EAF083CF0163040E1F1CFEFF01429022BEB73A4402C6BBDFB40DA4F08"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "AC4FEC7FDBD27E8D0B6180525BB121DE484FC60C7BB0AB1CF53C6A45203E92DC",
+            "sourceSha256": "A59E28182D512313560E16AE11B8E0EBFF183941F885881FF97FE62AAD2DAAB0"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/ranger/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1D45B592C624D00919524D063684647DCC051A794F9AAB594F94F30264EA7300",
+            "sourceSha256": "8B6AC2D688BF5A92E63574E164DFAFE979F2CD5B0BCE6460B5205AC0FBF795F5"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "0C5DC8698B7E0EB8882FD496A5DCC3AC14766D500BD6D15C570A3F35FA530226",
+            "sourceSha256": "8B6AC2D688BF5A92E63574E164DFAFE979F2CD5B0BCE6460B5205AC0FBF795F5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6BCFF4A4362E65138B53AB6FA7DBA269046D84A734B49772969D521B3B0B39B4",
+            "sourceSha256": "D4285A115078631EBD1568104F4C43BF8E99A1883019599D8C297F2B3119A8A0"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "306A5AB3B5CDBB010F45C285AD2844C3AAF1AFE4C0223D98ED54FB8CD1254A13",
+            "sourceSha256": "C25FB7EF3E994E3F11FB6EE579BB3D5E6157C34F24A5B5BC756DEE6AC63B5476"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "9C8BCD0C700C7DDE0FBB262BD7012306C2DA200CF249BC56672C9D7C9C67ABA5",
+            "sourceSha256": "D83EFC829AC98E644912CD40AC0EC75A9F5B36AFE2CF50579F7F39843AF7BC43"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "42A326B9ACB239E9C29341887A25F34B00E0DFA1CB9B7D079686707748B4F956",
+            "sourceSha256": "D0DCF88C240C6B35EFBDA5C142F3F3D347D74B34FABCEA67BAC083B7DC2094D1"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "5A4607E802CA0FA50ED1118FBD6A67BA483520B09E082FF3F0D073ACA06AAFEE",
+            "sourceSha256": "D64B7B6096EF9CA080503471B340372B79D29C9A28B71C9CEC7A8AB1C752EC8B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "714B9BDBE5279F766904C8277B2933A96D4A4E930B66BCD88814240D44D90248",
+            "sourceSha256": "46D8E96C1B717E84E8EE3A93100FD2556700A569DFA4652FA101FC4CDCE071E5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "643B66EFB350757778CA130B5B05B3099AD6E6B5C03F5F95847FA5625BE149CF",
+            "sourceSha256": "F15ED52E70ADDE269727D03035C32CC216A0730F51FB235B71BB69AE48EEE3AF"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "EAF17F4786E21A973047EB7BDC0965AED70017B5B86EC811EC3727FEC6DE6124",
+            "sourceSha256": "6609301C08C70A57E58ABA836A241BB2B847B7F8532C47B60763525E91F9BBD8"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6EAFAFA7B5E5C4D0F3A6E6E17969802C8A1B0518495C837D6AD500E7463D4424",
+            "sourceSha256": "B39F45983E24C5FA6F075FD9F0D6A8486212AAE4F26E74B134BD4AED2E893FDD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "547C2D65AAC42EFECB9412AA5C7D77FDA4041C4AAD8DC2551DDF39D05398ADD6",
+            "sourceSha256": "13496B0BD4758D22CE3DD8EC6758B113E970D4EFA437B0E104E1D944AD960F36"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "D112EE490369CB4BDD909A7F1DE7D3B5983A9DA468C2D3878B776A30BED46D78",
+            "sourceSha256": "FE4C3EDE77457F1D1F9E0C7ED9C93A4C76D3991187F716A70D03AF715D9BD2AB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "658F0042E17D6669C1A6EC71E45DE53F11CD77B6C200489008B6C67E8741C0D0",
+            "sourceSha256": "74BD60DDE2C79A3CD8AF0AC0E1232FA0F641136067ED20DB8D0B24CBE92F4F3D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "E5453751DFE4D63ADDB60EE76916C3D21CA14B733352CA5ABA6EBA38EDB4F926",
+            "sourceSha256": "6B2615A1E403BE0232CF26639BEB51086A65920DFB3C1F84BFEF4033AC65D5C4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "794A5AECBCE3373FC03211D4DD1A7405195F47630E4E9832B2AE6D5A8E66BD89",
+            "sourceSha256": "6AFCA25CE645590D68C901B735EB0EAFD7CC6761A80C7D144D7C80D205A79DCC"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "9A6FECC14DE1F7B850EAEC3A9AF3862C6E5524B35B87B35C7DD5DB67DD249086",
+            "sourceSha256": "23E4A426BF0E612A2E597E8377307A1B038D9CD522CE952DD89CEB5C46DEE42E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "ED7EE9AAA4DEC962285B51E9B269ADE5159A4E90E7446E7142E095C5B5FC5928",
+            "sourceSha256": "1112375EAF083CF0163040E1F1CFEFF01429022BEB73A4402C6BBDFB40DA4F08"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "5A8EC1124C65FB2B556D68C44F1A58C600608CAA3111A3473828D0AF0D847E25",
+            "sourceSha256": "A59E28182D512313560E16AE11B8E0EBFF183941F885881FF97FE62AAD2DAAB0"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/ranger/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "0C5DC8698B7E0EB8882FD496A5DCC3AC14766D500BD6D15C570A3F35FA530226",
+            "sourceSha256": "8B6AC2D688BF5A92E63574E164DFAFE979F2CD5B0BCE6460B5205AC0FBF795F5"
+          }
+        ]
+      }
+    },
+    "steward": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "FCA3E7B531BC2704A809D2B050CB293FB404E34EF0A1AD85592220A77FD392E7",
+            "sourceSha256": "78ECAFF8F636ECD79A5870D174D985307D39D21A923832FFF6095D0F1D5B33B4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "0AC3C771209C55741F5682A940D0A9E5CA5F20D7166227DE92335D9C6470C44D",
+            "sourceSha256": "4F324A9D5414C1032C03D25875EEFE0CA565EF0E21A567160CF80242D652E586"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "4DC4E1A8DC85FF70C410E3937DF3CB0CD492EA477CF9E662741C49DB9DAD021B",
+            "sourceSha256": "C2ECA565FF5ED1C0071CC1B5482EB607198B3816B57CBE07C62A327B978119BA"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "8691850BABA42B8C95FAF53C4453C38C15CA6290E6BB472F54ABFCE2B8D45648",
+            "sourceSha256": "0DB8D11A2B081CFDE95BD531946C747702EB4681CFC95AD57613C26A9DABFBC5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "58D46F254F7D8E164003807907C3320D88314439CB7C101CE45E28B903EA62EB",
+            "sourceSha256": "16AD6EEAB2A0F05BB7014AA83FECC3D7979C04C1D87D1EE2A2F95AAC00A6A168"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "E46BD21833DBEDA465F0BE1FC0651A86BECE29973A64727B3CE7C3449F06EBB0",
+            "sourceSha256": "902B9E71F61D1614AF1392DFD0ED61649B364472EE442B0669CB5CDA00E9C558"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "9AB2982E4EDF4849824DE4B3266A544DD49CC703E66B72118929050BD224ECAB",
+            "sourceSha256": "CE60E4D4ED416449FC3F7E79F4E8C1604E8BDB8CBAEABC2D63867CC8DE2E40CB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "2484E38D07A1EA346E432E1674DA7654F91D7A6CD829C9C0AD0457D9248387E5",
+            "sourceSha256": "520B37ADE4F1F417175329FD353D8BAC9DC2F4DD469EE6F5FE85B1C6536CA8FB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "B9280744B43B8AD92FC112DFE8CB08096AADEB130364DAB0B44418A29F94DAC6",
+            "sourceSha256": "C9E551C83B7133A702DC1F9FEEE3400973BCCD529B038446FCDC07A6E2E3A2C8"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "6B23531791EA6F2E28978A918FE1A0D52312BA417EF1CE2790A28E3DB46B3AFD",
+            "sourceSha256": "BF82AD6CEC7319EE88159CF684E1C5642B9B0475EC13BBEDF62EB90A0F2829FB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "F3A90162569C83CEABFB5D68283E8A0EB75454E740F5389B7961885DB6E6EE6E",
+            "sourceSha256": "22EA907D04F6BE81799A9B6A255AB918E2DEE36C16BFC83E83B1F35EC6B3B067"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "33BE73129C4BE3A3905D7F71D6C3CD1EF0294F29F1C9D59B6F27357CB2072405",
+            "sourceSha256": "7522D4086F536E9D0BCC7E6037AE11A61785ED7F33A8EB4E00ADA2C43873BC44"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "665F9BA0CAAA052FA9BD809A5E74E14684A5FF0B9B698F54FBF9269C80D70B8D",
+            "sourceSha256": "5092110266ADC34F571427C184F1E803BE82FD553D8CC6ABD414CE36A21F452F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1F28BE4763A0E749582022A9E72313D0FB5C1B6486253ED294ED0C0FB627F7DF",
+            "sourceSha256": "FE264280AFCF1B0B2056F717A7E39D128BE4A95012F5B490E97C6A15EC3C8E7C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "A6C4A1819A6EB44DA21282BA40431CC71314010CF6BD02FE9DD5FF25D5D6D6BE",
+            "sourceSha256": "42C46CDF042855C006EC9ED26590796B7F830FBD9900A58E320D3DFA2B0BC91B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "3CE9BBEDA08AD02A1283D9DC17B362FB6ADC463629F2269337C36CAF47ECE51B",
+            "sourceSha256": "AC8568B8C98DAA887A7496687A3C9977A2DB5E3C2ADCF75E8D6A8B7916FB45F5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "9BB0C01E3ECBDEAA060FE91994994FC100EFE072F9A4105A26D7873D3619D4C7",
+            "sourceSha256": "F794BD385460DC8D43F856A7DD8DA6331AA8EE4627711DBE90CC63E2CCC7716C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "8ABC69F72008E6D0EB0FA56EACD45A80346FB223A7F7155189553F314040B808",
+            "sourceSha256": "248679D1961EC4BA3933229E16455CC5590DAE0684F111EA5BC5E943E41923EB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/west/steward/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "FCA3E7B531BC2704A809D2B050CB293FB404E34EF0A1AD85592220A77FD392E7",
+            "sourceSha256": "78ECAFF8F636ECD79A5870D174D985307D39D21A923832FFF6095D0F1D5B33B4"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 180,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "DCD179065A46E5A8B461F2D12D0DFD8DEA697428F9F547A271B4370196FCFDBA",
+            "sourceSha256": "78ECAFF8F636ECD79A5870D174D985307D39D21A923832FFF6095D0F1D5B33B4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "BE2F4A2EDCFCDC1BF9A75D3D13CA71263C537C63B3A1BCC4D0245FC7F1F22CEF",
+            "sourceSha256": "4F324A9D5414C1032C03D25875EEFE0CA565EF0E21A567160CF80242D652E586"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "D6C008B5A5BDE1E40D002959876991E3316E9B1C33A990A38D2DE63966D32D8C",
+            "sourceSha256": "C2ECA565FF5ED1C0071CC1B5482EB607198B3816B57CBE07C62A327B978119BA"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "ACEC370A47803D60CA46314D457D1C9FC7F0209BCCD4860A2BC863920BE47087",
+            "sourceSha256": "0DB8D11A2B081CFDE95BD531946C747702EB4681CFC95AD57613C26A9DABFBC5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "924488FAD7BC8B4A16E9EAD05058249BACD797919BE9A878B57953B18462E5F7",
+            "sourceSha256": "16AD6EEAB2A0F05BB7014AA83FECC3D7979C04C1D87D1EE2A2F95AAC00A6A168"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "AB5FAF94F6F21503BC10B3C8337F7BBAEFD26BC396DFE982EF18C3201F25A1C3",
+            "sourceSha256": "902B9E71F61D1614AF1392DFD0ED61649B364472EE442B0669CB5CDA00E9C558"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "5D850789257F4B400A2296977F73CEC901A9A7F39A29DF90527664351124BE4A",
+            "sourceSha256": "CE60E4D4ED416449FC3F7E79F4E8C1604E8BDB8CBAEABC2D63867CC8DE2E40CB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "9E90FC401741BC8E960174C0951484058425461CBDA1E7ABB762E601B547D6C9",
+            "sourceSha256": "520B37ADE4F1F417175329FD353D8BAC9DC2F4DD469EE6F5FE85B1C6536CA8FB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "FB7EA0298B036AEB1526328B965C6B5F6133052712A57E4A175092B1A5E1F672",
+            "sourceSha256": "C9E551C83B7133A702DC1F9FEEE3400973BCCD529B038446FCDC07A6E2E3A2C8"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "58E16BA3054AB939B833BAD81617B41E1F255A035218F849AA1B432C19A7526D",
+            "sourceSha256": "BF82AD6CEC7319EE88159CF684E1C5642B9B0475EC13BBEDF62EB90A0F2829FB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "2388F8FAEA1F8AE8B2EA130FBE7C11ADEAC1B7949ADC79B3D9D54C22B9F743E5",
+            "sourceSha256": "22EA907D04F6BE81799A9B6A255AB918E2DEE36C16BFC83E83B1F35EC6B3B067"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "2C45944512268A6FC7C60FF66DB7663389890ACF1CB77DB25F952BC91B981BA4",
+            "sourceSha256": "7522D4086F536E9D0BCC7E6037AE11A61785ED7F33A8EB4E00ADA2C43873BC44"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "B405332CA0932CF2F1229EDB6D2DC5AF18B6FAAABD3FC2D0A610B3BE703FFFD9",
+            "sourceSha256": "5092110266ADC34F571427C184F1E803BE82FD553D8CC6ABD414CE36A21F452F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6F6219365DA700F5EE2FD82357FF6ECDB933ABC62E0FD10ACA972BD9E847F166",
+            "sourceSha256": "FE264280AFCF1B0B2056F717A7E39D128BE4A95012F5B490E97C6A15EC3C8E7C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "620C82FA4F6F81631E9CD3EE3FEA09E3ACD2554A50D07329773D94E741B18B64",
+            "sourceSha256": "42C46CDF042855C006EC9ED26590796B7F830FBD9900A58E320D3DFA2B0BC91B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "691DA2B6BC559926F5A821218B4B5AEEF046AA53982F65C0A6BCEF26874C1418",
+            "sourceSha256": "AC8568B8C98DAA887A7496687A3C9977A2DB5E3C2ADCF75E8D6A8B7916FB45F5"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "533F196F392038B6A5D9D223B7C7D61EC5941245D596B5FCCB3C5E33AC7EC5F5",
+            "sourceSha256": "F794BD385460DC8D43F856A7DD8DA6331AA8EE4627711DBE90CC63E2CCC7716C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/17.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 80,
+            "frame": 18,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8DCBC3FB44DAD7121D4F4D762FAEB8F9C1AE6467B8A4AC86A39A450F5F5635CE",
+            "sourceSha256": "248679D1961EC4BA3933229E16455CC5590DAE0684F111EA5BC5E943E41923EB"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.8.0-bow-attack/east/steward/18.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 140,
+            "frame": 19,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "DCD179065A46E5A8B461F2D12D0DFD8DEA697428F9F547A271B4370196FCFDBA",
+            "sourceSha256": "78ECAFF8F636ECD79A5870D174D985307D39D21A923832FFF6095D0F1D5B33B4"
+          }
+        ]
+      }
+    }
+  }
+}

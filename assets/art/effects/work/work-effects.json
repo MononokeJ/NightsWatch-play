@@ -1,0 +1,250 @@
+{
+    "version":  1,
+    "issue":  3,
+    "generatedAt":  "deterministic",
+    "authoritativeReferences":  {
+                                    "ART_ASSET_DESIGN.md":  "3A7B73E8071A3AE90712C3B8E757A1BFA00DF402B0F4E59F7B0BF657C5C7A488",
+                                    "GAME_DESIGN.md":  "3D57A81D8E040D384526E168CF4D6A6E480AC574D86F8D93EA29F365AE0E7834",
+                                    "assets/art/characters/members/work-animations/README.md":  "0C9C4B871E75A6955606CF298BCA1C190511FF93911E8CC3800F831B827B1DA2",
+                                    "assets/art/characters/members/dynamic-layers/dynamic-member-layers.json":  "45FD3583A4A3208F980C8BB28AAD2A686EF290CF840CFEBF3C76BDA16F63294B"
+                                },
+    "frameWidth":  32,
+    "frameHeight":  32,
+    "frames":  4,
+    "fps":  6,
+    "file":  "assets/art/effects/work/operation-effects.png",
+    "operations":  [
+                       "patrol",
+                       "mining",
+                       "lumber",
+                       "craft-equipment",
+                       "repair",
+                       "hunting",
+                       "planting",
+                       "cooking",
+                       "make-clothing",
+                       "research"
+                   ],
+    "operationRows":  [
+                          {
+                              "id":  "patrol",
+                              "row":  0,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "hoof-dust-and-stable-transition",
+                              "anchor":  "patrol_stable.mount-point",
+                              "layer":  "ground-below-mounted-ranger",
+                              "characterAnimation":  {
+                                                         "noPersistentFieldRanger":  true,
+                                                         "type":  "mounted-ranger-travel",
+                                                         "frameHeight":  48,
+                                                         "fps":  8,
+                                                         "outbound":  "assets/art/characters/members/work-animations/mounted/ranger-mounted-ride-west.png",
+                                                         "switchAt":  "stable",
+                                                         "frameWidth":  48,
+                                                         "frames":  6,
+                                                         "return":  "assets/art/characters/members/work-animations/mounted/ranger-mounted-ride-east.png"
+                                                     },
+                              "sequence":  [
+                                               "arrive-stable",
+                                               "mount",
+                                               "ride-west-and-despawn",
+                                               "ride-east-return",
+                                               "dismount-to-regular-member"
+                                           ]
+                          },
+                          {
+                              "id":  "mining",
+                              "row":  1,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "stone-chips",
+                              "anchor":  "mining_site.effect-anchor",
+                              "layer":  "ground-below-character",
+                              "workBase":  "assets/art/characters/members/work-animations/base/artisan/artisan-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/mining/mining-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "lumber",
+                              "row":  2,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "wood-chips",
+                              "anchor":  "logging_site.effect-anchor",
+                              "layer":  "ground-below-character",
+                              "workBase":  "assets/art/characters/members/work-animations/base/artisan/artisan-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/lumber/lumber-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "craft-equipment",
+                              "row":  3,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "forge-fire-and-hammer-sparks",
+                              "anchor":  "forge.spark-anchor",
+                              "layer":  "world-effect-above-facility",
+                              "workBase":  "assets/art/characters/members/work-animations/base/artisan/artisan-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/equipment/equipment-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "repair",
+                              "row":  4,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "stone-chips-only",
+                              "anchor":  "repair_yard.stone-chip-anchor",
+                              "layer":  "ground-below-character",
+                              "workBase":  "assets/art/characters/members/work-animations/base/artisan/artisan-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/repair/repair-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "hunting",
+                              "row":  5,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "travel-tracks-and-bow-ready",
+                              "anchor":  "hunting_camp.exit-return-anchor",
+                              "layer":  "ground-below-character",
+                              "workBase":  "assets/art/characters/members/work-animations/base/steward/steward-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/hunting/hunting-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "planting",
+                              "row":  6,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "soil-and-sprout-motion",
+                              "anchor":  "farm.crop-anchor",
+                              "layer":  "ground-below-character",
+                              "workBase":  "assets/art/characters/members/work-animations/base/steward/steward-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/planting/planting-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "cooking",
+                              "row":  7,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "pot-steam",
+                              "anchor":  "kitchen.steam-anchor",
+                              "layer":  "world-effect-above-facility",
+                              "workBase":  "assets/art/characters/members/work-animations/base/steward/steward-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/cooking/cooking-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "make-clothing",
+                              "row":  8,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "cloth-sway",
+                              "anchor":  "tailoring.cloth-anchor",
+                              "layer":  "world-effect-above-facility",
+                              "workBase":  "assets/art/characters/members/work-animations/base/steward/steward-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/clothing/clothing-south.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          },
+                          {
+                              "id":  "research",
+                              "row":  9,
+                              "frames":  4,
+                              "fps":  6,
+                              "effect":  "page-turn-and-ink-mark",
+                              "anchor":  "archive.research-desk-anchor",
+                              "layer":  "world-effect-above-facility",
+                              "workBase":  "assets/art/characters/members/work-animations/base/steward/steward-work-south.png",
+                              "toolOverlay":  "assets/art/characters/members/work-animations/tools/research/research-south.png",
+                              "runtimeToolOverlay":  "assets/art/characters/runtime/members/work/tools/research-tool-overlay-24x36.png",
+                              "workAnimation":  {
+                                                    "direction":  "south",
+                                                    "frontFacing":  true,
+                                                    "frames":  6,
+                                                    "fps":  8
+                                                }
+                          }
+                      ],
+    "layerOrder":  [
+                       "Issue #1 runtime-base and ground",
+                       "Issue #2 facility back layer",
+                       "ground particles below character feet",
+                       "front-facing work base plus operation tool overlay",
+                       "Issue #2 facility front occlusion",
+                       "operation world particles above matching facility",
+                       "health bars, HUD, and modal UI"
+                   ],
+    "rules":  {
+                  "stablePhaseOffset":  "stable-object-id modulo 4",
+                  "noResourceOutputIcons":  true,
+                  "noProductionSettlementFeedback":  true,
+                  "noCancelledBatchEffect":  true,
+                  "noPendingSettlementEffect":  true,
+                  "noMaterialShortageEffect":  true,
+                  "workStopsAtRaidCountdownSeconds":  10,
+                  "noRepairPlusOne":  true,
+                  "noFloatingAmounts":  true,
+                  "huntingNoGore":  true,
+                  "integerPixelMotion":  true,
+                  "noCycleCompleteEffect":  true
+              },
+    "dependencies":  {
+                         "dynamicMemberLayers":  "assets/art/characters/members/dynamic-layers/dynamic-member-layers.json",
+                         "issue2Facilities":  "assets/art/environment/issue2-work-facilities/work-facilities.json",
+                         "workAnimationLayers":  "assets/art/characters/members/work-animations/work-animation-layers.json"
+                     },
+    "evidence":  {
+                     "validationResult":  "assets/art/effects/work/validation-result.json",
+                     "differenceChecklist":  "assets/art/effects/work/difference-checklist.md",
+                     "review":  "assets/art/effects/index.html"
+                 },
+    "issue37ResearchEffectRevision":  {
+                                          "issue":  37,
+                                          "productVersion":  "v0.2.0",
+                                          "operationId":  "research",
+                                          "row":  9
+                                      }
+}

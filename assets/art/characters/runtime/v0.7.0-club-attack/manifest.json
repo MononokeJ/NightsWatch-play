@@ -1,0 +1,1980 @@
+{
+  "format": "nights-watch-club-attack",
+  "version": 1,
+  "issue": 66,
+  "temporaryMeleeOverride": true,
+  "sourceFrames": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    36,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    80,
+    84,
+    88,
+    92,
+    96
+  ],
+  "cycleMs": 970,
+  "characters": {
+    "recruit": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "0666AB8A855142884B87C4D20F67FDBDA9347B6E1AD38C61C53653E261B9E304",
+            "sourceSha256": "0F961547274D55CFD3E9111B1C68A426652765CFECA5AADDCB623962550F861E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "9A844C2A06F1D9744F70D4DA4CF2EBC077EF9C7423C85E334478396A8E4B2BEE",
+            "sourceSha256": "A73BB24114CC471A2F2C7000ED2DE55B4D0CA36DB0DA5BA9050FA9A9F82DD683"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "99147CEF210FC301E975DE66AD50B5CF42E0B3BF9B096A78014D0F2C2FFD96CE",
+            "sourceSha256": "9EA11664B2E469ED501193E94C8047B1EA8B3EDD5C9574E9C15D9AB34E7294FD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1C5019D60BCED859A74492BE82C406E9F227E773F38CDEE6254AAE83977868C8",
+            "sourceSha256": "F4A1CBEC75A90F4161FE2B59927656542774D2B65BBC2A85FAA7815BE28FE10E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "80BE122DDFD861CA4B102E330D380373F6E5A45C2326E45BE2696E97B11C6E8D",
+            "sourceSha256": "162A23787D8D76F7F4530D8838285265E0D98A151CACA83C04BE885777CBA979"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "6C50FE8917FD8CCF106D5B29F8D4CD4CD88B854E7D98758906A0361B8B07E6B8",
+            "sourceSha256": "9EB95F7F5767713893F6DEDEF73CA236D28FBC3CAB6D31B2355AD4F74AA10E15"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "8B14B8E17D70DF860CDCF5797758F2C796A4067CA325B978A18DFF27736DC28C",
+            "sourceSha256": "77628611F960F0478937FD1C15329CECBB1C34CB89BCED33DB9C6302DA08822E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "0ED8A02F24DEEA8DA8635D8B4D367DAFB9EA8696FCCD34475D71E386F62C5ECE",
+            "sourceSha256": "B6839C502E413FC025B258D6AAE7E22D140CB21E1CC890E5ADD9D1FAB5803880"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "7710DA17C44BC6E9AD2A67125CA244E8264F956FD61FAFC905569832EF993C43",
+            "sourceSha256": "E208D699949D389751649F54D80027F84051ACD6CA87ADF924B7D2F9CEAC5482"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "13103BC3C3F3393B0E55C72F1D207BDF48B5E776D7882A1610C746DF4B0C62F2",
+            "sourceSha256": "9F98492E0E9ED81B765890299C9651EF769267B337050175219371F1359B4E88"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "5FEE78A1084F786B80A9465D81722ED25C575199D120438B0F67623507809522",
+            "sourceSha256": "1F96677F5DCC133F74B8E1E4C68CB9C156177293B44362D8B2AEEF1B2565FA45"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "5B329433EB8A13E0D78652BA15C4D4600B971721FAEF88A4CF7CD1BA76A6BE89",
+            "sourceSha256": "ACF3ED6839CF2FCA08B07C7144D0DFAB1623156D63DE33D554B28F1C1C9FF44E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "E3F06722B7F1338F1AFD803650275FC6F8314215D3F9D5991D7B96FD5F25466F",
+            "sourceSha256": "34BBB7A0269176CFD38B6F56818E60C5DC213823C8EA0E954FA06930D655C04B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "E25107BA2C45A38A6F92F010E274461DE497726AB284062CA2713B8FA937F7E1",
+            "sourceSha256": "6F216F44A7A0FE52EEC669E0F1679D3E560B3725F99FD890E512A7813241C0DD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "D01F11B80B41AF005E29C558FE4A60F4C18D348F6F88FD6856E54E1BAFA6ED73",
+            "sourceSha256": "B11AD2AD6D561744F9452A63D482BCCAE00F58D9058D1BCEB5578DD5EC172D0F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "1010F4C56B81A0E644958A13DFA7AF01F966FB8D023A9A8203375040CFBA3696",
+            "sourceSha256": "24FB31015D750BBABBA636E5D6FB7FD797C0797F0C0B59C08F50390849321A3C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/recruit/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "0666AB8A855142884B87C4D20F67FDBDA9347B6E1AD38C61C53653E261B9E304",
+            "sourceSha256": "0F961547274D55CFD3E9111B1C68A426652765CFECA5AADDCB623962550F861E"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "BF87D0F2463E9EABD0D7E788E69D743E65667FA1A20F4C473CCBF4F96CAD9067",
+            "sourceSha256": "0F961547274D55CFD3E9111B1C68A426652765CFECA5AADDCB623962550F861E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "086C109DD4E6C0AF47F5472036FAFC5EB1F1C2E40B01F94284D46F38998F6E0F",
+            "sourceSha256": "A73BB24114CC471A2F2C7000ED2DE55B4D0CA36DB0DA5BA9050FA9A9F82DD683"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8AFCF49A47521BCF1FC5A9C18F5DFAA080BE138BE5CADAAF09D36E008113FEF3",
+            "sourceSha256": "9EA11664B2E469ED501193E94C8047B1EA8B3EDD5C9574E9C15D9AB34E7294FD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "71B0CDC5986478D0F9D199BEF8C594E9B7549709330D801D96830C3F24E1C3E4",
+            "sourceSha256": "F4A1CBEC75A90F4161FE2B59927656542774D2B65BBC2A85FAA7815BE28FE10E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "A076797E01F019E0B9C43A9217F68B8FCFFBE05B8901E5DB9945C578A2AC493F",
+            "sourceSha256": "162A23787D8D76F7F4530D8838285265E0D98A151CACA83C04BE885777CBA979"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "59355C25143FCA58AFE52C18AF5D4C4B0D0B56B6E464D1A9958CECA575A3F5C5",
+            "sourceSha256": "9EB95F7F5767713893F6DEDEF73CA236D28FBC3CAB6D31B2355AD4F74AA10E15"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "A4F224A9869F4EB94904381A5F231B05B37531C8707C020D88E0821FEDE289A7",
+            "sourceSha256": "77628611F960F0478937FD1C15329CECBB1C34CB89BCED33DB9C6302DA08822E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "330530FFF2A3196BDC18B994639BCFB37B6ACC774706DAFC112C1B8AFE2B18D8",
+            "sourceSha256": "B6839C502E413FC025B258D6AAE7E22D140CB21E1CC890E5ADD9D1FAB5803880"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "930C2B102A6F0F2072B94F7BBF5CDB860C0973A322C5AD15AFA95F169462F8C4",
+            "sourceSha256": "E208D699949D389751649F54D80027F84051ACD6CA87ADF924B7D2F9CEAC5482"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "9F3DDAE5A0D92357D9BFED37A6545C033377E09FAD6AC8AB8F176B8380A1B616",
+            "sourceSha256": "9F98492E0E9ED81B765890299C9651EF769267B337050175219371F1359B4E88"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "B92B045E1DB0980514AE760331658CC9A77319E9C6C7DD310876D8C6D9DC8013",
+            "sourceSha256": "1F96677F5DCC133F74B8E1E4C68CB9C156177293B44362D8B2AEEF1B2565FA45"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "A6D0526AF6C60D1AC062F5FC992A266F48D071753CD4403CCB4F6576B9044B13",
+            "sourceSha256": "ACF3ED6839CF2FCA08B07C7144D0DFAB1623156D63DE33D554B28F1C1C9FF44E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "A07096C587306B733E5999B4019B5142CF1AC236A07B4BD4FE03E24824908709",
+            "sourceSha256": "34BBB7A0269176CFD38B6F56818E60C5DC213823C8EA0E954FA06930D655C04B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "645E419F88113CDD26C17F17CDBD0B9D98AE3A03956C5393DD4DA35808B26D73",
+            "sourceSha256": "6F216F44A7A0FE52EEC669E0F1679D3E560B3725F99FD890E512A7813241C0DD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8874E20372284D79373EDD471E094DBB684F9DA4F26E28A7423AB3A046F3E6CB",
+            "sourceSha256": "B11AD2AD6D561744F9452A63D482BCCAE00F58D9058D1BCEB5578DD5EC172D0F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "F4B397B7B0A08856D619719190B71C91328DCD77C8860E111FFF69CEB9D1022D",
+            "sourceSha256": "24FB31015D750BBABBA636E5D6FB7FD797C0797F0C0B59C08F50390849321A3C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/recruit/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "BF87D0F2463E9EABD0D7E788E69D743E65667FA1A20F4C473CCBF4F96CAD9067",
+            "sourceSha256": "0F961547274D55CFD3E9111B1C68A426652765CFECA5AADDCB623962550F861E"
+          }
+        ]
+      }
+    },
+    "artisan": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "A908D3C1007E8E571C5953B3A852366F7D3C9D74BAFFC6447420E9ED3C2FC480",
+            "sourceSha256": "9919A4BD788FA4967E6790737E942172FD25474436445912F3788EE585432208"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "A091D040FA184264D15BA585D20D6E760A148C5CF0AC6DB31FD5F0002092724B",
+            "sourceSha256": "7B5812B86830201407C0498589673B9C9BB961ED961AAC6D30E67753983213C7"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "72323AC9D2F8B24D97E294BE17C5CEE927C3F1DAD6875A8BC87F9CF672CFE570",
+            "sourceSha256": "70A23280994B93B6A7095A9203D2126045DB6CBFE40D38F5827A525923411B2F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "51A66B5C82A188C313B28CF76F314FFB82AAFB616DBFB58C8BE3DA242A364101",
+            "sourceSha256": "EBF841B65799F3A9926A0B0A528942CE2FD94F20CF732560DBF398BA5F2C114C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "6269611DB0F80ABD8E6010A2DC8736F226B0F7BA46714F03F8BCF91FBE051D6A",
+            "sourceSha256": "3F863D13BF7C423F64548198605C0D666646018D02170E6917863CC0AD437AB1"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "9C3CB4E32378D65F3819821BB8C0B88597AC5F3CDD0E8525E97C9D77061E312A",
+            "sourceSha256": "F88A74983849D705E899DA3BCCF18345FC333079557C7AC95431176DECD933AD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "00925FC33001FEC110BE5EB1EECAD76D5605AB8349EF5BF20070381F73C50171",
+            "sourceSha256": "4405826529CDD18E744260CEB236F8F7C125AA20DB9109FEFDCA46B60037A001"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "2CAFA2BE479CB1FE0F54410403B25492021F07900D01449C3146FBC995F3E9DE",
+            "sourceSha256": "DF7A0CC311AAFB3C461AB3AED49B181CF9B6513920FC697E8022E4E9450B3B23"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "AED795408D145E967CEFFE1E0C3D64D22240548D29565A3DC09B29C75949D807",
+            "sourceSha256": "00AA8BE54ABB3E6719AD7A24907B2316A935B473B8606FF23851C85DB579C43F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "7418FABA10F857D4F420D65EB8C1A43767B9C55D2E28B0C71ADE91DDF64E819B",
+            "sourceSha256": "EA8925854F5E62DD1059664DF8159185460D3692AD4893E23337F555489437D0"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "AEE80865B6C8A8B335B74AB9FB2FA4F693F100714972995F6E63D6F1F8C0F1B2",
+            "sourceSha256": "3DCEC55951F8A0B47DC8830F4862F58629A179F439C5667F3BF4E87BC6AD7D8E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "B66A0C7AFD4CC3EBB401AC8DDF656816C652D818DAFCD34A08849F82A06004E5",
+            "sourceSha256": "B47EB27A24C42321D728F2B2E0D184E2D67D9CDF3B7D8345541F41EBC8452A9B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "5DE4D4C1C59B1BE8E13CFA345CF9695808A2D8A74D83A220714E60A3B716546F",
+            "sourceSha256": "E31C3D6DB89CBD260BD3C9D0809F681F3576D07CA640627D4DEEFB787089F3E2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "21FBA2F1299B87549229BC50426E8ECBBD8A676518A1EF66E3CA090F85949939",
+            "sourceSha256": "67880EE14E92F22DFA757774BD385AAC4ECEA0E2004302461D92C8081D9C839F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "4681BBCF115CF5F688729033CB6E28CC7511749A2A1126DC0A88F1FE2C624842",
+            "sourceSha256": "E29DB0C7CF19E969C5F0361F3A9C8B493BEB4A393764E127A3C88E42FE4B1325"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "00D6AF4488E1E54C601EB2DA4F8289B6DAB627234AED5E68E097800604B7E8FC",
+            "sourceSha256": "C29F65DAB0A31E057B58659F1308BE12EA8D0B5441BD4551AD203E587FC9A07A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/artisan/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "A908D3C1007E8E571C5953B3A852366F7D3C9D74BAFFC6447420E9ED3C2FC480",
+            "sourceSha256": "9919A4BD788FA4967E6790737E942172FD25474436445912F3788EE585432208"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6E2A3962ADFEB803F52338B943E328ED1F603D2FA19D09FE5C97D63F1DE8A1A0",
+            "sourceSha256": "9919A4BD788FA4967E6790737E942172FD25474436445912F3788EE585432208"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "297FD9C0956F4DC13C6B2060E85832E0A186DB8E496EBBC23341F87F4229F28B",
+            "sourceSha256": "7B5812B86830201407C0498589673B9C9BB961ED961AAC6D30E67753983213C7"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "CA379910DAEE165F1D9291210C328AABB87ACAC61EE36186C27598C5FE959DC3",
+            "sourceSha256": "70A23280994B93B6A7095A9203D2126045DB6CBFE40D38F5827A525923411B2F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "C5B2C7F7904B0669A8DE77E6E010ADEE44F4C1F59C8C7F755578A9984B74A077",
+            "sourceSha256": "EBF841B65799F3A9926A0B0A528942CE2FD94F20CF732560DBF398BA5F2C114C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "293CB227E6599B3DFF09A9768E49B77F57F25C49A356BE8B7B23669FEF35C46E",
+            "sourceSha256": "3F863D13BF7C423F64548198605C0D666646018D02170E6917863CC0AD437AB1"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "01AB344B18479D10952DD5779719EF3F8C224C8088C48E1AA2DCB345ABEEC9E4",
+            "sourceSha256": "F88A74983849D705E899DA3BCCF18345FC333079557C7AC95431176DECD933AD"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "C0E20ACDA2F46BC976B418E57B2381172EE46ADC06FC9FE1D0C39E5DA41825A8",
+            "sourceSha256": "4405826529CDD18E744260CEB236F8F7C125AA20DB9109FEFDCA46B60037A001"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "2FC110EE139653B2E53595060A0B36C45143B89CF8172BBF77B54ADD2C9B0B1C",
+            "sourceSha256": "DF7A0CC311AAFB3C461AB3AED49B181CF9B6513920FC697E8022E4E9450B3B23"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "F69A96BA770123AB532B279B591C9FEEB0E6BFB9329721973E8B3738F6B82CD7",
+            "sourceSha256": "00AA8BE54ABB3E6719AD7A24907B2316A935B473B8606FF23851C85DB579C43F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "AA636D533BCB783F343238466D267EE928AF1948AD48CA387E43BEB8F88BB810",
+            "sourceSha256": "EA8925854F5E62DD1059664DF8159185460D3692AD4893E23337F555489437D0"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "C62AC3C41F1C89564167C3BAE3BD2319DBB0207610143195BE8B3ED4F135EFFF",
+            "sourceSha256": "3DCEC55951F8A0B47DC8830F4862F58629A179F439C5667F3BF4E87BC6AD7D8E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "99DFA2BF362388C7A615B70BA03E09D4F33426A7E9D03E90AF16721ACF5A06FF",
+            "sourceSha256": "B47EB27A24C42321D728F2B2E0D184E2D67D9CDF3B7D8345541F41EBC8452A9B"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "9E60F958F1FA4DECBBB55580EDBE69D053A7DD05BC95D9F8A2ED5A8774A1A5D9",
+            "sourceSha256": "E31C3D6DB89CBD260BD3C9D0809F681F3576D07CA640627D4DEEFB787089F3E2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "D74FD39DCEDF7A47EC7B85B08BB510E0EF1A683B93A1BC59D80A4C1231289EAA",
+            "sourceSha256": "67880EE14E92F22DFA757774BD385AAC4ECEA0E2004302461D92C8081D9C839F"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "BCB445CC951112F5CAA343DEA3FEF8779B1AC6464E47446D613EF09EF94E033B",
+            "sourceSha256": "E29DB0C7CF19E969C5F0361F3A9C8B493BEB4A393764E127A3C88E42FE4B1325"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "ECE48E72AC41E7207DF034D4FADB8AB4BACE237A17C67D7765A2867D7F173CA6",
+            "sourceSha256": "C29F65DAB0A31E057B58659F1308BE12EA8D0B5441BD4551AD203E587FC9A07A"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/artisan/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "6E2A3962ADFEB803F52338B943E328ED1F603D2FA19D09FE5C97D63F1DE8A1A0",
+            "sourceSha256": "9919A4BD788FA4967E6790737E942172FD25474436445912F3788EE585432208"
+          }
+        ]
+      }
+    },
+    "ranger": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "13C9AD6C2212FE7A8693005729F97C483CF8A19255E1655C1D222FB9D76A379A",
+            "sourceSha256": "CCD4D134F137BC4FD9685A8D2A62B06014076A2588E6068A4FE3C4DE96BF6498"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "FFB7960F807EFE22A165F6E9AFED783017483FFA3992BE555A1D6343FC2B27BE",
+            "sourceSha256": "36EB10DA0A984B841405213F9128645A4CDBABDF68AC4C43C5E9F105F66F5FE9"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "7F53C400DEC717FE7FA4F57B8E8480934C25B68A12A042EBF442BC6EDD1217FC",
+            "sourceSha256": "C671966FE121B39A6989A309347ACD0FCA4F5A915E319793237F2215FCC0FCD6"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "C7C814BCD8A73E7E56636FA88219AD5166799C2719E5FFC15B3547701EB2C751",
+            "sourceSha256": "AE2E7F67EE68DBF38CB96B1F541DEA0BC4F7531ACAF35ED53179630E4359E5AF"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "6E3C0688A5F129D7B0BA145B8542BABF67FE348CD1688270393D92AA45CC1EEC",
+            "sourceSha256": "FFB435C11D42BC5845124E3FBDBE3EED94D92E0936962AE3BE1CA5DA0E9B1090"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "6DCA6EDD180C54DEA5259395E4732B07AF276C96B0BEC6F9A2D5D48A424C9D96",
+            "sourceSha256": "25D865E2DB6BDBB8722D5BEC3BEBB3A6F3AE08F15E5F3EC44CEBA3E3FC83A1D3"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "993BC24646B523EA6EF978AC7125ABFD166B9191A2027D1645FBE589B8D986C3",
+            "sourceSha256": "89312D678C33672996B1A8DE8342AC01F3C03BCEBFDCDD7F88A2B141995B3A4C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "D7B3EBF11EF8D3581C51B945BE49498B79C321395A60FCFF417FD435F3A9E71E",
+            "sourceSha256": "C5FFC53303F80C2DB8712044F80611A55F25C044ECEA88F31D7F40A995E2C2EE"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "0B31943B961A8223512577C5D346A9A8D8B7288B06EB8E43D4895B88FC8B131D",
+            "sourceSha256": "87251BE52EEF31B430181AA422AA808EDF0D78A2B7D3CF247634DF16C408E00D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "41887D72A8BE508DC1FFBC92455C952C1760D543854029E71708DD1B04BC3AFE",
+            "sourceSha256": "C648C311C7FE8CC294756C9E77440C159760C44CAD3F63CA6F0DE314593C4659"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "AB5EAE47C33830FC6DC7C0CDF0E4CE01881C7E174BA10BCE5C4F8510BB77DED4",
+            "sourceSha256": "6BE60F83EE80A10440E8CE8DD4D3960FACDAFD9F05EFC709B4DC40CD310E6702"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "F0267E6F3ED2747C11E466928B590DA608D2264DD331C0D559DFFC0A2DD49131",
+            "sourceSha256": "4AB657532D843AA7D10D70938124E0CB14EC6373C4891E99FEFF23B2A3F90D06"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "771405E445A9A878341FA976525687EBC7D81E13A77FEDF991D6558524075472",
+            "sourceSha256": "54C67DE3A20E070A5590457E02F7931C0A8C654AAA67E45288C7ABDFDA164BC2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "DDFE35C2B9962E7CAE35B73E33BD9EAB4CE0F613D85B59E5C48FCFE22E940D40",
+            "sourceSha256": "615D3690D5E288179CA257BC69FC7A7F446067305C204DCA17862DC3D045323C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "BF9A34821B01657D37C34F4C6A62727FBA206B0745611AD629CD81ED6B838326",
+            "sourceSha256": "710BA3CE63AB6377661E622997EC5189375FEA8F2D7B0B42ADEE37FA4E95CD5E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "5D34C9FC0B6A41FEE243E9E780EE4E61BD4403D19DFECC2DC03DDBAE5DC1BA1E",
+            "sourceSha256": "C57181F66214DDED38ECC6F783813E8AADB3E2FBF7C89BFD079B7BC6AE4B5057"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/ranger/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "13C9AD6C2212FE7A8693005729F97C483CF8A19255E1655C1D222FB9D76A379A",
+            "sourceSha256": "CCD4D134F137BC4FD9685A8D2A62B06014076A2588E6068A4FE3C4DE96BF6498"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8A2D10A4A2F4E3480BB53D18D75369E56C645CA943E5CD1B85EA19C20606CD53",
+            "sourceSha256": "CCD4D134F137BC4FD9685A8D2A62B06014076A2588E6068A4FE3C4DE96BF6498"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "7E8C98D963C7382032F2516042603312727427D2CB29BB0A7390E5FDAA6C3857",
+            "sourceSha256": "36EB10DA0A984B841405213F9128645A4CDBABDF68AC4C43C5E9F105F66F5FE9"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "1C82ECA7B67B5437231ADEB9DBB53742427EE1F3F3D6FFDD1D27A938DB0F7EA2",
+            "sourceSha256": "C671966FE121B39A6989A309347ACD0FCA4F5A915E319793237F2215FCC0FCD6"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "205D649661CF11EF5A9E945C9A2ADAD5B12E411AFD1A7A22C55ADB35DF3B17AE",
+            "sourceSha256": "AE2E7F67EE68DBF38CB96B1F541DEA0BC4F7531ACAF35ED53179630E4359E5AF"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "9DA66B1DCA03B58F3014B26848356897E69493295CE2028044863934B2C2C334",
+            "sourceSha256": "FFB435C11D42BC5845124E3FBDBE3EED94D92E0936962AE3BE1CA5DA0E9B1090"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "365C355C2ADEDB6849E2573ABAD796FEAEB6B19E4C3AE3993B292D44C41503B2",
+            "sourceSha256": "25D865E2DB6BDBB8722D5BEC3BEBB3A6F3AE08F15E5F3EC44CEBA3E3FC83A1D3"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "EBBEEEA79322AF4FD6E2A5A8A5283AE9563828A1B521100C53047E6BB845C7DA",
+            "sourceSha256": "89312D678C33672996B1A8DE8342AC01F3C03BCEBFDCDD7F88A2B141995B3A4C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "4BEA780C310D430DA4EF451959A611A18B83FA95E52CEB6B3AA74743A132954A",
+            "sourceSha256": "C5FFC53303F80C2DB8712044F80611A55F25C044ECEA88F31D7F40A995E2C2EE"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "0A573FA46FDB134E31D9105C0B267B6921897D1075A48CA16D49572F046280CA",
+            "sourceSha256": "87251BE52EEF31B430181AA422AA808EDF0D78A2B7D3CF247634DF16C408E00D"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "38E096879A9E7F70FB64F2AF4D739EBBCAE4A7AFF40DC76280DCBE036EC2E131",
+            "sourceSha256": "C648C311C7FE8CC294756C9E77440C159760C44CAD3F63CA6F0DE314593C4659"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "F7509B8885821E088F99D337440643D8F4B3C98C0269C2E08F343DA6952ED677",
+            "sourceSha256": "6BE60F83EE80A10440E8CE8DD4D3960FACDAFD9F05EFC709B4DC40CD310E6702"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "B46EE5DA718C4603BD524B33CF73F8DCEA45D24E3173D8B563648DB117E5C827",
+            "sourceSha256": "4AB657532D843AA7D10D70938124E0CB14EC6373C4891E99FEFF23B2A3F90D06"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "904D87E6A155FE432F525FC4E24296E0EFEA47D8707789DCF0D13E06D00E4826",
+            "sourceSha256": "54C67DE3A20E070A5590457E02F7931C0A8C654AAA67E45288C7ABDFDA164BC2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "DD9D6521A69D875557625396E33DF3C6519CF62C2A444DFBEF6A69325A84BB3E",
+            "sourceSha256": "615D3690D5E288179CA257BC69FC7A7F446067305C204DCA17862DC3D045323C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "30D743D92A9AA163600DD936FC3A12B68F90A4438217E67DB34CF45AB3F02B4A",
+            "sourceSha256": "710BA3CE63AB6377661E622997EC5189375FEA8F2D7B0B42ADEE37FA4E95CD5E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "96EADF9B179FD4770C6ECE166DD46DF75F59FBCDA67DCC64A1A9CE14B77D71D2",
+            "sourceSha256": "C57181F66214DDED38ECC6F783813E8AADB3E2FBF7C89BFD079B7BC6AE4B5057"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/ranger/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8A2D10A4A2F4E3480BB53D18D75369E56C645CA943E5CD1B85EA19C20606CD53",
+            "sourceSha256": "CCD4D134F137BC4FD9685A8D2A62B06014076A2588E6068A4FE3C4DE96BF6498"
+          }
+        ]
+      }
+    },
+    "steward": {
+      "west": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "5FBDA29D2666567C9751C12D21599CCD4D27C7C381084BA07EB34BCE7FABC044",
+            "sourceSha256": "A534637D23E97735DFE386D2E681A1634266301FE8738B6DD537688D129E92C4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "51358584A09741CB5CE594DED172AFF171D86C8F0ED73B283F5BDC5CC59DA8EF",
+            "sourceSha256": "21590285693BE1FC1742FCB31E59EBD4336131F4D29DBF71C8B28EB767FDF3BC"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "55FE9541CF1F411A66C0F7D3DB5772125FC020E05DFCB778600AF387B97C81EE",
+            "sourceSha256": "639F266A4F6D31375EB3F16B3D9DCA74401B0692379192093ABBB24FB2E9F0B2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "620A9F77A87E408AE73AA614C80DBF34276480F43E6DB1D5DE0A0789FD58EE8E",
+            "sourceSha256": "62C0475E7EB07932FD0BE742F9961F1150F4033C0ECE6D0F249CE397AC5EB670"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "8453F0ADFC6E6C5CD60C06C3235895FC85F6A55DB2ED70D0CBE88557D0658515",
+            "sourceSha256": "A150BBD575EBF24F9A41079324716A00B54B3C4E7D7BDE8AA79805A7720F0FC3"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "61A34D6E4DD5465E6C37F8A15E1B138116BA5FB23FE89C0DF1F7B4EACEA015B6",
+            "sourceSha256": "4C286E0CF6EC5A03930200BD3B513A10F8679977C1B0B8C00025B070988A4476"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "BB2C1BBC4B93E05C96A674D84D7250860060E6FE84F2932E134B23E8A987CFE9",
+            "sourceSha256": "19DDCEB965BB1859A8E452A7A1D130486358684AD3EA6D3E31EE800C8C63B34E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "F7F3F9352A1209CC58D49A7C58CBF802977CD8F95A1BEAED080C6AB731D01580",
+            "sourceSha256": "91CD29CFB2B641DA3BE7FF14EF8D91AEE02F01A4BFCED42C395EF67E1BAFFAC3"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "A74965B7126A79A82055B1745A90935B0614E3F1196EE6102A7886F25B5C5D64",
+            "sourceSha256": "B678DE59857AC7F149DB05C76AB591D8D3985BCCFF2814D5D0452B261E399C90"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "A306FCAD387870E91257672F3461309014F448F22C8D694903F15CEAC50C6120",
+            "sourceSha256": "382666D7419DA8122859DCE5C9AF4BD84012B5AE7469E33895F278E7F9F5EFC7"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "B89D3ADC5B5FBB1D30D2DE0F4A3EFC61A712AA5F67AD58BF04B33C13C9C84193",
+            "sourceSha256": "A97E2C7AE0B97517373C6B3AE181061F94614416476DB63B8E07E867D6BBFEF8"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "9638EF10FB941FECFB3F8137222BCDAF3261EE34A90B892B0DE4C014BDF8D2D2",
+            "sourceSha256": "B189D6BD7DC9C545985EB0D212416020A167A0A0EC495EF2DD63D64D344AD71C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "FB81E09C07BAFEF82615B139A63454CDAFC862664A4CF9E9095F62D93AC9FE52",
+            "sourceSha256": "D7955AAA4BB2D25FD203B7045FE7594A8DEBCB5C97D1E6BB6ECFEABF4E1EBF12"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "777939FA9655218C43FA2D3B70E9868DF3AFEE202596D90ED38B47F32260CB3C",
+            "sourceSha256": "A8E4BDCC8CD7190D9C78BE6BC6DEE0F09B7E587894B438672C53072BEC36C9B2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "306357BC8627EA216D8E8986B416225EDC4CF2C578BE5FFCE90614771003D48F",
+            "sourceSha256": "DB19599E5C7424D813812BC4263F346D6DD031743B540F1FA979C0AF50A1A925"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "DEAA092B5AF9C6BB7B9480F940BC33E0AD824ADC017A8918FBB9A78E4C94FF2F",
+            "sourceSha256": "E18A85626E946742661BCA1088D7C28319C7754C5FDA9A8511F6C3CCBD3D5558"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/west/steward/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 80,
+              "y": 120
+            },
+            "sha256": "5FBDA29D2666567C9751C12D21599CCD4D27C7C381084BA07EB34BCE7FABC044",
+            "sourceSha256": "A534637D23E97735DFE386D2E681A1634266301FE8738B6DD537688D129E92C4"
+          }
+        ]
+      },
+      "east": {
+        "loop": false,
+        "frames": [
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/00.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 1,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8439F06F1BB4CC0881C0A5834F776040D898AF0A7E6CA2BF40879C3D854956B9",
+            "sourceSha256": "A534637D23E97735DFE386D2E681A1634266301FE8738B6DD537688D129E92C4"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/01.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 2,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "02155FA64F6FB56736D93869B26C51218E04B29CF0FF293E8978476FF7AC9A24",
+            "sourceSha256": "21590285693BE1FC1742FCB31E59EBD4336131F4D29DBF71C8B28EB767FDF3BC"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/02.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 3,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "55B93AC031A47D6C9DB9DC57A25E9EEBAE63FC696BE6EE576F241C0775946571",
+            "sourceSha256": "639F266A4F6D31375EB3F16B3D9DCA74401B0692379192093ABBB24FB2E9F0B2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/03.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 4,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8B5E35917DAC9F46435D560DF43D4B3658B0594850F634E7580B9D7BE218652B",
+            "sourceSha256": "62C0475E7EB07932FD0BE742F9961F1150F4033C0ECE6D0F249CE397AC5EB670"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/04.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 5,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "BC6EEB893B2DDC90932E4671074248534BFDCB7BE45A45EA9E60B979A382BF75",
+            "sourceSha256": "A150BBD575EBF24F9A41079324716A00B54B3C4E7D7BDE8AA79805A7720F0FC3"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/05.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 70,
+            "frame": 6,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "07F5FDD1A4544EF0475A239640FDCDA26DAE9158A31EB0C3A2A89AFA195FD8F0",
+            "sourceSha256": "4C286E0CF6EC5A03930200BD3B513A10F8679977C1B0B8C00025B070988A4476"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/06.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 7,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "497AA7F442267336E63DE91939F08319C766EEDC4EE3F7A4CD0CACA4AA723D97",
+            "sourceSha256": "19DDCEB965BB1859A8E452A7A1D130486358684AD3EA6D3E31EE800C8C63B34E"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/07.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 8,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "D8FFE92F4EFEA49405DB7E5DA0F70E435014555632BC38C8B68E1BC79DC2BE9D",
+            "sourceSha256": "91CD29CFB2B641DA3BE7FF14EF8D91AEE02F01A4BFCED42C395EF67E1BAFFAC3"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/08.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 9,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "C53A629392915F9E02FED20C406E8DBAC2B63A5428709C5AAE6D8EDA7F007932",
+            "sourceSha256": "B678DE59857AC7F149DB05C76AB591D8D3985BCCFF2814D5D0452B261E399C90"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/09.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 10,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8F3CBD6BE27B0F7FCBB846156108C3489F41E28F07A45452865D450251954286",
+            "sourceSha256": "382666D7419DA8122859DCE5C9AF4BD84012B5AE7469E33895F278E7F9F5EFC7"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/10.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 40,
+            "frame": 11,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "D25ED7024099B1BF08C0306147419432DD901F94FC7AAFBE6C227080FC413A77",
+            "sourceSha256": "A97E2C7AE0B97517373C6B3AE181061F94614416476DB63B8E07E867D6BBFEF8"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/11.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 60,
+            "frame": 12,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "1912D06B26CBCF64F2F1FDC8B24F4E149EB0197B5B5A4CBB969BDC258F158847",
+            "sourceSha256": "B189D6BD7DC9C545985EB0D212416020A167A0A0EC495EF2DD63D64D344AD71C"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/12.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 13,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "62EDD17A1A005B0DD00D2A994AB45DBE01E70BDCF666ADE1A7C8BEA17FF0AF1A",
+            "sourceSha256": "D7955AAA4BB2D25FD203B7045FE7594A8DEBCB5C97D1E6BB6ECFEABF4E1EBF12"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/13.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 14,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "4C582B5FB26164BE3813734C0397E0AEB38ECBC24020E2F687D665AAFA38277F",
+            "sourceSha256": "A8E4BDCC8CD7190D9C78BE6BC6DEE0F09B7E587894B438672C53072BEC36C9B2"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/14.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 15,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "AA11BBA985115208555284385EC94A17F7FB9186E2A43C41CAEE15631ACAA577",
+            "sourceSha256": "DB19599E5C7424D813812BC4263F346D6DD031743B540F1FA979C0AF50A1A925"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/15.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 50,
+            "frame": 16,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "F16427E722F92A07F8B38529DE022D287BBF7DCC7300910EDEF637BDAC065B50",
+            "sourceSha256": "E18A85626E946742661BCA1088D7C28319C7754C5FDA9A8511F6C3CCBD3D5558"
+          },
+          {
+            "path": "assets/art/characters/runtime/v0.7.0-club-attack/east/steward/16.png",
+            "width": 160,
+            "height": 128,
+            "durationMs": 100,
+            "frame": 17,
+            "origin": {
+              "type": "foot-center",
+              "x": 79,
+              "y": 120
+            },
+            "sha256": "8439F06F1BB4CC0881C0A5834F776040D898AF0A7E6CA2BF40879C3D854956B9",
+            "sourceSha256": "A534637D23E97735DFE386D2E681A1634266301FE8738B6DD537688D129E92C4"
+          }
+        ]
+      }
+    }
+  }
+}

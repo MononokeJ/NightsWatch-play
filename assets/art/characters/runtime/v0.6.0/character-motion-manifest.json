@@ -1,0 +1,5110 @@
+{
+  "format": "nights-watch-v0.6.0-character-motion-package",
+  "version": 1,
+  "issue": 64,
+  "productVersion": "v0.6.0",
+  "authorityHashes": {
+    "VERSION_0.6.0_REQUIREMENTS.md": "BF94A820242A05284EA47F205E947035A098EAA6630E983747CE34FC334B6043",
+    "GAME_DESIGN.md": "0185AB04FA9E80EDA4FA23133B1C7D5B9323C233927542332C71E2A9DE93FAF0",
+    "ART_ASSET_DESIGN.md": "C404328A80E46C184D1DE52BE7D6283E3129213C925C746F1785DA302FC422C8",
+    "FACILITY_MEMBER_VISUALS_SPEC.md": "0D1566C0A5F2D2284C118EAE9CA11DDAEB5AE397A3BC335186E82D9282503BC7",
+    "MAP_RUNTIME_INTEGRATION_SPEC.md": "171998FB417197D1B2B071772857B22FA7A16BAFE85ECD0D29893F5336AF157A",
+    "RUNTIME_MAP_DATA_SPEC.md": "C818DA2E2F72A7662C0E9DAA8B33A9CFABABB07A9C90943BBC4A0D53982ADCFD"
+  },
+  "runtimeDependencyBoundary": {
+    "forbiddenRuntimePathSubstrings": [
+      ".codex/visualizations",
+      ".codex\\visualizations",
+      "/desktop/",
+      "\\desktop\\",
+      "/downloads/",
+      "\\downloads\\",
+      "assets/concepts/",
+      "assets\\concepts\\"
+    ],
+    "runtimeResourcesUseStableRepositoryPathsOnly": true
+  },
+  "sourceRecords": [
+    {
+      "sourceId": "frontIdleManifest",
+      "path": "assets/concepts/v0.6.0-character-motion-generation/front-idle-final-animations/manifest.json",
+      "sha256": "10C8DDB7B5BC09D1D8A65DC69C03A3B6C650AD372814539D1D4F80678FE96D53",
+      "bytes": 13972
+    },
+    {
+      "sourceId": "frontIdleGenerator",
+      "path": "assets/concepts/v0.6.0-character-motion-generation/build_front_idle_final_animations.py",
+      "sha256": "E08D816BD42A41650E31560704473359A7548407A213AF465C6992ED09CC27A1",
+      "bytes": 7811
+    },
+    {
+      "sourceId": "leftWalkManifest",
+      "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+      "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+      "bytes": 13896
+    },
+    {
+      "sourceId": "leftWalkGenerator",
+      "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+      "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+      "bytes": 7824
+    }
+  ],
+  "generator": {
+    "path": "assets/art/characters/runtime/v0.6.0/build_v0.6.0_character_motion.py",
+    "sha256": "5CB2D53A6E9DC8FC501CFE1CC610C49C49377937902576E482BEFBF385AE30DE",
+    "bytes": 30436
+  },
+  "schema": {
+    "path": "character-motion-manifest.schema.json",
+    "sha256": "2942E04FB6560DEEFD7796A11065B50588BCC574ACAA00E8EA90A3A1312B40CF",
+    "bytes": 1106
+  },
+  "characters": [
+    {
+      "characterId": "recruit",
+      "motions": {
+        "front-idle": {
+          "motionId": "front-idle",
+          "frameCount": 8,
+          "frameDurationMs": [
+            600,
+            400,
+            100,
+            100,
+            100,
+            250,
+            300,
+            350
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.26277372262773724,
+          "scaleX": 0.26277372262773724,
+          "scaleY": 0.26277372262773724,
+          "sourceVisibleHeight": 274,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "front-idle-final-animations/recruit/frames/frame-01.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/front-idle-final-animations/manifest.json",
+            "sha256": "10C8DDB7B5BC09D1D8A65DC69C03A3B6C650AD372814539D1D4F80678FE96D53",
+            "bytes": 13972
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_front_idle_final_animations.py",
+            "sha256": "E08D816BD42A41650E31560704473359A7548407A213AF465C6992ED09CC27A1",
+            "bytes": 7811
+          },
+          "sourceFrames": [
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-01.png",
+              "sha256": "0F4EC67877BA15EE8267644A00AA2A43CCC347E0D8111F040438BA3331944592",
+              "bytes": 52977,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-02.png",
+              "sha256": "3BBDA583BBADA9E0849F38FF6AC24D2F4D46382B0F76FA2EAED9576A7E8CA407",
+              "bytes": 52286,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-03.png",
+              "sha256": "D670F5A4AAEE9FDAA82729C697621EA0F5DD5B13F846B041E86384AC08358E16",
+              "bytes": 52913,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-04.png",
+              "sha256": "DC4171CE3A0935F2196AB50D88F9618DDF2841EE53AA5370C903C0645995EBF3",
+              "bytes": 52914,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-05.png",
+              "sha256": "EA345F5153BF56C6604D1DC9B291BB3DC36F15499E53E3A62D969149ECE0E6AA",
+              "bytes": 52482,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-06.png",
+              "sha256": "40D98C8838412A06CC516D3675F8B3B6C9839351BEF645FCCAB1BA8B5FDDA452",
+              "bytes": 52838,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-07.png",
+              "sha256": "C21C3F8B288F02E6330AD1D3BF36303B004D5D4532EF1AECEED62760744878B6",
+              "bytes": 52369,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/recruit/frames/frame-08.png",
+              "sha256": "DE2B3321592E9E2FC54215D18F4FC265BC9C67BC640F2C5B9E5DF08BA936F2C0",
+              "bytes": 52382,
+              "width": 160,
+              "height": 282,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "front-idle/recruit/frames/frame-01.png",
+              "sha256": "248CBC3BA4B20F824C284A312A76F0E185F84C2DE59783115E5B375BA91F2A30",
+              "bytes": 6064,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 6,
+                "right": 49,
+                "bottom": 78,
+                "width": 40,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/recruit/frames/frame-02.png",
+              "sha256": "4BC71A39297CA5F097046FD5B79063412A3A0CD8072CF0921ECB359FFCEA793E",
+              "bytes": 6052,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 6,
+                "right": 49,
+                "bottom": 78,
+                "width": 40,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/recruit/frames/frame-03.png",
+              "sha256": "927FC6D587D26A6EB14A814239CE8FD3B7A06CFA450D27EAEC41DFA8EA0186EA",
+              "bytes": 6104,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 6,
+                "right": 49,
+                "bottom": 78,
+                "width": 40,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/recruit/frames/frame-04.png",
+              "sha256": "FE20F2E4C0156AA00F99D93871FB19D91FF777E592C0DD1C554568679FB748A7",
+              "bytes": 6056,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 6,
+                "right": 49,
+                "bottom": 78,
+                "width": 40,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/recruit/frames/frame-05.png",
+              "sha256": "BDF65E74C94D151F41B4AFA8C816C53100A959AF05098027A1E5193FD6C6D816",
+              "bytes": 6077,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 6,
+                "right": 49,
+                "bottom": 78,
+                "width": 40,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/recruit/frames/frame-06.png",
+              "sha256": "0BA64A0899156516CBE7F0C9C80AD3F246F4F676DDE04676EBA5A8E0ACC86658",
+              "bytes": 6060,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 10,
+                "top": 6,
+                "right": 49,
+                "bottom": 78,
+                "width": 39,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/recruit/frames/frame-07.png",
+              "sha256": "14C9721588F9599125A2E5447B4C2C87765BBDAEA2BE93126ADF87638CE9E85E",
+              "bytes": 6036,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 10,
+                "top": 6,
+                "right": 49,
+                "bottom": 78,
+                "width": 39,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/recruit/frames/frame-08.png",
+              "sha256": "2897172AFCF74BD49AA33F5505DC639C0E870F6CF1D9154A66ED93C9752E6194",
+              "bytes": 6037,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.26277372262773724,
+              "scaleX": 0.26277372262773724,
+              "scaleY": 0.26277372262773724,
+              "sourceVisibleHeight": 274,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 10,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 38,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-west": {
+          "motionId": "walk-west",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.2553191489361702,
+          "scaleX": 0.2553191489361702,
+          "scaleY": 0.2553191489361702,
+          "sourceVisibleHeight": 282,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/recruit/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-01.png",
+              "sha256": "C008AC38DEE7DE90A1DD8D0443998E9FAE5E856AE0FEECA83BB5BE40B9A6BDD4",
+              "bytes": 51058,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-02.png",
+              "sha256": "BE4F5FDB91468053C2BAD06D36859F3852A37751355D342130508392973FD264",
+              "bytes": 50393,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-03.png",
+              "sha256": "E87C31C7477C6614713AA6CD91EDAF3B1F1CC7AEEA451EF16BEF5E7E91DB00BD",
+              "bytes": 51786,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-04.png",
+              "sha256": "52EE09EB51A1D5A70132220FCE2AB4CCC9631FF3C630D4F427200029D7ACA402",
+              "bytes": 51798,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-05.png",
+              "sha256": "A910ECBEBCCF2575D1B2C988C37A98BB059C215D09348523D0B6C546B957E928",
+              "bytes": 52221,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-06.png",
+              "sha256": "4B35CCE6D43C39956E013F138DEB22A49661D566438312525BA0C40CE714CF5B",
+              "bytes": 51957,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-07.png",
+              "sha256": "806B4EECAEAE7A4489F5134D126D897C0CBF5BB440843E9989F41C42B66990EB",
+              "bytes": 49786,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/recruit/frames/frame-08.png",
+              "sha256": "27F007E4F51FBBA35E487CC210D850173A62CA1E8EAEFF6FC85CC675415DDD7D",
+              "bytes": 51780,
+              "width": 181,
+              "height": 292,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-west/recruit/frames/frame-01.png",
+              "sha256": "D54E9B17AAE5E39112DF457B87E54D4FDE0C8982936864A5F1E0F93A862FFF2F",
+              "bytes": 5390,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 49,
+                "bottom": 77,
+                "width": 38,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-02.png",
+              "sha256": "8B999AFBBC36345626240DB2D3B4014E0115BEB51500E8D8218473FDA9F2A32A",
+              "bytes": 5414,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 12,
+                "top": 7,
+                "right": 49,
+                "bottom": 77,
+                "width": 37,
+                "height": 70
+              }
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-03.png",
+              "sha256": "2FE308F7779C5646E20FBF62A6281C6D13F6FABB132147E24BA59222AE75A841",
+              "bytes": 5519,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 15,
+                "top": 6,
+                "right": 48,
+                "bottom": 77,
+                "width": 33,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-04.png",
+              "sha256": "C5B8695A855CC2B18FD22E21E83F94746019A019160BB077BD1EE101F9714164",
+              "bytes": 5540,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 10,
+                "top": 5,
+                "right": 48,
+                "bottom": 77,
+                "width": 38,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-05.png",
+              "sha256": "5BCB6788CBF372897834D85F21C556CF127A71E0932FA311BD8CE5BE876D6273",
+              "bytes": 5646,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 51,
+                "bottom": 78,
+                "width": 44,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-06.png",
+              "sha256": "61E8E4B3DE1EAD33880B5E764B7267814BF61487745804A85827D365C2D2404A",
+              "bytes": 5568,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 41,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-07.png",
+              "sha256": "745F6553F42F1ABA0206A032F3C5235A3F908ABC4FA5AC94B1EF0E545C98DBB4",
+              "bytes": 5506,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 12,
+                "top": 5,
+                "right": 48,
+                "bottom": 78,
+                "width": 36,
+                "height": 73
+              }
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-08.png",
+              "sha256": "772134A94DDDFC5373459739FF2776BFB593A55267508232A3DCED57E04299DC",
+              "bytes": 5479,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 16,
+                "top": 5,
+                "right": 49,
+                "bottom": 77,
+                "width": 33,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-east": {
+          "motionId": "walk-east",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.2553191489361702,
+          "scaleX": 0.2553191489361702,
+          "scaleY": 0.2553191489361702,
+          "sourceVisibleHeight": 282,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/recruit/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "walk-west/recruit/frames/frame-01.png",
+              "sha256": "791E3D8692003E7C4EEF4E942AAD5F9574C95F2DD9F4C44A569FA77893B7FB33",
+              "bytes": 5401,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-02.png",
+              "sha256": "1D50EB4D3C8270D4F9F80BFEADBC90B773C56F15277496F43A50615B5E7C1DCD",
+              "bytes": 5427,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-03.png",
+              "sha256": "38CD10E7628068544E0E02B64856545ACEEC87C06423B9812CCCFCC043D8C6B0",
+              "bytes": 5498,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-04.png",
+              "sha256": "187DC4723A99B421B3159E3FD53D2BDF8B16A4E8F9204073A283172C62E18360",
+              "bytes": 5595,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-05.png",
+              "sha256": "41AF4F0F2E5E84201F9DBE1424C691D72A39B41463164089ABE0FA9DFC1D9F0B",
+              "bytes": 5655,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-06.png",
+              "sha256": "CD8254A66CA8DCE782637DB53524AB0210CA16CE5BA17A81811AB2B90D2901F4",
+              "bytes": 5622,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-07.png",
+              "sha256": "19D2E3AEB9D4D2DE83D89840F09F38349FA4ED244271E7FFFD7FF4B650FC99A0",
+              "bytes": 5523,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/recruit/frames/frame-08.png",
+              "sha256": "00127101616B02697FAB8B88F632609324B2235AECE289D21F8CBE359ACA925C",
+              "bytes": 5486,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-east/recruit/frames/frame-01.png",
+              "sha256": "791E3D8692003E7C4EEF4E942AAD5F9574C95F2DD9F4C44A569FA77893B7FB33",
+              "bytes": 5401,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/recruit/frames/frame-02.png",
+              "sha256": "1D50EB4D3C8270D4F9F80BFEADBC90B773C56F15277496F43A50615B5E7C1DCD",
+              "bytes": 5427,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/recruit/frames/frame-03.png",
+              "sha256": "38CD10E7628068544E0E02B64856545ACEEC87C06423B9812CCCFCC043D8C6B0",
+              "bytes": 5498,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/recruit/frames/frame-04.png",
+              "sha256": "187DC4723A99B421B3159E3FD53D2BDF8B16A4E8F9204073A283172C62E18360",
+              "bytes": 5595,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/recruit/frames/frame-05.png",
+              "sha256": "41AF4F0F2E5E84201F9DBE1424C691D72A39B41463164089ABE0FA9DFC1D9F0B",
+              "bytes": 5655,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/recruit/frames/frame-06.png",
+              "sha256": "CD8254A66CA8DCE782637DB53524AB0210CA16CE5BA17A81811AB2B90D2901F4",
+              "bytes": 5622,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/recruit/frames/frame-07.png",
+              "sha256": "19D2E3AEB9D4D2DE83D89840F09F38349FA4ED244271E7FFFD7FF4B650FC99A0",
+              "bytes": 5523,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/recruit/frames/frame-08.png",
+              "sha256": "00127101616B02697FAB8B88F632609324B2235AECE289D21F8CBE359ACA925C",
+              "bytes": 5486,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2553191489361702,
+              "scaleX": 0.2553191489361702,
+              "scaleY": 0.2553191489361702,
+              "sourceVisibleHeight": 282,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            }
+          ],
+          "mirrorOf": "walk-west",
+          "mirrorRelation": "horizontal-flip",
+          "mirrorOriginFormula": "runtimeCanvasWidth - originX"
+        }
+      }
+    },
+    {
+      "characterId": "artisan",
+      "motions": {
+        "front-idle": {
+          "motionId": "front-idle",
+          "frameCount": 8,
+          "frameDurationMs": [
+            600,
+            400,
+            100,
+            100,
+            100,
+            250,
+            300,
+            350
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.25263157894736843,
+          "scaleX": 0.25263157894736843,
+          "scaleY": 0.25263157894736843,
+          "sourceVisibleHeight": 285,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "front-idle-final-animations/artisan/frames/frame-01.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/front-idle-final-animations/manifest.json",
+            "sha256": "10C8DDB7B5BC09D1D8A65DC69C03A3B6C650AD372814539D1D4F80678FE96D53",
+            "bytes": 13972
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_front_idle_final_animations.py",
+            "sha256": "E08D816BD42A41650E31560704473359A7548407A213AF465C6992ED09CC27A1",
+            "bytes": 7811
+          },
+          "sourceFrames": [
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-01.png",
+              "sha256": "FCCE54EB4C08ED8A9A930CF22AFACA5894A99EDE91F4BE4F5EB6E49A8E1BB94C",
+              "bytes": 58668,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-02.png",
+              "sha256": "FAE345FA58C60C3BBAC418FEC1C2BB4517271953731D429DC8470565EAD68FFB",
+              "bytes": 57966,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-03.png",
+              "sha256": "FC52A5D70AC03BD595CAA567338214D03D3B31839C2D09434360D42BEC1D1ECA",
+              "bytes": 58958,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-04.png",
+              "sha256": "51B53F54671B2E5B81711F4FBFDE0427E16870E3DB5EF49273DB93BE45B8C329",
+              "bytes": 58747,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-05.png",
+              "sha256": "BEAFDD57B5FCAF89D93C97251E333C05518EC27829AD8459B01D05EEB4CF2AEF",
+              "bytes": 58581,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-06.png",
+              "sha256": "A4E59228725429B48AF63EC4E16B83633AA74F341A95212FBE445FE0FBA8E234",
+              "bytes": 58581,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-07.png",
+              "sha256": "0BE5C4769E88032FD8E561D5533C1E8DB8379218409964A3895DDA422E7B819D",
+              "bytes": 58266,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/artisan/frames/frame-08.png",
+              "sha256": "6144BFD8153A377CFCAE2F628E76FC4973A70670863E329617AFF341514A124B",
+              "bytes": 58311,
+              "width": 179,
+              "height": 293,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "front-idle/artisan/frames/frame-01.png",
+              "sha256": "16485383418D0279CA029009EF5E3E0676FBB5FF17CDC30092BC7E0988CAF98C",
+              "bytes": 6303,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 8,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 42,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/artisan/frames/frame-02.png",
+              "sha256": "CAFD47E98C3D3C6D916C8466C32ECFEF7F87BF01C06AD1C30964F8808E5CB7B5",
+              "bytes": 6286,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/artisan/frames/frame-03.png",
+              "sha256": "5EA63FDD213D82722AACBA56DA4EA3412DB13677B885630B1CD82BED4DE76263",
+              "bytes": 6343,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/artisan/frames/frame-04.png",
+              "sha256": "74A21170B36DECB2F9EDFC08C36B6E2FA2C846AB0FC5AB8A51F04BE7D52FDD79",
+              "bytes": 6270,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/artisan/frames/frame-05.png",
+              "sha256": "CF7FE74036AC5E0381E15CD036C40DDD1FBF75EC9DE6A67098BA87D8645925ED",
+              "bytes": 6285,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/artisan/frames/frame-06.png",
+              "sha256": "81E690CF9DA07DABF2763A20EBD1BAD775F3750191C37E1C50F8A5452BF82119",
+              "bytes": 6280,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/artisan/frames/frame-07.png",
+              "sha256": "7A4FE48F7B2488CD7BA0FC35EA287D159C0E03DAD46D525F5982CD1FB8F56C77",
+              "bytes": 6311,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/artisan/frames/frame-08.png",
+              "sha256": "A5E2D508E8A286E5DA06F388402C87A43DE92AB80105F806D00153B7EB8EADDA",
+              "bytes": 6246,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 8,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 42,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-west": {
+          "motionId": "walk-west",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.2535211267605634,
+          "scaleX": 0.2535211267605634,
+          "scaleY": 0.2535211267605634,
+          "sourceVisibleHeight": 284,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/artisan/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-01.png",
+              "sha256": "24C3877D5442A14196324DEAF31590128ADD81DBB814161D21A62722B80389DC",
+              "bytes": 53300,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-02.png",
+              "sha256": "035BA58CF78EE39D55B00E659943613E55AA9D3FA1C6CC58FF7BE3EF49CCEB81",
+              "bytes": 52625,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-03.png",
+              "sha256": "ACAD17C25CDA8430FD959F84C25EA763604ABB0A81B9CBCA43D2F309FA454D30",
+              "bytes": 54391,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-04.png",
+              "sha256": "FAE301EB4B7EC6EA8F912F04EF94CCA3893800B967A6B3E8D0AD5F616C7E95C1",
+              "bytes": 55772,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-05.png",
+              "sha256": "9A1416B4E90B2D32A486A8B357BD643C5409C59A9768DB8FE721892C33BDDEFD",
+              "bytes": 57874,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-06.png",
+              "sha256": "C36CEBDE2B840FE6B8EF916065A167FC5FDF37029A1A7F12363887A93D6789FA",
+              "bytes": 57227,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-07.png",
+              "sha256": "145B42941FDF44A9C71A7AF8E793D717C1434F9C96ADDD0AC1894FF148B06A8C",
+              "bytes": 55101,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/artisan/frames/frame-08.png",
+              "sha256": "1610CCC74C497A5C95FD4EECBF6DC92CBE80CA6D687CB7C3537FE9AA90376755",
+              "bytes": 54898,
+              "width": 202,
+              "height": 295,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-west/artisan/frames/frame-01.png",
+              "sha256": "98AA44070658654AA17FA69BB31CD4AF8E410435323AC3AB08185FD11F2329E2",
+              "bytes": 5540,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 10,
+                "top": 7,
+                "right": 48,
+                "bottom": 77,
+                "width": 38,
+                "height": 70
+              }
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-02.png",
+              "sha256": "FEB5A6A977C6A7EA2813A5FF9498A00E260CE5642203C4A4F7A9DE0D8D4216B4",
+              "bytes": 5489,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 7,
+                "right": 49,
+                "bottom": 77,
+                "width": 38,
+                "height": 70
+              }
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-03.png",
+              "sha256": "8CBA09E27FD5A3A0EB3519A58917CA6B1CC4C7550D5259C9FD69AA48B4FFF73A",
+              "bytes": 5707,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 13,
+                "top": 6,
+                "right": 49,
+                "bottom": 77,
+                "width": 36,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-04.png",
+              "sha256": "927F16DD7F47CF8B687FC0D8AB8BBB9C65FA48498AA4494AD12AC9D4AA03E6FF",
+              "bytes": 5876,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 8,
+                "top": 5,
+                "right": 52,
+                "bottom": 76,
+                "width": 44,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-05.png",
+              "sha256": "4CE431965083F1BB79E58D3E4765B4CD71C6E7D6E81D42C48E04C434DF0A6B5E",
+              "bytes": 6045,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 5,
+                "top": 6,
+                "right": 54,
+                "bottom": 77,
+                "width": 49,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-06.png",
+              "sha256": "18781C6861994AE0021EF828712C7513EA12914C6B037A002929768B0E018BF5",
+              "bytes": 5971,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 53,
+                "bottom": 78,
+                "width": 46,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-07.png",
+              "sha256": "E284FC47AE92F3DBCB90F8F6B527ACB0BD17E3E47079EC3BBFA58F3F06F19573",
+              "bytes": 5831,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 5,
+                "right": 52,
+                "bottom": 77,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-08.png",
+              "sha256": "EB3B89EBBD0E8F16104F8C5F8386B78A9E54257FA875F7155218D19E6D96C28A",
+              "bytes": 5733,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 13,
+                "top": 5,
+                "right": 49,
+                "bottom": 77,
+                "width": 36,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-east": {
+          "motionId": "walk-east",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.2535211267605634,
+          "scaleX": 0.2535211267605634,
+          "scaleY": 0.2535211267605634,
+          "sourceVisibleHeight": 284,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/artisan/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "walk-west/artisan/frames/frame-01.png",
+              "sha256": "F7AE25133AB23C8F255E4188885743B522D6A675000AA9253F6B5CDB6F409819",
+              "bytes": 5570,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-02.png",
+              "sha256": "8CB1AE98529549D054BB0717E3AB1B9995B179623CE86AF5072A763CEB16DA02",
+              "bytes": 5500,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-03.png",
+              "sha256": "B4949D0AB7530ED8F83F38935EB080FB56F83DF437BC6830B636F3476B26BF53",
+              "bytes": 5696,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-04.png",
+              "sha256": "71BCDAF63A59CF3BBABC739D24DC670F874D8C852B798422656FCFFA502351EE",
+              "bytes": 5872,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-05.png",
+              "sha256": "D806D1751B26D9A15F4642B0B57E75A776214B60488A207E8250729C2228C1D5",
+              "bytes": 6084,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-06.png",
+              "sha256": "A6D79F6970F70FE56F38C5007BC294EB53F18B65605D1C78CB27B29093F8311D",
+              "bytes": 6037,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-07.png",
+              "sha256": "21EA1C88740927E8CCD2676FE81667408A6025EBB3D5B4ECFBF3C9810B2104C3",
+              "bytes": 5863,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/artisan/frames/frame-08.png",
+              "sha256": "AAE355EBC8FA89B5281A14E7ECE6E5A7CE7255E27281DA44D6653B4E0A4F6549",
+              "bytes": 5768,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-east/artisan/frames/frame-01.png",
+              "sha256": "F7AE25133AB23C8F255E4188885743B522D6A675000AA9253F6B5CDB6F409819",
+              "bytes": 5570,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/artisan/frames/frame-02.png",
+              "sha256": "8CB1AE98529549D054BB0717E3AB1B9995B179623CE86AF5072A763CEB16DA02",
+              "bytes": 5500,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/artisan/frames/frame-03.png",
+              "sha256": "B4949D0AB7530ED8F83F38935EB080FB56F83DF437BC6830B636F3476B26BF53",
+              "bytes": 5696,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/artisan/frames/frame-04.png",
+              "sha256": "71BCDAF63A59CF3BBABC739D24DC670F874D8C852B798422656FCFFA502351EE",
+              "bytes": 5872,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/artisan/frames/frame-05.png",
+              "sha256": "D806D1751B26D9A15F4642B0B57E75A776214B60488A207E8250729C2228C1D5",
+              "bytes": 6084,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/artisan/frames/frame-06.png",
+              "sha256": "A6D79F6970F70FE56F38C5007BC294EB53F18B65605D1C78CB27B29093F8311D",
+              "bytes": 6037,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/artisan/frames/frame-07.png",
+              "sha256": "21EA1C88740927E8CCD2676FE81667408A6025EBB3D5B4ECFBF3C9810B2104C3",
+              "bytes": 5863,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/artisan/frames/frame-08.png",
+              "sha256": "AAE355EBC8FA89B5281A14E7ECE6E5A7CE7255E27281DA44D6653B4E0A4F6549",
+              "bytes": 5768,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2535211267605634,
+              "scaleX": 0.2535211267605634,
+              "scaleY": 0.2535211267605634,
+              "sourceVisibleHeight": 284,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            }
+          ],
+          "mirrorOf": "walk-west",
+          "mirrorRelation": "horizontal-flip",
+          "mirrorOriginFormula": "runtimeCanvasWidth - originX"
+        }
+      }
+    },
+    {
+      "characterId": "ranger",
+      "motions": {
+        "front-idle": {
+          "motionId": "front-idle",
+          "frameCount": 8,
+          "frameDurationMs": [
+            600,
+            400,
+            100,
+            100,
+            100,
+            250,
+            300,
+            350
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.25263157894736843,
+          "scaleX": 0.25263157894736843,
+          "scaleY": 0.25263157894736843,
+          "sourceVisibleHeight": 285,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "front-idle-final-animations/ranger/frames/frame-01.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/front-idle-final-animations/manifest.json",
+            "sha256": "10C8DDB7B5BC09D1D8A65DC69C03A3B6C650AD372814539D1D4F80678FE96D53",
+            "bytes": 13972
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_front_idle_final_animations.py",
+            "sha256": "E08D816BD42A41650E31560704473359A7548407A213AF465C6992ED09CC27A1",
+            "bytes": 7811
+          },
+          "sourceFrames": [
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-01.png",
+              "sha256": "0270F58C0030385F924FD1E540D2401BBA7826B2F5DD0A801F927A2499638D86",
+              "bytes": 59663,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-02.png",
+              "sha256": "608B6AE69D16014F43B413A42F84E704684F5B415309FEEEAC42B45B553C5088",
+              "bytes": 59444,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-03.png",
+              "sha256": "9480CFEABE2742AA248B50C97254A4003C6E8570512CD2A2CC23EA5DC4FEF3C7",
+              "bytes": 60094,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-04.png",
+              "sha256": "E06CDFF3DAAF5D0D95ECD6666A2DAE94A6C4D45CDE937F726D40EA9F4C1EBDF4",
+              "bytes": 59874,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-05.png",
+              "sha256": "177F522927E41FA2305AD4C483AFE1EE17732F91E4834B09F2DE000662B5803E",
+              "bytes": 59537,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-06.png",
+              "sha256": "FFA92DE55317DBE17C0C3B943BF7977C2154371E43C5BFBD6BD7D97F504DA624",
+              "bytes": 59151,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-07.png",
+              "sha256": "19CD1E4AB324B73FDBFD13DF7ABEB69F96AE8CF49C02ACF9AC31A9A682E4A7AC",
+              "bytes": 58732,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/ranger/frames/frame-08.png",
+              "sha256": "F36B5D72C00F5123406829F1AC130FEB48E8C61E1ED6520CA969BB0CADB631EF",
+              "bytes": 58739,
+              "width": 211,
+              "height": 293,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "front-idle/ranger/frames/frame-01.png",
+              "sha256": "F9B3EC41674C19F716180384DB2754BC4CACE952B450097CFA3649FE026ABBF5",
+              "bytes": 6527,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 5,
+                "top": 6,
+                "right": 53,
+                "bottom": 78,
+                "width": 48,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/ranger/frames/frame-02.png",
+              "sha256": "DAD4B90268BF71FE68D5A6705DA99D1233678A32E1B5E2C9B0F95AE4E7A36EAB",
+              "bytes": 6520,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 4,
+                "top": 6,
+                "right": 53,
+                "bottom": 78,
+                "width": 49,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/ranger/frames/frame-03.png",
+              "sha256": "CBABDD1198CB0B0D442D30F0183ABB70C382431DD882C7A0C7DF427ABF56E540",
+              "bytes": 6588,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 4,
+                "top": 6,
+                "right": 54,
+                "bottom": 78,
+                "width": 50,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/ranger/frames/frame-04.png",
+              "sha256": "7AEE94C2C40FE3E27784519E57D0D7D4FE82AE499EB0DF5165EBAFED6C9D59E2",
+              "bytes": 6502,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 3,
+                "top": 6,
+                "right": 54,
+                "bottom": 78,
+                "width": 51,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/ranger/frames/frame-05.png",
+              "sha256": "57535C5C8F0207F773350940CFE1E70F2952A7247E9FD3B0A3B52D7BDE0D827F",
+              "bytes": 6479,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 3,
+                "top": 6,
+                "right": 54,
+                "bottom": 78,
+                "width": 51,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/ranger/frames/frame-06.png",
+              "sha256": "44F6665E4DDBEF3CC64287D967808735AC74131F3B579CAD7AD5D782D18C64CC",
+              "bytes": 6414,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 4,
+                "top": 6,
+                "right": 54,
+                "bottom": 78,
+                "width": 50,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/ranger/frames/frame-07.png",
+              "sha256": "6B2E9D22AAF1C267034708346FF974216402F42DD152F3CE92AEB64B9C3AC4F8",
+              "bytes": 6376,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 4,
+                "top": 6,
+                "right": 53,
+                "bottom": 78,
+                "width": 49,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/ranger/frames/frame-08.png",
+              "sha256": "CB92DCAE55472173EBB29462E3C0DD3FB4A37DF57427D3972F98D18CACDF39E4",
+              "bytes": 6312,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25263157894736843,
+              "scaleX": 0.25263157894736843,
+              "scaleY": 0.25263157894736843,
+              "sourceVisibleHeight": 285,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 4,
+                "top": 6,
+                "right": 53,
+                "bottom": 78,
+                "width": 49,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-west": {
+          "motionId": "walk-west",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.25806451612903225,
+          "scaleX": 0.25806451612903225,
+          "scaleY": 0.25806451612903225,
+          "sourceVisibleHeight": 279,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/ranger/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-01.png",
+              "sha256": "481CF4501807246A1F14558F09C36E553003034498CF86FEEA40CB406260A823",
+              "bytes": 51483,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-02.png",
+              "sha256": "F84FC58D657DCB9D3B1BE9E1341CA1D7CE074CFCDBAC10CB5AE468FC0C995EAA",
+              "bytes": 49988,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-03.png",
+              "sha256": "1D34A7D93E57AE0BE986A00DDFE3799FCCA5C053CF7E1B5B031EBF39959CE474",
+              "bytes": 52075,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-04.png",
+              "sha256": "62D14AFC5223317EECBB0D97E9923306EC42C9CBCFA779C347D728E620152A9D",
+              "bytes": 53773,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-05.png",
+              "sha256": "2125608407F4D5459C61C4BB7472BFAF7E6AC0A04820AF482AB8812B0D33B315",
+              "bytes": 55003,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-06.png",
+              "sha256": "7DB0EFBD4A9F58C39FA94BF012B2C2B5D0A1A7184B5B2858503A38331318BEBB",
+              "bytes": 54465,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-07.png",
+              "sha256": "E9F469F918AE3797802A206D6FB6DB91D3CEB0A83573054249C56CDDC85AE303",
+              "bytes": 52179,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/ranger/frames/frame-08.png",
+              "sha256": "14D7E432DAA8EF3FBFA226F7D13306414053CF734E198A42A48581B3071081C5",
+              "bytes": 53270,
+              "width": 207,
+              "height": 289,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-west/ranger/frames/frame-01.png",
+              "sha256": "D9C27402024124D9B1F88E9B014EAB6B4456CA84D6ECD7E9C222CEB4D23151B2",
+              "bytes": 5608,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 58,
+                "bottom": 77,
+                "width": 47,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-02.png",
+              "sha256": "B2446176FF779FD8B11A8B9DD3C67F1EB2226F9531FBC00165D693852F24B7A8",
+              "bytes": 5553,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 57,
+                "bottom": 77,
+                "width": 46,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-03.png",
+              "sha256": "A0E8E7425202B159F608C511BA2F95EA48233A0A20F69498899714EAE3A01CA9",
+              "bytes": 5648,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 13,
+                "top": 6,
+                "right": 54,
+                "bottom": 77,
+                "width": 41,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-04.png",
+              "sha256": "5FAA7FAABA990270965DC9CB3D8BC9BEA44F133BF6D4509D3A3E081A3C35B8AA",
+              "bytes": 5921,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 5,
+                "right": 51,
+                "bottom": 76,
+                "width": 42,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-05.png",
+              "sha256": "AFDA908E0059549255F5B0FFD3BB1C7A436D32A3AC51B095C05C7F24E2717D6A",
+              "bytes": 6049,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 7,
+                "top": 6,
+                "right": 51,
+                "bottom": 77,
+                "width": 44,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-06.png",
+              "sha256": "4FBE35F5F3AA2501AF6DD4ED03E58D2732D32ADAE6109F104DFA0F2A9D26B6CF",
+              "bytes": 6042,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 8,
+                "top": 6,
+                "right": 52,
+                "bottom": 78,
+                "width": 44,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-07.png",
+              "sha256": "5A9A13C64AC6A07F406E7F52AEA46495493CC1889429F511E7D142E59066D877",
+              "bytes": 5899,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 9,
+                "top": 5,
+                "right": 54,
+                "bottom": 78,
+                "width": 45,
+                "height": 73
+              }
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-08.png",
+              "sha256": "E5D0E7C30C5D3AFBFAB88D3A7D543DD148C12A5C23DE3692F732A5AF347E613E",
+              "bytes": 5849,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 12,
+                "top": 5,
+                "right": 56,
+                "bottom": 77,
+                "width": 44,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-east": {
+          "motionId": "walk-east",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.25806451612903225,
+          "scaleX": 0.25806451612903225,
+          "scaleY": 0.25806451612903225,
+          "sourceVisibleHeight": 279,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/ranger/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "walk-west/ranger/frames/frame-01.png",
+              "sha256": "1859D3DBE3A9DF57B5AE0599392CD4060E0C17B8D74B13F2735EBD5787F0F4D6",
+              "bytes": 5608,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-02.png",
+              "sha256": "779C6DFF30309683C512A547A4568F89802D82B10ECD2A66E8B92917A915D26D",
+              "bytes": 5613,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-03.png",
+              "sha256": "028D0A66399AB7D547E4A98250F228E2E4F6F43636230B66B8AF6B17A8F8E9DB",
+              "bytes": 5669,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-04.png",
+              "sha256": "BD6879DD7CD282E928AEA16D8F710996B3B10BD8E70C175D0028213EE99AF3EB",
+              "bytes": 5981,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-05.png",
+              "sha256": "55DC508D6F37DC81019079A4BD8C379CB06051B9D0913D232E4CB978E8CF367A",
+              "bytes": 6023,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-06.png",
+              "sha256": "76E3D0258903043FE57338B708F4CDC3257E85F05DBB2075E71A138C8C0A13F9",
+              "bytes": 6045,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-07.png",
+              "sha256": "AE5FAF9D2DDF7AE0166B18B2599188958E01BFBA0DF0DB9BFA6610F993D10D37",
+              "bytes": 5900,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/ranger/frames/frame-08.png",
+              "sha256": "06EED63650030938E849C9B760ABA5A979A6A3993375F96FDD2983E0D4B88DD2",
+              "bytes": 5904,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-east/ranger/frames/frame-01.png",
+              "sha256": "1859D3DBE3A9DF57B5AE0599392CD4060E0C17B8D74B13F2735EBD5787F0F4D6",
+              "bytes": 5608,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/ranger/frames/frame-02.png",
+              "sha256": "779C6DFF30309683C512A547A4568F89802D82B10ECD2A66E8B92917A915D26D",
+              "bytes": 5613,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/ranger/frames/frame-03.png",
+              "sha256": "028D0A66399AB7D547E4A98250F228E2E4F6F43636230B66B8AF6B17A8F8E9DB",
+              "bytes": 5669,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/ranger/frames/frame-04.png",
+              "sha256": "BD6879DD7CD282E928AEA16D8F710996B3B10BD8E70C175D0028213EE99AF3EB",
+              "bytes": 5981,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/ranger/frames/frame-05.png",
+              "sha256": "55DC508D6F37DC81019079A4BD8C379CB06051B9D0913D232E4CB978E8CF367A",
+              "bytes": 6023,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/ranger/frames/frame-06.png",
+              "sha256": "76E3D0258903043FE57338B708F4CDC3257E85F05DBB2075E71A138C8C0A13F9",
+              "bytes": 6045,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/ranger/frames/frame-07.png",
+              "sha256": "AE5FAF9D2DDF7AE0166B18B2599188958E01BFBA0DF0DB9BFA6610F993D10D37",
+              "bytes": 5900,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/ranger/frames/frame-08.png",
+              "sha256": "06EED63650030938E849C9B760ABA5A979A6A3993375F96FDD2983E0D4B88DD2",
+              "bytes": 5904,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.25806451612903225,
+              "scaleX": 0.25806451612903225,
+              "scaleY": 0.25806451612903225,
+              "sourceVisibleHeight": 279,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            }
+          ],
+          "mirrorOf": "walk-west",
+          "mirrorRelation": "horizontal-flip",
+          "mirrorOriginFormula": "runtimeCanvasWidth - originX"
+        }
+      }
+    },
+    {
+      "characterId": "steward",
+      "motions": {
+        "front-idle": {
+          "motionId": "front-idle",
+          "frameCount": 8,
+          "frameDurationMs": [
+            600,
+            400,
+            100,
+            100,
+            100,
+            250,
+            300,
+            350
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.2589928057553957,
+          "scaleX": 0.2589928057553957,
+          "scaleY": 0.2589928057553957,
+          "sourceVisibleHeight": 278,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "front-idle-final-animations/steward/frames/frame-01.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/front-idle-final-animations/manifest.json",
+            "sha256": "10C8DDB7B5BC09D1D8A65DC69C03A3B6C650AD372814539D1D4F80678FE96D53",
+            "bytes": 13972
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_front_idle_final_animations.py",
+            "sha256": "E08D816BD42A41650E31560704473359A7548407A213AF465C6992ED09CC27A1",
+            "bytes": 7811
+          },
+          "sourceFrames": [
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-01.png",
+              "sha256": "673741230105087DE2E1AFC51204719B173484D70F3F85FBFB9D10F78DA4D523",
+              "bytes": 46671,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-02.png",
+              "sha256": "5548AA4193DF825753EC436E120C6A3C30CCB1231479DE580A48E3D48FCAD1D7",
+              "bytes": 46234,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-03.png",
+              "sha256": "ADAC09DD6DD08E9175E781B6827BA3F65361F962494C8E09864B2E8507250EF2",
+              "bytes": 46945,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-04.png",
+              "sha256": "12EFA0FB3D1C15C0AF24E259463CE44543DBA45C4003B3E6EE41A2C81C6BC925",
+              "bytes": 46889,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-05.png",
+              "sha256": "00A107D6E7C2239AF46DBF64A0C80B257BB3FDDB04F8F2705BE57C380A40BEC3",
+              "bytes": 46600,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-06.png",
+              "sha256": "545951BB20748333FBB0C5BD1E94114349CB4F5CEE079C464E56C18A77618C26",
+              "bytes": 46744,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-07.png",
+              "sha256": "2DE9C244012CBD09677477E284A2EB759C580C70BFE61BE553CC911BCB289E02",
+              "bytes": 46497,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            },
+            {
+              "path": "front-idle-final-animations/steward/frames/frame-08.png",
+              "sha256": "92ECFF9FCBA1FF378C65B6AC44F795048B33B0E144269E973905F4BDE3018857",
+              "bytes": 46502,
+              "width": 151,
+              "height": 286,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "front-idle/steward/frames/frame-01.png",
+              "sha256": "9D2623F3DEF3D7D9F597DB29D2E1658DE0F31CC15BC623E5FD40DE839B6BB0B7",
+              "bytes": 5396,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 37,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/steward/frames/frame-02.png",
+              "sha256": "5276C4C7E0FEDFECB5DC18FD99691D43D3AAE0293FE5043869A0247AE7995939",
+              "bytes": 5368,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 37,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/steward/frames/frame-03.png",
+              "sha256": "1A9FB24FE41672A9B2509B5078AE0AE3805E0E965117E2869C79490544217551",
+              "bytes": 5396,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 37,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/steward/frames/frame-04.png",
+              "sha256": "D68B6C998A62891F9F5D64C457805DB7F7DC43D222B12F9B3884F575B559DB87",
+              "bytes": 5411,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 37,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/steward/frames/frame-05.png",
+              "sha256": "D57B949F902002BE821D5BCB4F8067C98BE51A393B6534EB70ED30DBC2162FB6",
+              "bytes": 5406,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 37,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/steward/frames/frame-06.png",
+              "sha256": "3F5CDC63D31E715F3CCBEF938D4F5EB8F20AC802EF9CAEAE4836D079E7E98976",
+              "bytes": 5432,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 37,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/steward/frames/frame-07.png",
+              "sha256": "A853E0E651CB4F459314EDC02ED054424EEB8EE82B8D6CC9EA8F75AC4C0E4E89",
+              "bytes": 5376,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 48,
+                "bottom": 78,
+                "width": 37,
+                "height": 72
+              }
+            },
+            {
+              "path": "front-idle/steward/frames/frame-08.png",
+              "sha256": "DABF650BFE4A8BF8312CEA1E881C691E0BA2B3EA0F00B718B3169A3C8B7110FA",
+              "bytes": 5354,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2589928057553957,
+              "scaleX": 0.2589928057553957,
+              "scaleY": 0.2589928057553957,
+              "sourceVisibleHeight": 278,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 47,
+                "bottom": 78,
+                "width": 36,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-west": {
+          "motionId": "walk-west",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.2517482517482518,
+          "scaleX": 0.2517482517482518,
+          "scaleY": 0.2517482517482518,
+          "sourceVisibleHeight": 286,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/steward/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-01.png",
+              "sha256": "AC1ED080757168A06BFD4EA3D59FE6D876085D74A5D745108950AD0F6F4FF169",
+              "bytes": 44438,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-02.png",
+              "sha256": "4137ED4E16540E3D662EB02E108D70D87A43A49B0E6EAE1FDDD2528968BB4F8D",
+              "bytes": 43856,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-03.png",
+              "sha256": "0A255C52A6BEF03814EDF25FA40B2E1692E80F44C55E2C5BF7ACF66D985E661E",
+              "bytes": 44861,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-04.png",
+              "sha256": "72214C802AF5D29C2D28FF18280184F5D81A1E45894CF0A38AFF3E8F228203AE",
+              "bytes": 46699,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-05.png",
+              "sha256": "8AA0B96D17C2DA901962CC83474EEA2385D2C19199849BA8E7B2865F2DD673D7",
+              "bytes": 47907,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-06.png",
+              "sha256": "0D860EDE9A27E5BD3FFE3C109EFF50E7A60424EE847F29EF2119A7FBF0E5516F",
+              "bytes": 46917,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-07.png",
+              "sha256": "94CCA56F66E95AB2065F895F780F28D3F8835F0098B396A537E191E373D51BA0",
+              "bytes": 44774,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            },
+            {
+              "path": "left-walk-final-animations/steward/frames/frame-08.png",
+              "sha256": "A1049A5AD59ACAD22839AE04BC90C8EB529EE48E5645336684CA3BB6C26BE73A",
+              "bytes": 45355,
+              "width": 179,
+              "height": 296,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-west/steward/frames/frame-01.png",
+              "sha256": "468D07613380E433015ED033A6ED4F51B0BAC4AC215978A44C0516D772F3415C",
+              "bytes": 4707,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 6,
+                "right": 46,
+                "bottom": 77,
+                "width": 35,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/steward/frames/frame-02.png",
+              "sha256": "C2F5DFB507C477F18464C458CBC814C37411D9A6FCBE2CE21C886CD5DD3B9E19",
+              "bytes": 4669,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 13,
+                "top": 6,
+                "right": 47,
+                "bottom": 77,
+                "width": 34,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/steward/frames/frame-03.png",
+              "sha256": "A55C530759337F95A25243BDA385FBF148E275D8FAEED5C820745E8FE5E65B2B",
+              "bytes": 4764,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 16,
+                "top": 6,
+                "right": 45,
+                "bottom": 77,
+                "width": 29,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/steward/frames/frame-04.png",
+              "sha256": "061407D8E1691294C606E074542A6BE5B2CE661F58C35EF7ED5C40562C4497D8",
+              "bytes": 4914,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 11,
+                "top": 5,
+                "right": 49,
+                "bottom": 76,
+                "width": 38,
+                "height": 71
+              }
+            },
+            {
+              "path": "walk-west/steward/frames/frame-05.png",
+              "sha256": "1D81F31E3A423AC2800276D51C6FE0EA10B5DE1499EC15C43C86021A43B2DA74",
+              "bytes": 5121,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 8,
+                "top": 6,
+                "right": 51,
+                "bottom": 78,
+                "width": 43,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/steward/frames/frame-06.png",
+              "sha256": "1B217CC7C7FA02BC99CA39325999D81E2225A7E70F3D1203164B3AF5D6CCB365",
+              "bytes": 5048,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 10,
+                "top": 6,
+                "right": 50,
+                "bottom": 78,
+                "width": 40,
+                "height": 72
+              }
+            },
+            {
+              "path": "walk-west/steward/frames/frame-07.png",
+              "sha256": "E0F21350DE1D173CD2CD4B3E7F3DB64B466B670744EB62FAC0070DD8641D5CA1",
+              "bytes": 4903,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 13,
+                "top": 5,
+                "right": 48,
+                "bottom": 78,
+                "width": 35,
+                "height": 73
+              }
+            },
+            {
+              "path": "walk-west/steward/frames/frame-08.png",
+              "sha256": "F3D29F1ACF31EB078802782047D50339D7618DAD7C3FB8CC05D7E9B279670193",
+              "bytes": 4874,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": {
+                "left": 16,
+                "top": 5,
+                "right": 45,
+                "bottom": 77,
+                "width": 29,
+                "height": 72
+              }
+            }
+          ]
+        },
+        "walk-east": {
+          "motionId": "walk-east",
+          "frameCount": 8,
+          "frameDurationMs": [
+            125,
+            125,
+            125,
+            125,
+            167,
+            125,
+            125,
+            125
+          ],
+          "loop": true,
+          "canvas": {
+            "width": 58,
+            "height": 79
+          },
+          "origin": {
+            "type": "foot-center",
+            "x": 29.0,
+            "y": 78.0
+          },
+          "scale": 0.2517482517482518,
+          "scaleX": 0.2517482517482518,
+          "scaleY": 0.2517482517482518,
+          "sourceVisibleHeight": 286,
+          "targetVisibleHeight": 72,
+          "scaleFormula": "targetVisibleHeight / sourceVisibleHeight",
+          "scaleRemainder": 0.0,
+          "sourceVisibleReference": "left-walk-final-animations/steward/frames/frame-07.png",
+          "sourceManifest": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/left-walk-final-animations/manifest.json",
+            "sha256": "712FBD83DF1649B3F0D7DA70E9C24B14663DEE8352F3958F81E903EE14ACDF9D",
+            "bytes": 13896
+          },
+          "sourceScript": {
+            "path": "assets/concepts/v0.6.0-character-motion-generation/build_left_walk_final_animations.py",
+            "sha256": "CFDCF5DC123A19F473BD7FD2867CC3F292DCD9B2F42292234FA492780A5EE335",
+            "bytes": 7824
+          },
+          "sourceFrames": [
+            {
+              "path": "walk-west/steward/frames/frame-01.png",
+              "sha256": "A4E41425CB185E2E6BF179524CC10FCF25BE918060EE06DF2A90F7E44B07B979",
+              "bytes": 4711,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/steward/frames/frame-02.png",
+              "sha256": "09573CAE8158BEFBAB065335BEA9F4965D1D79291E6830EBA28A3492D3533A32",
+              "bytes": 4714,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/steward/frames/frame-03.png",
+              "sha256": "BA184F9B3DA9C0E3A6B4E8FB1C8AE1754E8FBB84BC0077E53E3DDBD7384E424F",
+              "bytes": 4822,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/steward/frames/frame-04.png",
+              "sha256": "4BF1AB9E1DC5BFA9B1C8D6EDCB55057108EA30390DF0AA48EE7749ECAD7CEB6F",
+              "bytes": 4945,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/steward/frames/frame-05.png",
+              "sha256": "69373762AC0A837620DEAC0C6F683DBE78313FD9D4548FA2EB2CDA478018DA1B",
+              "bytes": 5130,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/steward/frames/frame-06.png",
+              "sha256": "3AF31B1379BE02A3AD818EC158EFA18C9B78A334F3FCAE4FF80121A1702033A2",
+              "bytes": 5051,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/steward/frames/frame-07.png",
+              "sha256": "78F68125C0545C93F41C76D942C9765BE0E8E1DC89BCF9E65DBF7E9C1A46B25C",
+              "bytes": 4940,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            },
+            {
+              "path": "walk-west/steward/frames/frame-08.png",
+              "sha256": "22B82DB1307CDF1654B816A7D7192DD1365F7160F32E9C86F6B8790039173A0A",
+              "bytes": 4886,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA"
+            }
+          ],
+          "frames": [
+            {
+              "path": "walk-east/steward/frames/frame-01.png",
+              "sha256": "A4E41425CB185E2E6BF179524CC10FCF25BE918060EE06DF2A90F7E44B07B979",
+              "bytes": 4711,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/steward/frames/frame-02.png",
+              "sha256": "09573CAE8158BEFBAB065335BEA9F4965D1D79291E6830EBA28A3492D3533A32",
+              "bytes": 4714,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/steward/frames/frame-03.png",
+              "sha256": "BA184F9B3DA9C0E3A6B4E8FB1C8AE1754E8FBB84BC0077E53E3DDBD7384E424F",
+              "bytes": 4822,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/steward/frames/frame-04.png",
+              "sha256": "4BF1AB9E1DC5BFA9B1C8D6EDCB55057108EA30390DF0AA48EE7749ECAD7CEB6F",
+              "bytes": 4945,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/steward/frames/frame-05.png",
+              "sha256": "69373762AC0A837620DEAC0C6F683DBE78313FD9D4548FA2EB2CDA478018DA1B",
+              "bytes": 5130,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/steward/frames/frame-06.png",
+              "sha256": "3AF31B1379BE02A3AD818EC158EFA18C9B78A334F3FCAE4FF80121A1702033A2",
+              "bytes": 5051,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/steward/frames/frame-07.png",
+              "sha256": "78F68125C0545C93F41C76D942C9765BE0E8E1DC89BCF9E65DBF7E9C1A46B25C",
+              "bytes": 4940,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            },
+            {
+              "path": "walk-east/steward/frames/frame-08.png",
+              "sha256": "22B82DB1307CDF1654B816A7D7192DD1365F7160F32E9C86F6B8790039173A0A",
+              "bytes": 4886,
+              "width": 58,
+              "height": 79,
+              "mode": "RGBA",
+              "scale": 0.2517482517482518,
+              "scaleX": 0.2517482517482518,
+              "scaleY": 0.2517482517482518,
+              "sourceVisibleHeight": 286,
+              "targetVisibleHeight": 72,
+              "visibleBounds": null
+            }
+          ],
+          "mirrorOf": "walk-west",
+          "mirrorRelation": "horizontal-flip",
+          "mirrorOriginFormula": "runtimeCanvasWidth - originX"
+        }
+      }
+    }
+  ],
+  "review": {
+    "index": {
+      "path": "index.html",
+      "sha256": "252D8787ADA204197F7E9C2EEE8BDC7E1AA7792E0E305DC02F2981F8D4777BCF",
+      "bytes": 4630
+    },
+    "sheets": {
+      "recruit": {
+        "path": "review/recruit-motion-sheet.png",
+        "sha256": "E3F4771C3ED931C7B8F05EB6F99A6B8FAF3F008325626CDCD8E4324FFFB86A4D",
+        "bytes": 126735,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      },
+      "artisan": {
+        "path": "review/artisan-motion-sheet.png",
+        "sha256": "74CD9D6E3859747DCFD12C3F93217A4476EAC52E24EA885C60AAF5B0D6C7A9F1",
+        "bytes": 132825,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      },
+      "ranger": {
+        "path": "review/ranger-motion-sheet.png",
+        "sha256": "DF8F8D049DE787C2DF9186416E8740176CF24DAD4D0BC13327BADCBD410BF19D",
+        "bytes": 135171,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      },
+      "steward": {
+        "path": "review/steward-motion-sheet.png",
+        "sha256": "7C85C5B6F7E76E9EBE12C671CF9BC92A90E2A49855F859C8736F1887A5BB5185",
+        "bytes": 111077,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      }
+    }
+  },
+  "outputs": {
+    "motions": {
+      "front-idle": {
+        "recruit": [
+          {
+            "path": "front-idle/recruit/frames/frame-01.png",
+            "sha256": "248CBC3BA4B20F824C284A312A76F0E185F84C2DE59783115E5B375BA91F2A30",
+            "bytes": 6064,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 6,
+              "right": 49,
+              "bottom": 78,
+              "width": 40,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/recruit/frames/frame-02.png",
+            "sha256": "4BC71A39297CA5F097046FD5B79063412A3A0CD8072CF0921ECB359FFCEA793E",
+            "bytes": 6052,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 6,
+              "right": 49,
+              "bottom": 78,
+              "width": 40,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/recruit/frames/frame-03.png",
+            "sha256": "927FC6D587D26A6EB14A814239CE8FD3B7A06CFA450D27EAEC41DFA8EA0186EA",
+            "bytes": 6104,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 6,
+              "right": 49,
+              "bottom": 78,
+              "width": 40,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/recruit/frames/frame-04.png",
+            "sha256": "FE20F2E4C0156AA00F99D93871FB19D91FF777E592C0DD1C554568679FB748A7",
+            "bytes": 6056,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 6,
+              "right": 49,
+              "bottom": 78,
+              "width": 40,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/recruit/frames/frame-05.png",
+            "sha256": "BDF65E74C94D151F41B4AFA8C816C53100A959AF05098027A1E5193FD6C6D816",
+            "bytes": 6077,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 6,
+              "right": 49,
+              "bottom": 78,
+              "width": 40,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/recruit/frames/frame-06.png",
+            "sha256": "0BA64A0899156516CBE7F0C9C80AD3F246F4F676DDE04676EBA5A8E0ACC86658",
+            "bytes": 6060,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 10,
+              "top": 6,
+              "right": 49,
+              "bottom": 78,
+              "width": 39,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/recruit/frames/frame-07.png",
+            "sha256": "14C9721588F9599125A2E5447B4C2C87765BBDAEA2BE93126ADF87638CE9E85E",
+            "bytes": 6036,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 10,
+              "top": 6,
+              "right": 49,
+              "bottom": 78,
+              "width": 39,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/recruit/frames/frame-08.png",
+            "sha256": "2897172AFCF74BD49AA33F5505DC639C0E870F6CF1D9154A66ED93C9752E6194",
+            "bytes": 6037,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.26277372262773724,
+            "scaleX": 0.26277372262773724,
+            "scaleY": 0.26277372262773724,
+            "sourceVisibleHeight": 274,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 10,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 38,
+              "height": 72
+            }
+          }
+        ],
+        "artisan": [
+          {
+            "path": "front-idle/artisan/frames/frame-01.png",
+            "sha256": "16485383418D0279CA029009EF5E3E0676FBB5FF17CDC30092BC7E0988CAF98C",
+            "bytes": 6303,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 8,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 42,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/artisan/frames/frame-02.png",
+            "sha256": "CAFD47E98C3D3C6D916C8466C32ECFEF7F87BF01C06AD1C30964F8808E5CB7B5",
+            "bytes": 6286,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/artisan/frames/frame-03.png",
+            "sha256": "5EA63FDD213D82722AACBA56DA4EA3412DB13677B885630B1CD82BED4DE76263",
+            "bytes": 6343,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/artisan/frames/frame-04.png",
+            "sha256": "74A21170B36DECB2F9EDFC08C36B6E2FA2C846AB0FC5AB8A51F04BE7D52FDD79",
+            "bytes": 6270,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/artisan/frames/frame-05.png",
+            "sha256": "CF7FE74036AC5E0381E15CD036C40DDD1FBF75EC9DE6A67098BA87D8645925ED",
+            "bytes": 6285,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/artisan/frames/frame-06.png",
+            "sha256": "81E690CF9DA07DABF2763A20EBD1BAD775F3750191C37E1C50F8A5452BF82119",
+            "bytes": 6280,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/artisan/frames/frame-07.png",
+            "sha256": "7A4FE48F7B2488CD7BA0FC35EA287D159C0E03DAD46D525F5982CD1FB8F56C77",
+            "bytes": 6311,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/artisan/frames/frame-08.png",
+            "sha256": "A5E2D508E8A286E5DA06F388402C87A43DE92AB80105F806D00153B7EB8EADDA",
+            "bytes": 6246,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 8,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 42,
+              "height": 72
+            }
+          }
+        ],
+        "ranger": [
+          {
+            "path": "front-idle/ranger/frames/frame-01.png",
+            "sha256": "F9B3EC41674C19F716180384DB2754BC4CACE952B450097CFA3649FE026ABBF5",
+            "bytes": 6527,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 5,
+              "top": 6,
+              "right": 53,
+              "bottom": 78,
+              "width": 48,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/ranger/frames/frame-02.png",
+            "sha256": "DAD4B90268BF71FE68D5A6705DA99D1233678A32E1B5E2C9B0F95AE4E7A36EAB",
+            "bytes": 6520,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 4,
+              "top": 6,
+              "right": 53,
+              "bottom": 78,
+              "width": 49,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/ranger/frames/frame-03.png",
+            "sha256": "CBABDD1198CB0B0D442D30F0183ABB70C382431DD882C7A0C7DF427ABF56E540",
+            "bytes": 6588,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 4,
+              "top": 6,
+              "right": 54,
+              "bottom": 78,
+              "width": 50,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/ranger/frames/frame-04.png",
+            "sha256": "7AEE94C2C40FE3E27784519E57D0D7D4FE82AE499EB0DF5165EBAFED6C9D59E2",
+            "bytes": 6502,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 3,
+              "top": 6,
+              "right": 54,
+              "bottom": 78,
+              "width": 51,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/ranger/frames/frame-05.png",
+            "sha256": "57535C5C8F0207F773350940CFE1E70F2952A7247E9FD3B0A3B52D7BDE0D827F",
+            "bytes": 6479,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 3,
+              "top": 6,
+              "right": 54,
+              "bottom": 78,
+              "width": 51,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/ranger/frames/frame-06.png",
+            "sha256": "44F6665E4DDBEF3CC64287D967808735AC74131F3B579CAD7AD5D782D18C64CC",
+            "bytes": 6414,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 4,
+              "top": 6,
+              "right": 54,
+              "bottom": 78,
+              "width": 50,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/ranger/frames/frame-07.png",
+            "sha256": "6B2E9D22AAF1C267034708346FF974216402F42DD152F3CE92AEB64B9C3AC4F8",
+            "bytes": 6376,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 4,
+              "top": 6,
+              "right": 53,
+              "bottom": 78,
+              "width": 49,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/ranger/frames/frame-08.png",
+            "sha256": "CB92DCAE55472173EBB29462E3C0DD3FB4A37DF57427D3972F98D18CACDF39E4",
+            "bytes": 6312,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25263157894736843,
+            "scaleX": 0.25263157894736843,
+            "scaleY": 0.25263157894736843,
+            "sourceVisibleHeight": 285,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 4,
+              "top": 6,
+              "right": 53,
+              "bottom": 78,
+              "width": 49,
+              "height": 72
+            }
+          }
+        ],
+        "steward": [
+          {
+            "path": "front-idle/steward/frames/frame-01.png",
+            "sha256": "9D2623F3DEF3D7D9F597DB29D2E1658DE0F31CC15BC623E5FD40DE839B6BB0B7",
+            "bytes": 5396,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 37,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/steward/frames/frame-02.png",
+            "sha256": "5276C4C7E0FEDFECB5DC18FD99691D43D3AAE0293FE5043869A0247AE7995939",
+            "bytes": 5368,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 37,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/steward/frames/frame-03.png",
+            "sha256": "1A9FB24FE41672A9B2509B5078AE0AE3805E0E965117E2869C79490544217551",
+            "bytes": 5396,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 37,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/steward/frames/frame-04.png",
+            "sha256": "D68B6C998A62891F9F5D64C457805DB7F7DC43D222B12F9B3884F575B559DB87",
+            "bytes": 5411,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 37,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/steward/frames/frame-05.png",
+            "sha256": "D57B949F902002BE821D5BCB4F8067C98BE51A393B6534EB70ED30DBC2162FB6",
+            "bytes": 5406,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 37,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/steward/frames/frame-06.png",
+            "sha256": "3F5CDC63D31E715F3CCBEF938D4F5EB8F20AC802EF9CAEAE4836D079E7E98976",
+            "bytes": 5432,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 37,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/steward/frames/frame-07.png",
+            "sha256": "A853E0E651CB4F459314EDC02ED054424EEB8EE82B8D6CC9EA8F75AC4C0E4E89",
+            "bytes": 5376,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 48,
+              "bottom": 78,
+              "width": 37,
+              "height": 72
+            }
+          },
+          {
+            "path": "front-idle/steward/frames/frame-08.png",
+            "sha256": "DABF650BFE4A8BF8312CEA1E881C691E0BA2B3EA0F00B718B3169A3C8B7110FA",
+            "bytes": 5354,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2589928057553957,
+            "scaleX": 0.2589928057553957,
+            "scaleY": 0.2589928057553957,
+            "sourceVisibleHeight": 278,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 47,
+              "bottom": 78,
+              "width": 36,
+              "height": 72
+            }
+          }
+        ]
+      },
+      "walk-west": {
+        "recruit": [
+          {
+            "path": "walk-west/recruit/frames/frame-01.png",
+            "sha256": "D54E9B17AAE5E39112DF457B87E54D4FDE0C8982936864A5F1E0F93A862FFF2F",
+            "bytes": 5390,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 49,
+              "bottom": 77,
+              "width": 38,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/recruit/frames/frame-02.png",
+            "sha256": "8B999AFBBC36345626240DB2D3B4014E0115BEB51500E8D8218473FDA9F2A32A",
+            "bytes": 5414,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 12,
+              "top": 7,
+              "right": 49,
+              "bottom": 77,
+              "width": 37,
+              "height": 70
+            }
+          },
+          {
+            "path": "walk-west/recruit/frames/frame-03.png",
+            "sha256": "2FE308F7779C5646E20FBF62A6281C6D13F6FABB132147E24BA59222AE75A841",
+            "bytes": 5519,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 15,
+              "top": 6,
+              "right": 48,
+              "bottom": 77,
+              "width": 33,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/recruit/frames/frame-04.png",
+            "sha256": "C5B8695A855CC2B18FD22E21E83F94746019A019160BB077BD1EE101F9714164",
+            "bytes": 5540,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 10,
+              "top": 5,
+              "right": 48,
+              "bottom": 77,
+              "width": 38,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/recruit/frames/frame-05.png",
+            "sha256": "5BCB6788CBF372897834D85F21C556CF127A71E0932FA311BD8CE5BE876D6273",
+            "bytes": 5646,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 51,
+              "bottom": 78,
+              "width": 44,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/recruit/frames/frame-06.png",
+            "sha256": "61E8E4B3DE1EAD33880B5E764B7267814BF61487745804A85827D365C2D2404A",
+            "bytes": 5568,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 41,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/recruit/frames/frame-07.png",
+            "sha256": "745F6553F42F1ABA0206A032F3C5235A3F908ABC4FA5AC94B1EF0E545C98DBB4",
+            "bytes": 5506,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 12,
+              "top": 5,
+              "right": 48,
+              "bottom": 78,
+              "width": 36,
+              "height": 73
+            }
+          },
+          {
+            "path": "walk-west/recruit/frames/frame-08.png",
+            "sha256": "772134A94DDDFC5373459739FF2776BFB593A55267508232A3DCED57E04299DC",
+            "bytes": 5479,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 16,
+              "top": 5,
+              "right": 49,
+              "bottom": 77,
+              "width": 33,
+              "height": 72
+            }
+          }
+        ],
+        "artisan": [
+          {
+            "path": "walk-west/artisan/frames/frame-01.png",
+            "sha256": "98AA44070658654AA17FA69BB31CD4AF8E410435323AC3AB08185FD11F2329E2",
+            "bytes": 5540,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 10,
+              "top": 7,
+              "right": 48,
+              "bottom": 77,
+              "width": 38,
+              "height": 70
+            }
+          },
+          {
+            "path": "walk-west/artisan/frames/frame-02.png",
+            "sha256": "FEB5A6A977C6A7EA2813A5FF9498A00E260CE5642203C4A4F7A9DE0D8D4216B4",
+            "bytes": 5489,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 7,
+              "right": 49,
+              "bottom": 77,
+              "width": 38,
+              "height": 70
+            }
+          },
+          {
+            "path": "walk-west/artisan/frames/frame-03.png",
+            "sha256": "8CBA09E27FD5A3A0EB3519A58917CA6B1CC4C7550D5259C9FD69AA48B4FFF73A",
+            "bytes": 5707,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 13,
+              "top": 6,
+              "right": 49,
+              "bottom": 77,
+              "width": 36,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/artisan/frames/frame-04.png",
+            "sha256": "927F16DD7F47CF8B687FC0D8AB8BBB9C65FA48498AA4494AD12AC9D4AA03E6FF",
+            "bytes": 5876,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 8,
+              "top": 5,
+              "right": 52,
+              "bottom": 76,
+              "width": 44,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/artisan/frames/frame-05.png",
+            "sha256": "4CE431965083F1BB79E58D3E4765B4CD71C6E7D6E81D42C48E04C434DF0A6B5E",
+            "bytes": 6045,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 5,
+              "top": 6,
+              "right": 54,
+              "bottom": 77,
+              "width": 49,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/artisan/frames/frame-06.png",
+            "sha256": "18781C6861994AE0021EF828712C7513EA12914C6B037A002929768B0E018BF5",
+            "bytes": 5971,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 53,
+              "bottom": 78,
+              "width": 46,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/artisan/frames/frame-07.png",
+            "sha256": "E284FC47AE92F3DBCB90F8F6B527ACB0BD17E3E47079EC3BBFA58F3F06F19573",
+            "bytes": 5831,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 5,
+              "right": 52,
+              "bottom": 77,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/artisan/frames/frame-08.png",
+            "sha256": "EB3B89EBBD0E8F16104F8C5F8386B78A9E54257FA875F7155218D19E6D96C28A",
+            "bytes": 5733,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 13,
+              "top": 5,
+              "right": 49,
+              "bottom": 77,
+              "width": 36,
+              "height": 72
+            }
+          }
+        ],
+        "ranger": [
+          {
+            "path": "walk-west/ranger/frames/frame-01.png",
+            "sha256": "D9C27402024124D9B1F88E9B014EAB6B4456CA84D6ECD7E9C222CEB4D23151B2",
+            "bytes": 5608,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 58,
+              "bottom": 77,
+              "width": 47,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/ranger/frames/frame-02.png",
+            "sha256": "B2446176FF779FD8B11A8B9DD3C67F1EB2226F9531FBC00165D693852F24B7A8",
+            "bytes": 5553,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 57,
+              "bottom": 77,
+              "width": 46,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/ranger/frames/frame-03.png",
+            "sha256": "A0E8E7425202B159F608C511BA2F95EA48233A0A20F69498899714EAE3A01CA9",
+            "bytes": 5648,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 13,
+              "top": 6,
+              "right": 54,
+              "bottom": 77,
+              "width": 41,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/ranger/frames/frame-04.png",
+            "sha256": "5FAA7FAABA990270965DC9CB3D8BC9BEA44F133BF6D4509D3A3E081A3C35B8AA",
+            "bytes": 5921,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 5,
+              "right": 51,
+              "bottom": 76,
+              "width": 42,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/ranger/frames/frame-05.png",
+            "sha256": "AFDA908E0059549255F5B0FFD3BB1C7A436D32A3AC51B095C05C7F24E2717D6A",
+            "bytes": 6049,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 7,
+              "top": 6,
+              "right": 51,
+              "bottom": 77,
+              "width": 44,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/ranger/frames/frame-06.png",
+            "sha256": "4FBE35F5F3AA2501AF6DD4ED03E58D2732D32ADAE6109F104DFA0F2A9D26B6CF",
+            "bytes": 6042,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 8,
+              "top": 6,
+              "right": 52,
+              "bottom": 78,
+              "width": 44,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/ranger/frames/frame-07.png",
+            "sha256": "5A9A13C64AC6A07F406E7F52AEA46495493CC1889429F511E7D142E59066D877",
+            "bytes": 5899,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 9,
+              "top": 5,
+              "right": 54,
+              "bottom": 78,
+              "width": 45,
+              "height": 73
+            }
+          },
+          {
+            "path": "walk-west/ranger/frames/frame-08.png",
+            "sha256": "E5D0E7C30C5D3AFBFAB88D3A7D543DD148C12A5C23DE3692F732A5AF347E613E",
+            "bytes": 5849,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 12,
+              "top": 5,
+              "right": 56,
+              "bottom": 77,
+              "width": 44,
+              "height": 72
+            }
+          }
+        ],
+        "steward": [
+          {
+            "path": "walk-west/steward/frames/frame-01.png",
+            "sha256": "468D07613380E433015ED033A6ED4F51B0BAC4AC215978A44C0516D772F3415C",
+            "bytes": 4707,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 6,
+              "right": 46,
+              "bottom": 77,
+              "width": 35,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/steward/frames/frame-02.png",
+            "sha256": "C2F5DFB507C477F18464C458CBC814C37411D9A6FCBE2CE21C886CD5DD3B9E19",
+            "bytes": 4669,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 13,
+              "top": 6,
+              "right": 47,
+              "bottom": 77,
+              "width": 34,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/steward/frames/frame-03.png",
+            "sha256": "A55C530759337F95A25243BDA385FBF148E275D8FAEED5C820745E8FE5E65B2B",
+            "bytes": 4764,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 16,
+              "top": 6,
+              "right": 45,
+              "bottom": 77,
+              "width": 29,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/steward/frames/frame-04.png",
+            "sha256": "061407D8E1691294C606E074542A6BE5B2CE661F58C35EF7ED5C40562C4497D8",
+            "bytes": 4914,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 11,
+              "top": 5,
+              "right": 49,
+              "bottom": 76,
+              "width": 38,
+              "height": 71
+            }
+          },
+          {
+            "path": "walk-west/steward/frames/frame-05.png",
+            "sha256": "1D81F31E3A423AC2800276D51C6FE0EA10B5DE1499EC15C43C86021A43B2DA74",
+            "bytes": 5121,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 8,
+              "top": 6,
+              "right": 51,
+              "bottom": 78,
+              "width": 43,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/steward/frames/frame-06.png",
+            "sha256": "1B217CC7C7FA02BC99CA39325999D81E2225A7E70F3D1203164B3AF5D6CCB365",
+            "bytes": 5048,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 10,
+              "top": 6,
+              "right": 50,
+              "bottom": 78,
+              "width": 40,
+              "height": 72
+            }
+          },
+          {
+            "path": "walk-west/steward/frames/frame-07.png",
+            "sha256": "E0F21350DE1D173CD2CD4B3E7F3DB64B466B670744EB62FAC0070DD8641D5CA1",
+            "bytes": 4903,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 13,
+              "top": 5,
+              "right": 48,
+              "bottom": 78,
+              "width": 35,
+              "height": 73
+            }
+          },
+          {
+            "path": "walk-west/steward/frames/frame-08.png",
+            "sha256": "F3D29F1ACF31EB078802782047D50339D7618DAD7C3FB8CC05D7E9B279670193",
+            "bytes": 4874,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": {
+              "left": 16,
+              "top": 5,
+              "right": 45,
+              "bottom": 77,
+              "width": 29,
+              "height": 72
+            }
+          }
+        ]
+      },
+      "walk-east": {
+        "recruit": [
+          {
+            "path": "walk-east/recruit/frames/frame-01.png",
+            "sha256": "791E3D8692003E7C4EEF4E942AAD5F9574C95F2DD9F4C44A569FA77893B7FB33",
+            "bytes": 5401,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/recruit/frames/frame-02.png",
+            "sha256": "1D50EB4D3C8270D4F9F80BFEADBC90B773C56F15277496F43A50615B5E7C1DCD",
+            "bytes": 5427,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/recruit/frames/frame-03.png",
+            "sha256": "38CD10E7628068544E0E02B64856545ACEEC87C06423B9812CCCFCC043D8C6B0",
+            "bytes": 5498,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/recruit/frames/frame-04.png",
+            "sha256": "187DC4723A99B421B3159E3FD53D2BDF8B16A4E8F9204073A283172C62E18360",
+            "bytes": 5595,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/recruit/frames/frame-05.png",
+            "sha256": "41AF4F0F2E5E84201F9DBE1424C691D72A39B41463164089ABE0FA9DFC1D9F0B",
+            "bytes": 5655,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/recruit/frames/frame-06.png",
+            "sha256": "CD8254A66CA8DCE782637DB53524AB0210CA16CE5BA17A81811AB2B90D2901F4",
+            "bytes": 5622,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/recruit/frames/frame-07.png",
+            "sha256": "19D2E3AEB9D4D2DE83D89840F09F38349FA4ED244271E7FFFD7FF4B650FC99A0",
+            "bytes": 5523,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/recruit/frames/frame-08.png",
+            "sha256": "00127101616B02697FAB8B88F632609324B2235AECE289D21F8CBE359ACA925C",
+            "bytes": 5486,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2553191489361702,
+            "scaleX": 0.2553191489361702,
+            "scaleY": 0.2553191489361702,
+            "sourceVisibleHeight": 282,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          }
+        ],
+        "artisan": [
+          {
+            "path": "walk-east/artisan/frames/frame-01.png",
+            "sha256": "F7AE25133AB23C8F255E4188885743B522D6A675000AA9253F6B5CDB6F409819",
+            "bytes": 5570,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/artisan/frames/frame-02.png",
+            "sha256": "8CB1AE98529549D054BB0717E3AB1B9995B179623CE86AF5072A763CEB16DA02",
+            "bytes": 5500,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/artisan/frames/frame-03.png",
+            "sha256": "B4949D0AB7530ED8F83F38935EB080FB56F83DF437BC6830B636F3476B26BF53",
+            "bytes": 5696,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/artisan/frames/frame-04.png",
+            "sha256": "71BCDAF63A59CF3BBABC739D24DC670F874D8C852B798422656FCFFA502351EE",
+            "bytes": 5872,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/artisan/frames/frame-05.png",
+            "sha256": "D806D1751B26D9A15F4642B0B57E75A776214B60488A207E8250729C2228C1D5",
+            "bytes": 6084,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/artisan/frames/frame-06.png",
+            "sha256": "A6D79F6970F70FE56F38C5007BC294EB53F18B65605D1C78CB27B29093F8311D",
+            "bytes": 6037,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/artisan/frames/frame-07.png",
+            "sha256": "21EA1C88740927E8CCD2676FE81667408A6025EBB3D5B4ECFBF3C9810B2104C3",
+            "bytes": 5863,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/artisan/frames/frame-08.png",
+            "sha256": "AAE355EBC8FA89B5281A14E7ECE6E5A7CE7255E27281DA44D6653B4E0A4F6549",
+            "bytes": 5768,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2535211267605634,
+            "scaleX": 0.2535211267605634,
+            "scaleY": 0.2535211267605634,
+            "sourceVisibleHeight": 284,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          }
+        ],
+        "ranger": [
+          {
+            "path": "walk-east/ranger/frames/frame-01.png",
+            "sha256": "1859D3DBE3A9DF57B5AE0599392CD4060E0C17B8D74B13F2735EBD5787F0F4D6",
+            "bytes": 5608,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/ranger/frames/frame-02.png",
+            "sha256": "779C6DFF30309683C512A547A4568F89802D82B10ECD2A66E8B92917A915D26D",
+            "bytes": 5613,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/ranger/frames/frame-03.png",
+            "sha256": "028D0A66399AB7D547E4A98250F228E2E4F6F43636230B66B8AF6B17A8F8E9DB",
+            "bytes": 5669,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/ranger/frames/frame-04.png",
+            "sha256": "BD6879DD7CD282E928AEA16D8F710996B3B10BD8E70C175D0028213EE99AF3EB",
+            "bytes": 5981,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/ranger/frames/frame-05.png",
+            "sha256": "55DC508D6F37DC81019079A4BD8C379CB06051B9D0913D232E4CB978E8CF367A",
+            "bytes": 6023,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/ranger/frames/frame-06.png",
+            "sha256": "76E3D0258903043FE57338B708F4CDC3257E85F05DBB2075E71A138C8C0A13F9",
+            "bytes": 6045,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/ranger/frames/frame-07.png",
+            "sha256": "AE5FAF9D2DDF7AE0166B18B2599188958E01BFBA0DF0DB9BFA6610F993D10D37",
+            "bytes": 5900,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/ranger/frames/frame-08.png",
+            "sha256": "06EED63650030938E849C9B760ABA5A979A6A3993375F96FDD2983E0D4B88DD2",
+            "bytes": 5904,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.25806451612903225,
+            "scaleX": 0.25806451612903225,
+            "scaleY": 0.25806451612903225,
+            "sourceVisibleHeight": 279,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          }
+        ],
+        "steward": [
+          {
+            "path": "walk-east/steward/frames/frame-01.png",
+            "sha256": "A4E41425CB185E2E6BF179524CC10FCF25BE918060EE06DF2A90F7E44B07B979",
+            "bytes": 4711,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/steward/frames/frame-02.png",
+            "sha256": "09573CAE8158BEFBAB065335BEA9F4965D1D79291E6830EBA28A3492D3533A32",
+            "bytes": 4714,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/steward/frames/frame-03.png",
+            "sha256": "BA184F9B3DA9C0E3A6B4E8FB1C8AE1754E8FBB84BC0077E53E3DDBD7384E424F",
+            "bytes": 4822,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/steward/frames/frame-04.png",
+            "sha256": "4BF1AB9E1DC5BFA9B1C8D6EDCB55057108EA30390DF0AA48EE7749ECAD7CEB6F",
+            "bytes": 4945,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/steward/frames/frame-05.png",
+            "sha256": "69373762AC0A837620DEAC0C6F683DBE78313FD9D4548FA2EB2CDA478018DA1B",
+            "bytes": 5130,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/steward/frames/frame-06.png",
+            "sha256": "3AF31B1379BE02A3AD818EC158EFA18C9B78A334F3FCAE4FF80121A1702033A2",
+            "bytes": 5051,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/steward/frames/frame-07.png",
+            "sha256": "78F68125C0545C93F41C76D942C9765BE0E8E1DC89BCF9E65DBF7E9C1A46B25C",
+            "bytes": 4940,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          },
+          {
+            "path": "walk-east/steward/frames/frame-08.png",
+            "sha256": "22B82DB1307CDF1654B816A7D7192DD1365F7160F32E9C86F6B8790039173A0A",
+            "bytes": 4886,
+            "width": 58,
+            "height": 79,
+            "mode": "RGBA",
+            "scale": 0.2517482517482518,
+            "scaleX": 0.2517482517482518,
+            "scaleY": 0.2517482517482518,
+            "sourceVisibleHeight": 286,
+            "targetVisibleHeight": 72,
+            "visibleBounds": null
+          }
+        ]
+      }
+    },
+    "reviewSheets": {
+      "recruit": {
+        "path": "review/recruit-motion-sheet.png",
+        "sha256": "E3F4771C3ED931C7B8F05EB6F99A6B8FAF3F008325626CDCD8E4324FFFB86A4D",
+        "bytes": 126735,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      },
+      "artisan": {
+        "path": "review/artisan-motion-sheet.png",
+        "sha256": "74CD9D6E3859747DCFD12C3F93217A4476EAC52E24EA885C60AAF5B0D6C7A9F1",
+        "bytes": 132825,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      },
+      "ranger": {
+        "path": "review/ranger-motion-sheet.png",
+        "sha256": "DF8F8D049DE787C2DF9186416E8740176CF24DAD4D0BC13327BADCBD410BF19D",
+        "bytes": 135171,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      },
+      "steward": {
+        "path": "review/steward-motion-sheet.png",
+        "sha256": "7C85C5B6F7E76E9EBE12C671CF9BC92A90E2A49855F859C8736F1887A5BB5185",
+        "bytes": 111077,
+        "width": 616,
+        "height": 309,
+        "mode": "RGBA"
+      }
+    }
+  }
+}

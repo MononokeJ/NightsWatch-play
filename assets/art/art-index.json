@@ -1,0 +1,131 @@
+{
+    "version":  2,
+    "package":  "Night\u0027s Watch base art",
+    "issueCoverage":  [
+                          {
+                              "issue":  1,
+                              "title":  "formal castle and continuous oblique map",
+                              "review":  "assets/art/environment/environment-review.png",
+                              "metadata":  "assets/art/environment/environment-art.json"
+                          },
+                          {
+                              "issue":  2,
+                              "title":  "workshop and city work facilities",
+                              "review":  "assets/art/environment/issue2-work-facilities/index.html",
+                              "metadata":  "assets/art/environment/issue2-work-facilities/work-facilities.json"
+                          },
+                          {
+                              "issue":  3,
+                              "title":  "nine operation actions and environment loops",
+                              "review":  "assets/art/effects/index.html",
+                              "metadata":  "assets/art/effects/work/work-effects.json"
+                          },
+                          {
+                              "issue":  4,
+                              "title":  "melee and castle hit effects",
+                              "review":  "assets/art/effects/index.html",
+                              "metadata":  "assets/art/effects/combat/combat-effects.json"
+                          },
+                          {
+                              "issue":  5,
+                              "title":  "base UI icons and components",
+                              "review":  "assets/art/ui/index.html",
+                              "metadata":  "assets/art/ui/ui-art.json"
+                          },
+                          {
+                              "issue":  6,
+                              "title":  "base page visuals and responsive layout",
+                              "review":  "assets/art/ui/pages/index.html",
+                              "metadata":  "assets/art/ui/pages/page-layouts.json"
+                          },
+                          {
+                              "issue":  7,
+                              "title":  "final integrated art package",
+                              "review":  "assets/art/final-integration/issue7-runtime-character-package/index.html",
+                              "metadata":  "assets/art/characters/runtime/runtime-character-index.json"
+                          },
+                          {
+                              "issue":  20,
+                              "title":  "facility occlusion repair",
+                              "metadata":  "assets/art/environment/issue20-facility-occlusion/issue20-facility-occlusion.json",
+                              "review":  "assets/art/environment/issue20-facility-occlusion/index.html"
+                          },
+                          {
+                              "issue":  34,
+                              "title":  "full-capacity facility anchors",
+                              "metadata":  "assets/art/environment/issue34-full-capacity-facility-anchors/issue34-full-capacity-facility-anchors.json",
+                              "review":  "assets/art/environment/issue34-full-capacity-facility-anchors/index.html"
+                          },
+                          {
+                              "issue":  35,
+                              "title":  "adaptive facility layout metadata",
+                              "metadata":  "assets/art/environment/issue35-adaptive-facility-layout/issue35-adaptive-facility-layout.json",
+                              "review":  "assets/art/environment/issue35-adaptive-facility-layout/index.html"
+                          },
+                          {
+                              "issue":  37,
+                              "title":  "archive facility and research work assets",
+                              "metadata":  "assets/art/environment/issue37-archive-research/issue37-archive-research.json",
+                              "review":  "assets/art/environment/issue37-archive-research/index.html"
+                          },
+                          {
+                              "issue":  38,
+                              "title":  "v0.2.0 member, forge, and research panels",
+                              "metadata":  "assets/art/ui/pages/issue38-v020-panels/issue38-v020-panels.json",
+                              "review":  "assets/art/ui/pages/issue38-v020-panels/index.html"
+                          },
+                          {
+                              "issue":  43,
+                              "title":  "enemy and defender archers with ranged effects",
+                              "metadata":  "assets/art/final-integration/issue43-archer-ranged-assets/issue43-archer-ranged-assets.json",
+                              "review":  "assets/art/final-integration/issue43-archer-ranged-assets/index.html"
+                          }
+                      ],
+    "formalReviews":  {
+                          "environment":  "assets/art/environment/environment-review.png",
+                          "pages":  "assets/art/ui/pages/page-layout-review.png",
+                          "issue7RuntimePackage":  "assets/art/final-integration/issue7-runtime-character-package/reviews/final-runtime-integration-review.png",
+                          "final":  "assets/art/final-art-review.png",
+                          "issue2Facilities":  "assets/art/environment/issue2-work-facilities/work-facilities-review.png",
+                          "ui":  "assets/art/ui/ui-component-review.png",
+                          "issue20FacilityOcclusion":  "assets/art/environment/issue20-facility-occlusion/issue20-facility-occlusion-review.png",
+                          "issue34FullCapacityFacilityAnchors":  "assets/art/environment/issue34-full-capacity-facility-anchors/issue34-full-capacity-anchor-review.png",
+                          "issue35AdaptiveFacilityLayout":  "assets/art/environment/issue35-adaptive-facility-layout/issue35-adaptive-facility-layout-review.png",
+                          "issue37ArchiveResearch":  "assets/art/environment/issue37-archive-research/issue37-archive-research-review.png",
+                          "issue38V020Panels":  "assets/art/ui/pages/issue38-v020-panels/issue38-v020-panels-review.png",
+                          "issue43ArcherRangedAssets":  "assets/art/final-integration/issue43-archer-ranged-assets/reviews/issue43-archer-ranged-assets-review.png"
+                      },
+    "loadingOrder":  [
+                         "assets/art/environment/environment-art.json",
+                         "assets/art/characters/runtime/runtime-character-index.json",
+                         "assets/art/effects/work/work-effects.json",
+                         "assets/art/effects/combat/combat-effects.json",
+                         "assets/art/ui/ui-art.json",
+                         "assets/art/ui/pages/page-layouts.json"
+                     ],
+    "acceptanceScenes":  [
+                             "initial-management",
+                             "patrol-recall",
+                             "production-settlement",
+                             "prebattle-gather",
+                             "prebattle-outbound",
+                             "battle-12v15",
+                             "afterbattle-report",
+                             "aftermath-return",
+                             "failure-and-victory"
+                         ],
+    "runtimeLayerContract":  {
+                                 "compositePreviewsExcludedFromRuntimeLoadingOrder":  true,
+                                 "issue2OperationLookupKey":  "operationId",
+                                 "runtimeCharacters":  "assets/art/characters/runtime/runtime-character-index.json",
+                                 "debugPlaceholdersExcludedFromRuntimeLoadingOrder":  true,
+                                 "issue2FacilityLookupKey":  "facilityId",
+                                 "issue2IndependentFacilities":  "assets/art/environment/issue2-work-facilities/work-facilities.json",
+                                 "issue2MappingExcludes":  [
+                                                               "ownershipId",
+                                                               "filename"
+                                                           ],
+                                 "issue2MemberListEntryKey":  "entryId",
+                                 "issue1RuntimeBase":  "assets/art/environment/environment-art.json"
+                             }
+}

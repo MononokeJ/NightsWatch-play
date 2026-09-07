@@ -1,0 +1,968 @@
+{
+    "version":  2,
+    "issue":  1,
+    "logicalCanvas":  {
+                          "height":  270,
+                          "width":  480
+                      },
+    "authoritativeReferences":  {
+                                    "assets/concepts/page-layout-reference/gameplay-management.png":  "9DB24EEC78B2B5A582C3D269A41ECA288DDC0DA45DF2CEF14F3596C46CC2344D",
+                                    "assets/concepts/page-layout-reference/gameplay-battle.png":  "4501CEE533B09E5AE13A3A8DDF099DEE2CCE2F821203F7246CD589776274E388",
+                                    "assets/concepts/page-layout-reference/gameplay-layout-v4d.fragment.html":  "6EBAF11AB1EFC7354F2B0DA61AAA29AA8A491CB9DCD62F8691BD8B4B9B072813",
+                                    "ART_ASSET_DESIGN.md":  "3A7B73E8071A3AE90712C3B8E757A1BFA00DF402B0F4E59F7B0BF657C5C7A488",
+                                    "assets/concepts/page-layout-reference/LAYER_OWNERSHIP.md":  "8F8708234196087411EB24C1190A4A981D6F8FECE9D278754C83B16267C44D00",
+                                    "GAME_DESIGN.md":  "3D57A81D8E040D384526E168CF4D6A6E480AC574D86F8D93EA29F365AE0E7834"
+                                },
+    "productionBoundary":  {
+                               "debugPlaceholdersExcludedFromRuntimeIndex":  true,
+                               "bakedEnemies":  false,
+                               "formalResourceType":  "runtime-base",
+                               "runtimeBaseContainsFacilityPngReferences":  false,
+                               "debugPlaceholdersInFormalResources":  false,
+                               "bakedHorses":  false,
+                               "compositePreviewsExcludedFromRuntimeIndex":  true,
+                               "bakedWorldCharacters":  false,
+                               "bakedIssue2Facilities":  false,
+                               "bakedHud":  false
+                           },
+    "world":  {
+                  "width":  960,
+                  "fileSet":  {
+                                  "intact":  {
+                                                 "type":  "runtime-base",
+                                                 "world":  "assets/art/environment/castle/continuous-world-intact.png",
+                                                 "fixedOcclusion":  {
+                                                                        "type":  "fixed-occlusion",
+                                                                        "file":  "assets/art/environment/castle/fixed-occlusion-intact.png",
+                                                                        "views":  {
+                                                                                      "battlefield":  {
+                                                                                                          "type":  "fixed-occlusion",
+                                                                                                          "file":  "assets/art/environment/castle/battlefield-fixed-occlusion-intact.png"
+                                                                                                      },
+                                                                                      "management":  {
+                                                                                                         "type":  "fixed-occlusion",
+                                                                                                         "file":  "assets/art/environment/castle/management-fixed-occlusion-intact.png"
+                                                                                                     }
+                                                                                  }
+                                                                    },
+                                                 "views":  {
+                                                               "battlefield":  {
+                                                                                   "type":  "runtime-base",
+                                                                                   "file":  "assets/art/environment/castle/battlefield-intact.png"
+                                                                               },
+                                                               "management":  {
+                                                                                  "type":  "runtime-base",
+                                                                                  "file":  "assets/art/environment/castle/management-intact.png"
+                                                                              }
+                                                           }
+                                             },
+                                  "damaged":  {
+                                                  "type":  "runtime-base",
+                                                  "world":  "assets/art/environment/castle/continuous-world-damaged.png",
+                                                  "fixedOcclusion":  {
+                                                                         "type":  "fixed-occlusion",
+                                                                         "file":  "assets/art/environment/castle/fixed-occlusion-damaged.png",
+                                                                         "views":  {
+                                                                                       "battlefield":  {
+                                                                                                           "type":  "fixed-occlusion",
+                                                                                                           "file":  "assets/art/environment/castle/battlefield-fixed-occlusion-damaged.png"
+                                                                                                       },
+                                                                                       "management":  {
+                                                                                                          "type":  "fixed-occlusion",
+                                                                                                          "file":  "assets/art/environment/castle/management-fixed-occlusion-damaged.png"
+                                                                                                      }
+                                                                                   }
+                                                                     },
+                                                  "views":  {
+                                                                "battlefield":  {
+                                                                                    "type":  "runtime-base",
+                                                                                    "file":  "assets/art/environment/castle/battlefield-damaged.png"
+                                                                                },
+                                                                "management":  {
+                                                                                   "type":  "runtime-base",
+                                                                                   "file":  "assets/art/environment/castle/management-damaged.png"
+                                                                               }
+                                                            }
+                                              },
+                                  "critical":  {
+                                                   "type":  "runtime-base",
+                                                   "world":  "assets/art/environment/castle/continuous-world-critical.png",
+                                                   "fixedOcclusion":  {
+                                                                          "type":  "fixed-occlusion",
+                                                                          "file":  "assets/art/environment/castle/fixed-occlusion-critical.png",
+                                                                          "views":  {
+                                                                                        "battlefield":  {
+                                                                                                            "type":  "fixed-occlusion",
+                                                                                                            "file":  "assets/art/environment/castle/battlefield-fixed-occlusion-critical.png"
+                                                                                                        },
+                                                                                        "management":  {
+                                                                                                           "type":  "fixed-occlusion",
+                                                                                                           "file":  "assets/art/environment/castle/management-fixed-occlusion-critical.png"
+                                                                                                       }
+                                                                                    }
+                                                                      },
+                                                   "views":  {
+                                                                 "battlefield":  {
+                                                                                     "type":  "runtime-base",
+                                                                                     "file":  "assets/art/environment/castle/battlefield-critical.png"
+                                                                                 },
+                                                                 "management":  {
+                                                                                    "type":  "runtime-base",
+                                                                                    "file":  "assets/art/environment/castle/management-critical.png"
+                                                                                }
+                                                             }
+                                               },
+                                  "collapsed":  {
+                                                    "type":  "runtime-base",
+                                                    "world":  "assets/art/environment/castle/continuous-world-collapsed.png",
+                                                    "fixedOcclusion":  {
+                                                                           "type":  "fixed-occlusion",
+                                                                           "file":  "assets/art/environment/castle/fixed-occlusion-collapsed.png",
+                                                                           "views":  {
+                                                                                         "battlefield":  {
+                                                                                                             "type":  "fixed-occlusion",
+                                                                                                             "file":  "assets/art/environment/castle/battlefield-fixed-occlusion-collapsed.png"
+                                                                                                         },
+                                                                                         "management":  {
+                                                                                                            "type":  "fixed-occlusion",
+                                                                                                            "file":  "assets/art/environment/castle/management-fixed-occlusion-collapsed.png"
+                                                                                                        }
+                                                                                     }
+                                                                       },
+                                                    "views":  {
+                                                                  "battlefield":  {
+                                                                                      "type":  "runtime-base",
+                                                                                      "file":  "assets/art/environment/castle/battlefield-collapsed.png"
+                                                                                  },
+                                                                  "management":  {
+                                                                                     "type":  "runtime-base",
+                                                                                     "file":  "assets/art/environment/castle/management-collapsed.png"
+                                                                                 }
+                                                              }
+                                                }
+                              },
+                  "height":  270
+              },
+    "viewports":  {
+                      "battlefield":  {
+                                          "y":  0,
+                                          "description":  "west gate battlefield view; same west gate appears at local x 290",
+                                          "width":  480,
+                                          "height":  270,
+                                          "x":  0
+                                      },
+                      "management":  {
+                                         "y":  0,
+                                         "description":  "castle management courtyard view; same west gate appears at local x 2",
+                                         "width":  480,
+                                         "height":  270,
+                                         "x":  288
+                                     }
+                  },
+    "castleStates":  [
+                         "intact",
+                         "damaged",
+                         "critical",
+                         "collapsed"
+                     ],
+    "unifiedCastleDurability":  {
+                                    "anchor":  {
+                                                   "global":  {
+                                                                  "y":  130,
+                                                                  "x":  297
+                                                              },
+                                                   "management":  {
+                                                                      "y":  130,
+                                                                      "x":  9
+                                                                  },
+                                                   "battlefield":  {
+                                                                       "y":  130,
+                                                                       "x":  297
+                                                                   }
+                                               },
+                                    "noBar":  true,
+                                    "display":  "text-only-runtime-anchor",
+                                    "sample":  "城堡 72/100",
+                                    "max":  100,
+                                    "states":  {
+                                                   "collapsed":  "0",
+                                                   "critical":  "1-33",
+                                                   "damaged":  "34-66",
+                                                   "intact":  "67-100"
+                                               },
+                                    "noPanel":  true
+                                },
+    "anchors":  {
+                    "defenderEntry":  {
+                                          "y":  214,
+                                          "x":  295
+                                      },
+                    "occlusionLayers":  [
+                                            {
+                                                "id":  "west-gatehouse-front",
+                                                "width":  42,
+                                                "y":  140,
+                                                "sort":  "above-character-when-y-below-175",
+                                                "fadesForCharacters":  false,
+                                                "x":  290,
+                                                "height":  73
+                                            },
+                                            {
+                                                "id":  "front-wall",
+                                                "width":  307,
+                                                "y":  211,
+                                                "sort":  "above-character-when-y-below-218",
+                                                "fadesForCharacters":  true,
+                                                "x":  307,
+                                                "height":  20
+                                            },
+                                            {
+                                                "id":  "southwest-corner-front",
+                                                "width":  42,
+                                                "y":  204,
+                                                "sort":  "above-character-when-y-below-218",
+                                                "fadesForCharacters":  false,
+                                                "x":  308,
+                                                "height":  29
+                                            },
+                                            {
+                                                "id":  "southeast-corner-front",
+                                                "width":  46,
+                                                "y":  168,
+                                                "sort":  "above-character-when-y-below-218",
+                                                "fadesForCharacters":  false,
+                                                "x":  590,
+                                                "height":  58
+                                            },
+                                            {
+                                                "id":  "fixed-gate-rubble-front",
+                                                "width":  55,
+                                                "y":  177,
+                                                "sort":  "above-character-when-y-below-190",
+                                                "fadesForCharacters":  false,
+                                                "x":  287,
+                                                "height":  17
+                                            }
+                                        ],
+                    "eastExit":  {
+                                     "y":  150,
+                                     "x":  614
+                                 },
+                    "paths":  {
+                                  "enemyRoute":  [
+                                                     {
+                                                         "y":  150,
+                                                         "x":  34
+                                                     },
+                                                     {
+                                                         "y":  148,
+                                                         "x":  108
+                                                     },
+                                                     {
+                                                         "y":  139,
+                                                         "x":  180
+                                                     },
+                                                     {
+                                                         "y":  132,
+                                                         "x":  236
+                                                     },
+                                                     {
+                                                         "y":  206,
+                                                         "x":  290
+                                                     }
+                                                 ],
+                                  "defenderRoute":  [
+                                                        {
+                                                            "y":  214,
+                                                            "x":  295
+                                                        },
+                                                        {
+                                                            "y":  178,
+                                                            "x":  272
+                                                        },
+                                                        {
+                                                            "y":  146,
+                                                            "x":  236
+                                                        }
+                                                    ],
+                                  "eastWorkerRoute":  [
+                                                          {
+                                                              "y":  150,
+                                                              "x":  614
+                                                          },
+                                                          {
+                                                              "y":  105,
+                                                              "x":  646
+                                                          },
+                                                          {
+                                                              "y":  190,
+                                                              "x":  696
+                                                          }
+                                                      ]
+                              },
+                    "gate":  {
+                                 "y":  206,
+                                 "x":  290
+                             },
+                    "operationEntrances":  [
+                                               {
+                                                   "id":  "patrol",
+                                                   "view":  "management",
+                                                   "current":  2,
+                                                   "name":  "巡逻",
+                                                   "hotzone":  {
+                                                                   "y":  82,
+                                                                   "width":  58,
+                                                                   "height":  34,
+                                                                   "x":  314
+                                                               },
+                                                   "global":  {
+                                                                  "y":  86,
+                                                                  "x":  322
+                                                              },
+                                                   "max":  4,
+                                                   "local":  {
+                                                                 "y":  86,
+                                                                 "x":  34
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "craft-equipment",
+                                                   "view":  "management",
+                                                   "current":  2,
+                                                   "name":  "铁匠铺",
+                                                   "hotzone":  {
+                                                                   "y":  112,
+                                                                   "width":  74,
+                                                                   "height":  54,
+                                                                   "x":  363
+                                                               },
+                                                   "global":  {
+                                                                  "y":  118,
+                                                                  "x":  384
+                                                              },
+                                                   "max":  2,
+                                                   "local":  {
+                                                                 "y":  118,
+                                                                 "x":  96
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "planting",
+                                                   "view":  "management",
+                                                   "current":  2,
+                                                   "name":  "种植",
+                                                   "hotzone":  {
+                                                                   "y":  154,
+                                                                   "width":  72,
+                                                                   "height":  38,
+                                                                   "x":  409
+                                                               },
+                                                   "global":  {
+                                                                  "y":  211,
+                                                                  "x":  410
+                                                              },
+                                                   "max":  3,
+                                                   "local":  {
+                                                                 "y":  211,
+                                                                 "x":  122
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "repair",
+                                                   "view":  "management",
+                                                   "current":  1,
+                                                   "name":  "维修",
+                                                   "hotzone":  {
+                                                                   "y":  197,
+                                                                   "width":  66,
+                                                                   "height":  35,
+                                                                   "x":  309
+                                                               },
+                                                   "global":  {
+                                                                  "y":  223,
+                                                                  "x":  328
+                                                              },
+                                                   "max":  4,
+                                                   "local":  {
+                                                                 "y":  223,
+                                                                 "x":  40
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "cooking",
+                                                   "view":  "management",
+                                                   "current":  1,
+                                                   "name":  "烹饪",
+                                                   "hotzone":  {
+                                                                   "y":  148,
+                                                                   "width":  56,
+                                                                   "height":  45,
+                                                                   "x":  520
+                                                               },
+                                                   "global":  {
+                                                                  "y":  206,
+                                                                  "x":  538
+                                                              },
+                                                   "max":  2,
+                                                   "local":  {
+                                                                 "y":  206,
+                                                                 "x":  250
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "make-clothing",
+                                                   "view":  "management",
+                                                   "current":  1,
+                                                   "name":  "制衣",
+                                                   "hotzone":  {
+                                                                   "y":  91,
+                                                                   "width":  56,
+                                                                   "height":  44,
+                                                                   "x":  522
+                                                               },
+                                                   "global":  {
+                                                                  "y":  97,
+                                                                  "x":  535
+                                                              },
+                                                   "max":  2,
+                                                   "local":  {
+                                                                 "y":  97,
+                                                                 "x":  247
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "lumber",
+                                                   "view":  "management",
+                                                   "current":  2,
+                                                   "name":  "伐木",
+                                                   "hotzone":  {
+                                                                   "y":  76,
+                                                                   "width":  56,
+                                                                   "height":  48,
+                                                                   "x":  630
+                                                               },
+                                                   "global":  {
+                                                                  "y":  74,
+                                                                  "x":  645
+                                                              },
+                                                   "max":  3,
+                                                   "local":  {
+                                                                 "y":  74,
+                                                                 "x":  357
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "mining",
+                                                   "view":  "management",
+                                                   "current":  1,
+                                                   "name":  "采矿",
+                                                   "hotzone":  {
+                                                                   "y":  165,
+                                                                   "width":  56,
+                                                                   "height":  42,
+                                                                   "x":  678
+                                                               },
+                                                   "global":  {
+                                                                  "y":  188,
+                                                                  "x":  692
+                                                              },
+                                                   "max":  3,
+                                                   "local":  {
+                                                                 "y":  188,
+                                                                 "x":  404
+                                                             }
+                                               },
+                                               {
+                                                   "id":  "hunting",
+                                                   "view":  "management",
+                                                   "current":  1,
+                                                   "name":  "狩猎",
+                                                   "hotzone":  {
+                                                                   "y":  176,
+                                                                   "width":  54,
+                                                                   "height":  44,
+                                                                   "x":  614
+                                                               },
+                                                   "global":  {
+                                                                  "y":  203,
+                                                                  "x":  622
+                                                              },
+                                                   "max":  3,
+                                                   "local":  {
+                                                                 "y":  203,
+                                                                 "x":  334
+                                                             }
+                                               }
+                                           ],
+                    "meleeContactArea":  {
+                                             "y":  112,
+                                             "width":  86,
+                                             "height":  70,
+                                             "x":  236
+                                         },
+                    "enemySpawn":  {
+                                       "y":  150,
+                                       "x":  34
+                                   },
+                    "enemySpawnZone":  {
+                                           "y":  116,
+                                           "width":  96,
+                                           "height":  76,
+                                           "x":  0
+                                       },
+                    "hudSafeZones":  {
+                                         "management":  [
+                                                            {
+                                                                "y":  0,
+                                                                "width":  480,
+                                                                "id":  "top-resources",
+                                                                "height":  40,
+                                                                "x":  0
+                                                            },
+                                                            {
+                                                                "y":  40,
+                                                                "width":  230,
+                                                                "id":  "left-timers",
+                                                                "height":  48,
+                                                                "x":  0
+                                                            }
+                                                        ],
+                                         "battlefield":  [
+                                                             {
+                                                                 "y":  0,
+                                                                 "width":  480,
+                                                                 "id":  "top-resources",
+                                                                 "height":  40,
+                                                                 "x":  0
+                                                             },
+                                                             {
+                                                                 "y":  40,
+                                                                 "width":  210,
+                                                                 "id":  "battle-status",
+                                                                 "height":  48,
+                                                                 "x":  0
+                                                             },
+                                                             {
+                                                                 "y":  238,
+                                                                 "width":  278,
+                                                                 "id":  "lower-left-counts",
+                                                                 "height":  32,
+                                                                 "x":  0
+                                                             }
+                                                         ]
+                                     },
+                    "battleCountSafeZone":  {
+                                                "y":  238,
+                                                "width":  278,
+                                                "height":  32,
+                                                "x":  0
+                                            },
+                    "westWall":  {
+                                     "y":  76,
+                                     "width":  31,
+                                     "height":  165,
+                                     "x":  299
+                                 },
+                    "westGatehouse":  {
+                                          "y":  140,
+                                          "width":  42,
+                                          "height":  73,
+                                          "x":  290
+                                      }
+                },
+    "facilityReservations":  {
+                                 "stable":  {
+                                                "anchor":  {
+                                                               "y":  107,
+                                                               "x":  322
+                                                           },
+                                                "label":  "西墙马厩预留区",
+                                                "labelAnchor":  {
+                                                                    "y":  92,
+                                                                    "mode":  "top-center",
+                                                                    "x":  322
+                                                                },
+                                                "footprint":  {
+                                                                  "y":  57,
+                                                                  "width":  80,
+                                                                  "height":  56,
+                                                                  "x":  282
+                                                              },
+                                                "hotzone":  {
+                                                                "y":  90,
+                                                                "width":  48,
+                                                                "height":  30,
+                                                                "x":  314
+                                                            },
+                                                "ownerIssue":  2,
+                                                "visibility":  "camera-intersection"
+                                            },
+                                 "workshop":  {
+                                                  "anchor":  {
+                                                                 "y":  154,
+                                                                 "x":  388
+                                                             },
+                                                  "label":  "装备工坊预留区",
+                                                  "labelAnchor":  {
+                                                                      "y":  104,
+                                                                      "mode":  "top-center",
+                                                                      "x":  386
+                                                                  },
+                                                  "footprint":  {
+                                                                    "y":  90,
+                                                                    "width":  96,
+                                                                    "height":  72,
+                                                                    "x":  340
+                                                                },
+                                                  "hotzone":  {
+                                                                  "y":  112,
+                                                                  "width":  74,
+                                                                  "height":  40,
+                                                                  "x":  363
+                                                              },
+                                                  "ownerIssue":  2,
+                                                  "visibility":  "camera-intersection"
+                                              },
+                                 "council-hall":  {
+                                                      "anchor":  {
+                                                                     "y":  154,
+                                                                     "x":  492
+                                                                 },
+                                                      "label":  "议事厅预留区",
+                                                      "labelAnchor":  {
+                                                                          "y":  88,
+                                                                          "mode":  "top-center",
+                                                                          "x":  492
+                                                                      },
+                                                      "footprint":  {
+                                                                        "y":  96,
+                                                                        "width":  96,
+                                                                        "height":  64,
+                                                                        "x":  444
+                                                                    },
+                                                      "hotzone":  {
+                                                                      "y":  96,
+                                                                      "width":  88,
+                                                                      "height":  58,
+                                                                      "x":  452
+                                                                  },
+                                                      "ownerIssue":  2,
+                                                      "visibility":  "camera-intersection"
+                                                  },
+                                 "farm":  {
+                                              "anchor":  {
+                                                             "y":  184,
+                                                             "x":  436
+                                                         },
+                                              "label":  "农田预留区",
+                                              "labelAnchor":  {
+                                                                  "y":  193,
+                                                                  "mode":  "top-center",
+                                                                  "x":  438
+                                                              },
+                                              "footprint":  {
+                                                                "y":  142,
+                                                                "width":  72,
+                                                                "height":  48,
+                                                                "x":  400
+                                                            },
+                                              "hotzone":  {
+                                                              "y":  154,
+                                                              "width":  72,
+                                                              "height":  38,
+                                                              "x":  409
+                                                          },
+                                              "ownerIssue":  2,
+                                              "visibility":  "camera-intersection"
+                                          },
+                                 "kitchen":  {
+                                                 "anchor":  {
+                                                                "y":  181,
+                                                                "x":  538
+                                                            },
+                                                 "label":  "厨房预留区",
+                                                 "labelAnchor":  {
+                                                                     "y":  135,
+                                                                     "mode":  "top-center",
+                                                                     "x":  538
+                                                                 },
+                                                 "footprint":  {
+                                                                   "y":  133,
+                                                                   "width":  64,
+                                                                   "height":  54,
+                                                                   "x":  506
+                                                               },
+                                                 "hotzone":  {
+                                                                 "y":  148,
+                                                                 "width":  56,
+                                                                 "height":  45,
+                                                                 "x":  520
+                                                             },
+                                                 "ownerIssue":  2,
+                                                 "visibility":  "camera-intersection"
+                                             },
+                                 "cloth":  {
+                                               "anchor":  {
+                                                              "y":  118,
+                                                              "x":  540
+                                                          },
+                                               "label":  "制衣台预留区",
+                                               "labelAnchor":  {
+                                                                   "y":  78,
+                                                                   "mode":  "top-center",
+                                                                   "x":  540
+                                                               },
+                                               "footprint":  {
+                                                                 "y":  75,
+                                                                 "width":  56,
+                                                                 "height":  48,
+                                                                 "x":  512
+                                                             },
+                                               "hotzone":  {
+                                                               "y":  91,
+                                                               "width":  56,
+                                                               "height":  44,
+                                                               "x":  522
+                                                           },
+                                               "ownerIssue":  2,
+                                               "visibility":  "camera-intersection"
+                                           },
+                                 "repair":  {
+                                                "anchor":  {
+                                                               "y":  220,
+                                                               "x":  324
+                                                           },
+                                                "label":  "维修脚手架预留区",
+                                                "labelAnchor":  {
+                                                                    "y":  184,
+                                                                    "mode":  "top-center",
+                                                                    "x":  328
+                                                                },
+                                                "footprint":  {
+                                                                  "y":  171,
+                                                                  "width":  72,
+                                                                  "height":  54,
+                                                                  "x":  288
+                                                              },
+                                                "hotzone":  {
+                                                                "y":  197,
+                                                                "width":  66,
+                                                                "height":  35,
+                                                                "x":  309
+                                                            },
+                                                "ownerIssue":  2,
+                                                "visibility":  "camera-intersection"
+                                            },
+                                 "lumber-grove":  {
+                                                      "anchor":  {
+                                                                     "y":  118,
+                                                                     "x":  646
+                                                                 },
+                                                      "label":  "伐木树林预留区",
+                                                      "labelAnchor":  {
+                                                                          "y":  62,
+                                                                          "mode":  "top-center",
+                                                                          "x":  646
+                                                                      },
+                                                      "footprint":  {
+                                                                        "y":  60,
+                                                                        "width":  72,
+                                                                        "height":  64,
+                                                                        "x":  610
+                                                                    },
+                                                      "hotzone":  {
+                                                                      "y":  76,
+                                                                      "width":  56,
+                                                                      "height":  48,
+                                                                      "x":  630
+                                                                  },
+                                                      "ownerIssue":  2,
+                                                      "visibility":  "camera-intersection"
+                                                  },
+                                 "mining-quarry":  {
+                                                       "anchor":  {
+                                                                      "y":  194,
+                                                                      "x":  696
+                                                                  },
+                                                       "label":  "采矿石堆预留区",
+                                                       "labelAnchor":  {
+                                                                           "y":  150,
+                                                                           "mode":  "top-center",
+                                                                           "x":  696
+                                                                       },
+                                                       "footprint":  {
+                                                                         "y":  151,
+                                                                         "width":  64,
+                                                                         "height":  48,
+                                                                         "x":  664
+                                                                     },
+                                                       "hotzone":  {
+                                                                       "y":  165,
+                                                                       "width":  56,
+                                                                       "height":  42,
+                                                                       "x":  678
+                                                                   },
+                                                       "ownerIssue":  2,
+                                                       "visibility":  "camera-intersection"
+                                                   },
+                                 "hunter-tent":  {
+                                                     "anchor":  {
+                                                                    "y":  203,
+                                                                    "x":  626
+                                                                },
+                                                     "label":  "猎人帐篷预留区",
+                                                     "labelAnchor":  {
+                                                                         "y":  160,
+                                                                         "mode":  "top-center",
+                                                                         "x":  626
+                                                                     },
+                                                     "footprint":  {
+                                                                       "y":  160,
+                                                                       "width":  64,
+                                                                       "height":  48,
+                                                                       "x":  594
+                                                                   },
+                                                     "hotzone":  {
+                                                                     "y":  176,
+                                                                     "width":  54,
+                                                                     "height":  44,
+                                                                     "x":  614
+                                                                 },
+                                                     "ownerIssue":  2,
+                                                     "visibility":  "camera-intersection"
+                                                 }
+                             },
+    "environmentLoops":  {
+                             "fps":  6,
+                             "file":  "assets/art/environment/modules/environment-loops.png",
+                             "frames":  4,
+                             "phaseOffsetRule":  "stable-object-id modulo 4",
+                             "frameWidth":  32,
+                             "rows":  [
+                                          "grass-sway",
+                                          "torch-flame",
+                                          "smoke",
+                                          "flag"
+                                      ],
+                             "integerPixelMotion":  true,
+                             "frameHeight":  32
+                         },
+    "compositePreviews":  {
+                              "debugPlaceholder":  {
+                                                       "source32x48Used":  false,
+                                                       "frameWidth":  24,
+                                                       "excludedFromRuntimeIndex":  true,
+                                                       "frameHeight":  36,
+                                                       "runtimeScaledFromSource":  false,
+                                                       "origin":  {
+                                                                      "y":  34,
+                                                                      "type":  "foot-center",
+                                                                      "x":  12
+                                                                  }
+                                                   },
+                              "excludedFromRuntimeIndex":  true,
+                              "usesIssue2IndependentFacilities":  true,
+                              "files":  [
+                                            {
+                                                "id":  "management-capacity",
+                                                "purpose":  "2 representative workers per work-site anchor and occlusion check",
+                                                "representativeMembersPerWorkSite":  "2 per visible work-site anchor",
+                                                "type":  "composite-preview",
+                                                "containsRuntimeCharacters":  true,
+                                                "file":  "assets/art/environment/issue1-formal-map/composite-preview-management-capacity.png"
+                                            },
+                                            {
+                                                "id":  "battle-12v15",
+                                                "enemyCount":  15,
+                                                "purpose":  "12 defenders and 15 enemies capacity and lower-left count safe zone check",
+                                                "type":  "composite-preview",
+                                                "defenderCount":  12,
+                                                "containsRuntimeCharacters":  true,
+                                                "file":  "assets/art/environment/issue1-formal-map/composite-preview-battle-12v15.png"
+                                            }
+                                        ],
+                              "characterFrameSize":  {
+                                                         "nonIntegerScale":  false,
+                                                         "origin":  {
+                                                                        "y":  34,
+                                                                        "x":  12
+                                                                    },
+                                                         "width":  24,
+                                                         "source":  "debug-placeholder-24x36",
+                                                         "height":  36
+                                                     },
+                              "issue2FacilityMetadata":  "assets/art/environment/issue2-work-facilities/work-facilities.json"
+                          },
+    "evidence":  {
+                     "manifest":  "assets/art/environment/issue1-formal-map/issue1-formal-map-manifest.json",
+                     "managementComparison":  "assets/art/environment/issue1-formal-map/reference-vs-management-runtime-base.png",
+                     "differenceChecklist":  "assets/art/environment/issue1-formal-map/difference-checklist.md",
+                     "validationResult":  "assets/art/environment/issue1-formal-map/validation-result.json",
+                     "review":  "assets/art/environment/environment-review.png",
+                     "battleComparison":  "assets/art/environment/issue1-formal-map/reference-vs-battle-runtime-base.png",
+                     "detailRegions":  [
+                                           {
+                                               "id":  "management-west-gatehouse",
+                                               "source":  "assets/art/environment/castle/management-intact.png",
+                                               "sourceRect":  {
+                                                                  "y":  74,
+                                                                  "width":  96,
+                                                                  "height":  142,
+                                                                  "x":  0
+                                                              },
+                                               "native1x":  "assets/art/environment/issue1-formal-map/detail-management-west-gatehouse-1x.png",
+                                               "nearest4x":  "assets/art/environment/issue1-formal-map/detail-management-west-gatehouse-4x.png"
+                                           },
+                                           {
+                                               "id":  "management-courtyard",
+                                               "source":  "assets/art/environment/castle/management-intact.png",
+                                               "sourceRect":  {
+                                                                  "y":  92,
+                                                                  "width":  252,
+                                                                  "height":  142,
+                                                                  "x":  66
+                                                              },
+                                               "native1x":  "assets/art/environment/issue1-formal-map/detail-management-courtyard-1x.png",
+                                               "nearest4x":  "assets/art/environment/issue1-formal-map/detail-management-courtyard-4x.png"
+                                           },
+                                           {
+                                               "id":  "management-east-work",
+                                               "source":  "assets/art/environment/castle/management-intact.png",
+                                               "sourceRect":  {
+                                                                  "y":  70,
+                                                                  "width":  102,
+                                                                  "height":  138,
+                                                                  "x":  378
+                                                              },
+                                               "native1x":  "assets/art/environment/issue1-formal-map/detail-management-east-work-1x.png",
+                                               "nearest4x":  "assets/art/environment/issue1-formal-map/detail-management-east-work-4x.png"
+                                           },
+                                           {
+                                               "id":  "battle-west-gatehouse",
+                                               "source":  "assets/art/environment/castle/battlefield-intact.png",
+                                               "sourceRect":  {
+                                                                  "y":  74,
+                                                                  "width":  96,
+                                                                  "height":  142,
+                                                                  "x":  282
+                                                              },
+                                               "native1x":  "assets/art/environment/issue1-formal-map/detail-battle-west-gatehouse-1x.png",
+                                               "nearest4x":  "assets/art/environment/issue1-formal-map/detail-battle-west-gatehouse-4x.png"
+                                           },
+                                           {
+                                               "id":  "battle-route-capacity",
+                                               "source":  "assets/art/environment/issue1-formal-map/composite-preview-battle-12v15.png",
+                                               "sourceRect":  {
+                                                                  "y":  116,
+                                                                  "width":  278,
+                                                                  "height":  154,
+                                                                  "x":  0
+                                                              },
+                                               "native1x":  "assets/art/environment/issue1-formal-map/detail-battle-route-capacity-1x.png",
+                                               "nearest4x":  "assets/art/environment/issue1-formal-map/detail-battle-route-capacity-4x.png"
+                                           }
+                                       ],
+                     "emptyReview":  "assets/art/environment/issue1-formal-map/empty-runtime-base-review.png"
+                 }
+}

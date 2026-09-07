@@ -1,0 +1,466 @@
+{
+  "format": "nights-watch-runtime-map-resource-manifest",
+  "version": 1,
+  "mapId": "castle-main",
+  "sourceLayoutSha256": "8E6B45DFDC4EC825E4F7DDCB8F547483E54B7FA96886D55C7D14A9330C2979B4",
+  "sourceInventorySha256": "296CC62FBFC56A5E3BC7BD9A9EABE49B0C878A9840AB9EF330F9A0762CEA4291",
+  "resourceCount": 57,
+  "resources": [
+    {
+      "resourceId": "building-archive",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-archive.png",
+      "sha256": "68CE3051E34F523066AC84DE256228CCC056CE20AB2F80D128593887507B8445",
+      "width": 264,
+      "height": 321
+    },
+    {
+      "resourceId": "building-barracks",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-barracks.png",
+      "sha256": "B16EDB2CCAE2CA8DFB3C11DF3D7E36F30521D8148AF84412C8732A6A3146C9C9",
+      "width": 454,
+      "height": 256
+    },
+    {
+      "resourceId": "building-blacksmith",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-blacksmith.png",
+      "sha256": "4344C973865EE5E013CAE8926A640D1960EF4AB136B19E0B0FE7506667D3877D",
+      "width": 295,
+      "height": 290
+    },
+    {
+      "resourceId": "building-blacksmith-anvil",
+      "kind": "component",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-blacksmith-anvil.png",
+      "sha256": "62A7294C271AED768BB63713A231439C6B171B96C1ECC0C481E76676097D363F",
+      "width": 54,
+      "height": 38
+    },
+    {
+      "resourceId": "building-cloth",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-cloth.png",
+      "sha256": "AC464D3921E71C946C2D7A8A338228CFCC49C00E8D76ADBF76424F0905E3617A",
+      "width": 283,
+      "height": 230
+    },
+    {
+      "resourceId": "building-council",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-council.png",
+      "sha256": "D765483A7D67CAD180FF0B983F54540FD92CBDE4226427E4F0860DEC1602FFD3",
+      "width": 461,
+      "height": 297
+    },
+    {
+      "resourceId": "building-farm",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-farm.png",
+      "sha256": "EEE8B0E7F62A4CC063F99AE8DF7FBE57C54596BC6D39911908CD15C98832E4DD",
+      "width": 410,
+      "height": 150
+    },
+    {
+      "resourceId": "building-farm-working",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-farm-working.png",
+      "sha256": "FB047A78944AD007C4FCF26C0E5D1DBFA68CD4DCC0A01A6B2C505AA3CABD8AF8",
+      "width": 410,
+      "height": 150
+    },
+    {
+      "resourceId": "building-hunter",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-hunter.png",
+      "sha256": "F67EE7729EB3B35237252A600FDEDDAF2973B7E8CA30C244618213C94BC41C10",
+      "width": 281,
+      "height": 150
+    },
+    {
+      "resourceId": "building-kitchen",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-kitchen.png",
+      "sha256": "8958A886B246BE42CD40D48D1DC82B3EB6830E2A30F84831F96E633677B9FF73",
+      "width": 241,
+      "height": 331
+    },
+    {
+      "resourceId": "building-lumber",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-lumber.png",
+      "sha256": "12995844E32B0BE017E98AF3178C65DE5E0676DE8238DA26C9478B7E22336092",
+      "width": 382,
+      "height": 175
+    },
+    {
+      "resourceId": "building-mine",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-mine.png",
+      "sha256": "55A411DE093B710666607836C05B437F430B90D6ACB078C66FD517364C1204FD",
+      "width": 222,
+      "height": 150
+    },
+    {
+      "resourceId": "building-repair",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-repair.png",
+      "sha256": "B4B66A74CC78CDE05CAD1645D60467437D11368D7077C95B1B24CC0AFEC55EFA",
+      "width": 387,
+      "height": 204
+    },
+    {
+      "resourceId": "building-repair-table",
+      "kind": "component",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-repair-table.png",
+      "sha256": "36E11F35AC093FA20DD031DA01BB7D11B4C15A6B17FC1CFEFDE24167EF60F485",
+      "width": 88,
+      "height": 58
+    },
+    {
+      "resourceId": "building-stable",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-stable.png",
+      "sha256": "3187B0BDBB996D04AFA5E6DBD8E065D36E826C5838C68E4F4F1CCFF769BF6851",
+      "width": 353,
+      "height": 238
+    },
+    {
+      "resourceId": "building-stable-front-fence",
+      "kind": "component",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-stable-front-fence.png",
+      "sha256": "E97257FB0C228EF3AD63BC5F93E099DEAE32DFCFA5247CE64D537518B17C817D",
+      "width": 213,
+      "height": 32
+    },
+    {
+      "resourceId": "building-training",
+      "kind": "building",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/building-training.png",
+      "sha256": "31DB0DFC170400A8FD71FA4A42D1C07B45174F87F3BAA5DAC2AD393F6D6E1A1C",
+      "width": 524,
+      "height": 179
+    },
+    {
+      "resourceId": "decor-barricade-crossed",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-barricade-crossed.png",
+      "sha256": "51C01B91FADA7BE48D4A0820AE998D3AB8A4B8D5253E8D3E934522CB23E3CC62",
+      "width": 224,
+      "height": 163
+    },
+    {
+      "resourceId": "decor-barricade-short",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-barricade-short.png",
+      "sha256": "0FCAC089E45192451D6DD7D6EA32209FD4FAF6114AA922553BB1BA57D141980E",
+      "width": 184,
+      "height": 155
+    },
+    {
+      "resourceId": "decor-barricade-wide",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-barricade-wide.png",
+      "sha256": "FA95BC17848F8C0E0C6CBB85E04B68160EB6E2C6124F5240E5D9DDED3E97E853",
+      "width": 270,
+      "height": 153
+    },
+    {
+      "resourceId": "decor-campfire-large",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-campfire-large.png",
+      "sha256": "760C6BF05B899E18D11EE346629A29FFCE6BC4FBBC8C6C1D9BF0186334D18CCC",
+      "width": 190,
+      "height": 175
+    },
+    {
+      "resourceId": "decor-supplies-crates",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-supplies-crates.png",
+      "sha256": "9AC9463F0EB3D95429EE7FF612A7AD0635E2DF63A4200AB805DCB843A64E7B2D",
+      "width": 347,
+      "height": 208
+    },
+    {
+      "resourceId": "decor-supplies-logs",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-supplies-logs.png",
+      "sha256": "CE89BBC5906CECCF1E612BB29AD18B4A3818123FB860B1FE3E445A37938C53BF",
+      "width": 296,
+      "height": 178
+    },
+    {
+      "resourceId": "decor-watchtower-small",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-watchtower-small.png",
+      "sha256": "02D62B5D1CC9E03A27CFC63B164BC095B53F70AE5DD6641C84205D0F21455AF8",
+      "width": 185,
+      "height": 223
+    },
+    {
+      "resourceId": "decor-watchtower-tall",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/decor-watchtower-tall.png",
+      "sha256": "AB85E6EF9558B936F5D704F69B5796388C5A824EC95835EF5029CB322972EE16",
+      "width": 213,
+      "height": 380
+    },
+    {
+      "resourceId": "low-wall-n1",
+      "kind": "wall",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/low-wall-n1.png",
+      "sha256": "1098206C27E388A8D86D466E526D68055F2DB7A137CCA0B1BEADB3F9F0EA14DA",
+      "width": 556,
+      "height": 164
+    },
+    {
+      "resourceId": "low-wall-n2",
+      "kind": "wall",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/low-wall-n2.png",
+      "sha256": "878A4B1C49BF9C3A91B67797F07276BE71C23C6CE442A92EA55A6199BB2668A6",
+      "width": 274,
+      "height": 164
+    },
+    {
+      "resourceId": "low-wall-n4",
+      "kind": "wall",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/low-wall-n4.png",
+      "sha256": "7308C91D2EF96064730F2572CE78BADEBB2F335422C2A96F5D1CAA1DC1D987DD",
+      "width": 306,
+      "height": 166
+    },
+    {
+      "resourceId": "low-wall-s1",
+      "kind": "wall",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/low-wall-s1.png",
+      "sha256": "4DFE43308819D6FB50B29E97F151745B4D36E1AF0BBC46BE9B236BD3577FDF08",
+      "width": 562,
+      "height": 166
+    },
+    {
+      "resourceId": "north-01.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-01.feathered.png",
+      "sha256": "18BFBE92444378E0DF99C3D1D1F246F7FF7903DA17D19C6EE6DD0C0FC1735FC9",
+      "width": 387,
+      "height": 377
+    },
+    {
+      "resourceId": "north-02.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-02.feathered.png",
+      "sha256": "46BD0497E9C8593AADD3B8606A2CD1ACA573FF12CF38D5908E81402ED2CA3EE3",
+      "width": 437,
+      "height": 191
+    },
+    {
+      "resourceId": "north-03.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-03.feathered.png",
+      "sha256": "3F6B48F8DB7DF6D080D27F800245B669B0A56D0E012D5D54E44C39BA3935E0BF",
+      "width": 421,
+      "height": 193
+    },
+    {
+      "resourceId": "north-04.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-04.feathered.png",
+      "sha256": "B6CAC541C5397DDAF02EEF5B07209086F126283EAFA96756B8679A0539177488",
+      "width": 449,
+      "height": 182
+    },
+    {
+      "resourceId": "north-05.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-05.feathered.png",
+      "sha256": "FE9189398D2160F6C9F2B0A50F1D89B57860692F039739CB72B1F59FFF8DF02F",
+      "width": 490,
+      "height": 225
+    },
+    {
+      "resourceId": "north-06.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-06.feathered.png",
+      "sha256": "BBEA4E03744ABEAAA5337E160C11E27851832D409908B7FFAF6591333C363476",
+      "width": 431,
+      "height": 296
+    },
+    {
+      "resourceId": "north-07.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-07.feathered.png",
+      "sha256": "06643995DDBD7D91EA7EAA759B28F801A08DAB7FA57A358152DD89CBA33303A4",
+      "width": 318,
+      "height": 387
+    },
+    {
+      "resourceId": "north-08.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/north-08.feathered.png",
+      "sha256": "76886DF8C72DE9151DED3D11F5843D9469D8AAA990F350C4E53968381FBDBA9F",
+      "width": 408,
+      "height": 307
+    },
+    {
+      "resourceId": "south-01.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/south-01.feathered.png",
+      "sha256": "95389D22F756BB60029EE79F52EE0BEBFB82138BB83178F8845EF669596FDF94",
+      "width": 385,
+      "height": 299
+    },
+    {
+      "resourceId": "south-02.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/south-02.feathered.png",
+      "sha256": "B9A9FA12EF355846BC38E7A46CE3C43BC4A9BCCB89F5AFD484ADDCAD04882DBA",
+      "width": 507,
+      "height": 185
+    },
+    {
+      "resourceId": "south-04.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/south-04.feathered.png",
+      "sha256": "3F2089C1C439AE885F21406FD08304AA354E33E778136B50E433E2B96972E10D",
+      "width": 405,
+      "height": 200
+    },
+    {
+      "resourceId": "south-06.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/south-06.feathered.png",
+      "sha256": "210D53F8395EAA5B604EC045DF6CEAB935342AF021E09DF35AF661296F9CA05C",
+      "width": 391,
+      "height": 180
+    },
+    {
+      "resourceId": "south-07.feathered",
+      "kind": "boundary",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/south-07.feathered.png",
+      "sha256": "0CE1C899045A3EC6FC1541A1B651A3410A680C6995C0D2A236EB9972D7F73FDC",
+      "width": 388,
+      "height": 190
+    },
+    {
+      "resourceId": "terrain.main",
+      "kind": "terrain",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/terrain.main.png",
+      "sha256": "1B95201097CA0D6A1A88D46B491DB53B898D06A687DD8ECB54C71D585D4C041B",
+      "width": 2365,
+      "height": 1024
+    },
+    {
+      "resourceId": "training-barrier",
+      "kind": "component",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/training-barrier.png",
+      "sha256": "D8C8E532A9245DAD49742EA2212E4FD032DE6DAF99A2903204E1A06E663B73A9",
+      "width": 84,
+      "height": 40
+    },
+    {
+      "resourceId": "training-dummy",
+      "kind": "component",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/training-dummy.png",
+      "sha256": "30ED88F8B4282A0CA166CACB661BAA39169029BF8BDE5B74B9015C9B859D00F4",
+      "width": 50,
+      "height": 73
+    },
+    {
+      "resourceId": "training-rack",
+      "kind": "component",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/training-rack.png",
+      "sha256": "4BF4271AA8B5EBF0EC4B7F16D0750AFD481D707CC611509A7A2D7A0E647260B9",
+      "width": 76,
+      "height": 55
+    },
+    {
+      "resourceId": "training-target",
+      "kind": "component",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/training-target.png",
+      "sha256": "31B20EA6326A9BAF2A855CB7950B64D58C2F4905DFEC9D4CBFE296D7D8F0D893",
+      "width": 58,
+      "height": 63
+    },
+    {
+      "resourceId": "tree-01",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-01.png",
+      "sha256": "9D463FC34C30A97B7F30F976DB387AFFCFC80EECE32773738C29E1114890341E",
+      "width": 109,
+      "height": 166
+    },
+    {
+      "resourceId": "tree-02",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-02.png",
+      "sha256": "BA5263141CDCD2357A8666AF7E63C89DC5A8A921174842E5F7ECE853578E49DA",
+      "width": 98,
+      "height": 161
+    },
+    {
+      "resourceId": "tree-03",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-03.png",
+      "sha256": "051B6F8C755B65A1D7BF632D9FDF715885770637F6EA70F5A26EB77AF11C328B",
+      "width": 79,
+      "height": 125
+    },
+    {
+      "resourceId": "tree-04",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-04.png",
+      "sha256": "3046873FF83C2B40D49CC930E44A3772D58E55CBEFB05A7FA153B3347BD45417",
+      "width": 64,
+      "height": 120
+    },
+    {
+      "resourceId": "tree-05",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-05.png",
+      "sha256": "03F360C290E3FBE10B1022BD3FBBFD7BB7985719E25AD52B9CD1E0FE9F9F00F5",
+      "width": 67,
+      "height": 111
+    },
+    {
+      "resourceId": "tree-06",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-06.png",
+      "sha256": "9C33E8612A2C75ED0E621143FC3852E8510DA9350EF9BAE1143B1922F03A4277",
+      "width": 92,
+      "height": 106
+    },
+    {
+      "resourceId": "tree-07",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-07.png",
+      "sha256": "50B8DCCC3C3AFCC7667827EE1023DDE7AF06F7E0DC8AE139015C103BBA1B426B",
+      "width": 125,
+      "height": 146
+    },
+    {
+      "resourceId": "tree-08",
+      "kind": "decoration",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/tree-08.png",
+      "sha256": "4D12980C97D76FF18B70EA0B9A435E884A90BE77F6B3FB4416F3088CEB1901D6",
+      "width": 156,
+      "height": 150
+    },
+    {
+      "resourceId": "west-wall-lower-foreground.feathered",
+      "kind": "wall",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/west-wall-lower-foreground.feathered.png",
+      "sha256": "B1C9C9B10986238CBA5095D2A92E836E2733BBEE5B581E086EEC33A7513BE0D8",
+      "width": 378,
+      "height": 1536
+    },
+    {
+      "resourceId": "west-wall-upper-rear.feathered",
+      "kind": "wall",
+      "path": "assets/art/environment/runtime-maps/castle-main/resources/west-wall-upper-rear.feathered.png",
+      "sha256": "349DDAC300F83DECDE7022F292DCDDF04254D62CC00D5B8FE4F57B35D2D54501",
+      "width": 378,
+      "height": 1536
+    }
+  ]
+}
